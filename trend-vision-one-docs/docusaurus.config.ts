@@ -20,7 +20,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   organizationName: "eriktechwriter",
-  projectName: "agentic-docs-poc"
+  projectName: "agentic-docs-poc",
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
