@@ -1,0 +1,21 @@
+---
+slug: trend-vision-one-configure-manual-scan-settings
+title: Configuring Manual Scan Settings
+---
+
+### Procedure {#procedure}
+
+1.  Click the **Target** tab to configure the general scan and CPU usage settings.
+
+    For more information, see [Manual Scan: Target Tab](manual-scan-target-tab.md).
+
+2.  Click the **Action** tab to configure the scan actions Apex One (Mac) performs on detected security threats.
+
+    For more information, see [Manual Scan: Action Tab](manual-scan-action-tab.md).
+
+**Related information**
+
+- [Manual Scan: Target Tab](manual-scan-target-tab.md)
+- [Manual Scan: Action Tab](manual-scan-action-tab.md)
+- [Supported Compressed File Types](supported-compressed-file-types-2.md)
+- [Scan Actions](scan-actions-2.md)

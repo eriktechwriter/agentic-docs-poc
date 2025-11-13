@@ -1,0 +1,11 @@
+---
+category: Cloud Security
+change_date: 2023-12-15T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-isolate-terminate-kubernetes
+title: Isolate and terminate Kubernetes containers
+---
+
+Dec 15, 2023—Customers can now isolate or terminate potentially compromised Kubernetes pods when investigating threat incidents in Workbench, Observed Attack Techniques, and Search.
+
+**Cloud Security → Container Security**

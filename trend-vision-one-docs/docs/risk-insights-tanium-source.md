@@ -1,0 +1,11 @@
+---
+category: Cyber Risk Exposure Management
+change_date: 2023-08-14T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-risk-insights-tanium-source
+title: Risk Insights apps gain Tanium Comply as data source
+---
+
+August 14, 2023—Risk Insights apps now support Tanium Comply as a third-party data source. Tanium Comply contributes device information and CVE detections. To grant data upload permissions for Tanium Comply, enter the Tanium console URL and API token in the data sources settings drawer.
+
+**Cyber Risk Exposure Management → Threat and Exposure Management**

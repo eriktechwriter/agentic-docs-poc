@@ -1,0 +1,11 @@
+---
+category: Network Security
+change_date: 2024-01-08T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-network-sensor-new-deployment
+title: Virtual Network Sensor supports new deployment features
+---
+
+January 8, 2024—Virtual Network Sensor supports deploying to AWS cloud environments. Additionally, you can now specify a default password for KVM deployments within Network Inventory.
+
+**Network Security → Network Inventory**

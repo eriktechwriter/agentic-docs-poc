@@ -1,0 +1,19 @@
+---
+category: Data Security
+change_date: 2025-05-26T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-wn-data-policy-inventory
+title: Introducing Data Policy and Data Inventory
+---
+
+May 26, 2025—Data Policy and Data Inventory are now in public preview as part of the Trend Vision One platform. These additions to the Data Security group expand visibility of your sensitive and business-critical data to on-prem and hybrid environments, and provide a quick way for you to identify devices and files that are at risk.
+
+- With Data Policy, you can create data policies that define the network locations where sensitive data resides, including the ability to specify which file types to monitor.
+
+- Trend Vision One uses data policies to create a catalog of files and assets with sensitive data in the network locations, which you can then view in Data Inventory. From there, you can identify and action risks to prevent data leakage before it happens.
+
+These new features provide a comprehensive approach to identifying and securing sensitive data, helping your organization maintain robust data protection and compliance across your network infrastructure. For more information, see [Data Policy](data-policy-overview.md) and [Data Inventory](data-inventory.md).
+
+**Data Security → Data Policy**
+
+**Data Security → Data Inventory**

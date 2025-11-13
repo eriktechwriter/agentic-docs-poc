@@ -1,0 +1,16 @@
+---
+slug: trend-vision-one-custom-dlp-templates-2
+title: Custom DLP templates
+---
+
+Create your own DLP templates if you have configured data identifiers.
+
+A DLP template combines data identifiers and logical operators (And, Or, Except) to form condition statements.
+
+For more information and examples on how condition statements and logical operators work, see [Condition statements and logical pperators](condition-logical-operators.md).
+
+**Related information**
+
+- [Condition statements and logical pperators](condition-logical-operators-2.md "Apply conditions and operators to custom DLP templates.")
+- [Creating a Template](creating-template-dlp.md)
+- [Importing Templates](importing-dlp-templates.md)

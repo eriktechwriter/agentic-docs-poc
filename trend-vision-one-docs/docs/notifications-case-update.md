@@ -1,0 +1,13 @@
+---
+category: Administration
+change_date: 2024-09-02T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-notifications-case-update
+title: 'New alert types: Case update summary and Case update for owners'
+---
+
+September 2, 2024—The Notifications app now includes two new alert types: **Case update summary** and **Case update for owners**. The **Case update summary** alert periodically sends notifications to specified recipients with a summary of case updates, while the **Case update for owners** alert notifies owners every time a case update occurs. For **Case update summary**, you can specify which case updates you want the summary to include.
+
+For more information, see [Configure notifications for case update summary](notification-case-update-summary.md) and [Configure notifications for case update for owners](notifications-case-update-for-owner.md).
+
+**Administration → Notifications**

@@ -1,0 +1,49 @@
+---
+category: Agentic SIEM & XDR
+change_date: 2025-06-05T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-wn-cdf-microsoft-logs
+title: New custom detection filters for Microsoft logs
+---
+
+June 5, 2025—Trend Vision One supports new custom detection filters for Microsoft.
+
+Try these detection filters to enhance Microsoft log analysis:
+
+- Possible theft of passwords and other sensitive web browser information
+
+- Backdoor Detected
+
+- Backdoor Prevented
+
+- BloodHound Process Detection
+
+- CertUtil Remote Download
+
+- Hacktool Detected
+
+- Hacktool Prevented
+
+- Malware Detected
+
+- Ransomware Prevented
+
+- Remote exfiltration activity
+
+- Suspicious Hacking Tool Detected
+
+- Unwanted Software Prevented
+
+- Unwanted Software Detected
+
+- Wevtutil Clear Windows Event Logs
+
+- Windows Network Sniffing
+
+- AMSI Script Detection
+
+- Possible ongoing hands-on-keyboard activity (Cobalt Strike)
+
+Download these custom detection filters from [GitHub](https://github.com/trendmicro/tm-v1-detection-models/tree/main/tm-v1-sigma-rules/third_party_logs). For more information see [Custom filters](custom-filters.md).
+
+**XDR Threat Investigation → Detection Model Management**

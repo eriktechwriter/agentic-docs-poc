@@ -1,0 +1,15 @@
+---
+category: Workflow and Automation
+change_date: 2024-12-01T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-firmware-version-3016
+title: Service Gateway Firmware Version 3.0.16
+---
+
+December 16, 2024—Service Gateway Firmware Version 3.0.16 delivers key enhancements, bug fixes, and security updates.
+
+This update includes the following changes:
+
+- This update introduces enhancements to the audit logs of Service Gateway virtual appliances.
+
+- This update includes new CLI commands to support enhanced Internet Access configuration.

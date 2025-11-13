@@ -1,0 +1,12 @@
+---
+slug: trend-vision-one-update-workload-security
+title: Update from Trend Cloud One - Endpoint & Workload Security
+---
+
+**Related information**
+
+- [Trend Cloud One - Endpoint & Workload Security to Server & Workload Protection feature mapping](dsa-swp-feature-map.md)
+- [New Trend Vision One customers updating Trend Cloud One - Endpoint & Workload Security from an activation email](new-customers-dsa-activation.md)
+- [Existing Trend Vision One customers updating Trend Cloud One - Endpoint & Workload Security from an activation email](existing-dsa-activation.md)
+- [Existing Trend Vision One customers updating Trend Cloud One - Endpoint & Workload Security from the Trend Vision One console](existing-update-dsa-console.md)
+- [Migrating a Trend Cloud One - Endpoint & Workload Security instance billed to AWS Marketplace](migrate-billed-aws-market.md "Review the billing policy when a Trend Cloud One - Endpoint & Workload Security instance charged to AWS Marketplace is converted into a Server & Workload Protection instance in Trend Vision One.")

@@ -1,0 +1,13 @@
+---
+category: Network Security
+change_date: 2024-08-15T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-network-overview-dashboard
+title: Network Security introduces Network Overview dashboard
+---
+
+August 15, 2024—Trend Vision One Network Security introduces a new page called Network Overview. This dashboard provides an at-a-glance perspective into your organization's network security posture, including an overview of the vulnerabilities reported by the different network products that Trend Vision One offers.
+
+For more information, see [Network Security](https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-network-security).
+
+**Network Security → Network Overview**

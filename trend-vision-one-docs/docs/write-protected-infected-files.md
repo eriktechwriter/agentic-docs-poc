@@ -1,0 +1,6 @@
+---
+slug: trend-vision-one-write-protected-infected-files
+title: Write-protected Infected Files
+---
+
+Solution: Remove the write-protection to allow the Trend Vision One Endpoint Security agent to clean the file.

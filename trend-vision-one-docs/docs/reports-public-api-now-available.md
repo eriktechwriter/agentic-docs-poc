@@ -1,0 +1,11 @@
+---
+category: Cloud Security
+change_date: 2024-11-29T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-reports-public-api-now-available
+title: Cloud Risk Management Configurations & Reports Public API Now Available
+---
+
+November 29, 2024—You can now access the new Cloud Risk Management public APIs for Configurations & Reports through the Trend Vision One [Automation Center](https://automation.trendmicro.com/xdr/home).
+
+**Cloud Risk Management → Cloud Security Posture**

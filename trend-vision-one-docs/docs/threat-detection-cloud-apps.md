@@ -1,0 +1,74 @@
+---
+slug: trend-vision-one-threat-detection-cloud-apps
+title: Threat detection
+---
+
+Learn about the widgets available on the **Threat Detection** tab.
+
+The **Threat Detection** tab groups widgets into different sections, each providing a different perspective about threats in your organization. You can configure how this tab displays threat detection data. For details, see [Viewing threat detection data](viewing-threat-detection-data.md).
+
+The following table outlines the available sections.
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr>
+<th><p>Section</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p>Overall Threat Detections</p></td>
+<td><p>Displays threat detection statistics, that is, the total number of email messages, Teams chat messages, files, Saleforce objects scanned, and the number of each type of security threats detected.</p>
+<p>Click a number to view the corresponding logs within the selected time period.</p></td>
+</tr>
+<tr>
+<td><p><a href="trend-vision-one-scam-widgets">Scam</a></p></td>
+<td><p>Displays scam detection statistics, including the total detections and top rankings.</p></td>
+</tr>
+<tr>
+<td><p><a href="trend-vision-one-quishing-widgets">Quishing</a></p></td>
+<td><p>Displays quishing detection statistics, including the total detections and top rankings.</p></td>
+</tr>
+<tr>
+<td><p><a href="trend-vision-one-ransomware-detect-widgets">Ransomware</a></p></td>
+<td><p>Displays ransomware detection statistics, including the total detections and top rankings.</p></td>
+</tr>
+<tr>
+<td><p><a href="trend-vision-one-business-email-compromise-widgets">Business Email Compromise (BEC)</a></p></td>
+<td><p>Displays BEC detection statistics, including the total detections and top rankings.</p></td>
+</tr>
+<tr>
+<td><p><a href="trend-vision-one-summary-widgets-cloud-apps">Summary</a></p></td>
+<td><p>Displays widgets that provide security risk summary over selected time periods.</p></td>
+</tr>
+<tr>
+<td><p><a href="trend-vision-one-srs-widgets-cloud-apps">Security Risk Scan</a></p></td>
+<td><p>Displays activity about threats known to Trend Micro that affect your network.</p></td>
+</tr>
+<tr>
+<td><p><a href="trend-vision-one-va-widgets-cloud-apps">Virtual Analyzer for Suspicious Objects</a></p></td>
+<td><p>Displays activity that may become an emerging threat.</p></td>
+</tr>
+<tr>
+<td><p><a href="trend-vision-one-dlp-widgets-cloud-apps">Data Loss Prevention</a></p></td>
+<td><p>Displays violations by policy, compliance template, destination, and source.</p></td>
+</tr>
+</tbody>
+</table>
+
+**Related information**
+
+- [Scam widgets](scam-widgets.md "Understand scam detections in your environment. Scams often involve deceptive emails designed to trick recipients into providing sensitive information or transferring money.")
+- [Quishing widgets](quishing-widgets.md "Undertand quishing detections in your environment.")
+- [Ransomware widgets](ransomware-detect-widgets.md)
+- [Business email compromise (BEC) widgets](business-email-compromise-widgets.md)
+- [Summary widgets](summary-widgets-cloud-apps.md)
+- [Security risk scan widgets](srs-widgets-cloud-apps.md)
+- [Virtual Analyzer widgets](va-widgets-cloud-apps.md)
+- [Data Loss Prevention widgets](dlp-widgets-cloud-apps.md)
+- [Viewing threat detection data](viewing-threat-detection-data.md)

@@ -1,0 +1,11 @@
+---
+category: Email and Collaboration Security
+change_date: 2024-06-21T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-url-time-click-protection-cecp
+title: Approved URL list for Time-of-Click Protection in Cloud Email and Collaboration Protection
+---
+
+June 21, 2024—To prevent URLs from being rewritten by Time-of-Click Protection in Web Reputation, Cloud Email and Collaboration Protection now supports defining a list of URLs that can bypass Time-of-Click Protection.
+
+**Email and Collaboration Security → Cloud Email and Collaboration Protection**

@@ -1,0 +1,15 @@
+---
+category: Zero Trust Secure Access
+change_date: 2024-06-03T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-ztsa-premises-gateway-v-1-0-43
+title: Zero Trust Secure Access On-premises Gateway Version 1.0.43
+---
+
+June 3, 2024—ZTSA On-Premises Gateway Version 1.0.43 provides enhanced security and connectivity features.
+
+This update includes the following changes:
+
+### New feature {#new-feature}
+
+- IP Address groups can now be used in on-premise gateways. This allows the bypassing of authentication and bandwidth controls.

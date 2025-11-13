@@ -1,0 +1,59 @@
+---
+slug: trend-vision-one-common-objects
+title: About common objects
+---
+
+The Common Objects pages (located under **Policies → Common Objects** in the Server & Workload Protection console) provide a way to define objects once so that you can reuse them various policies and rules. When you use one of the common objects in the policy or computer editor, its settings can be overridden for that specific policy or computer. For more information on how common object properties can be inherited and overridden at the policy or computer level, see [Policies, inheritance, and overrides](policies-inheritance-overrides.md).
+
+:::tip
+You can automate common object creation and configuration using the Server & Workload Protection API.
+:::
+
+### Rules {#rules}
+
+Some protection modules make use of rules:
+
+- [Define a firewall rule for use in policies](create-firewall-rule.md)
+
+- [Configure an intrusion prevention rule for use in policies](config-intrusion-prevention-rules.md)
+
+- [Define an integrity monitoring rule for use in policies](create-integrity-monitoring-rule.md)
+
+- [Define a log inspection rule for use in policies](define-inspection-rule.md)
+
+### Lists {#lists}
+
+- [Create a list of directories for use in policies](list-dir-policies.md)
+
+- [Create a list of file extensions for policies](create-file-ext-policies.md)
+
+- [Create a list of files for policies](create-list-files-for-use-policies.md)
+
+- [Create a list of IP addresses for policies](create-ip-policies.md)
+
+- [Create a list of MAC addresses for policies](create-mac-addresses-policies.md)
+
+- [Create a list of ports for use in policies](create-list-ports-for-use-policies.md)
+
+- [Recommended Exclusions](recommended-exclusions.md)
+
+### Other {#other}
+
+- [Define contexts for policies](define-contexts-for-use-policies.md)
+
+- [Define stateful configurations for firewall policies](define-stateful-firewall.md)
+
+- [Malware Scan Configurations](configure-malware-scans.md)
+
+- [Define a schedule that you can apply to rules](define-schedule-rules.md)
+
+**Related information**
+
+- [Create a list of directories for use in policies](list-dir-policies.md)
+- [Create a list of files for use in policies](create-list-files-for-use-policies.md)
+- [Create a list of file extensions for use in policies](create-file-ext-policies.md)
+- [Create a list of IP addresses for use in policies](create-ip-policies.md)
+- [Create a list of MAC addresses for use in policies](create-mac-addresses-policies.md)
+- [Create a list of ports for use in policies](create-list-ports-for-use-policies.md)
+- [Recommended Exclusions](recommended-exclusions.md "Use the list of recommended applications curated by Trend Micro to exclude from Anti-Malware real-time scans.")
+- [Define a schedule that you can apply to rules](define-schedule-rules.md)

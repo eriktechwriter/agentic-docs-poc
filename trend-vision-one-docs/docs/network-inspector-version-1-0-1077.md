@@ -1,0 +1,13 @@
+---
+category: Network Security
+change_date: 2023-05-01T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-network-inspector-version-1-0-1077
+title: Network Inspector version 1.0.1077
+---
+
+May 9, 2023—Virtual Network Sensor Version 1.0.77 provides enhanced network monitoring and threat detection capabilities.
+
+This update includes the following changes:
+
+- This update adds the ability to automatically update to the latest version when connected.

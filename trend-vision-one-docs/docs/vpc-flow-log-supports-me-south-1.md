@@ -1,0 +1,11 @@
+---
+category: Cloud Security
+change_date: 2024-12-02T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-vpc-flow-log-supports-me-south-1
+title: XDR for Cloud - VPC Flow Log Monitoring now supports AWS region me-south-1
+---
+
+December 2, 2024—XDR for Cloud - VPC Flow Log Monitoring extends AWS VPC Flow Log monitoring support to the me-south-1 region. Deploy VPC Flow Log Monitoring in this region to leverage advanced capabilities to analyze network traffic and enhance threat detection.
+
+**Cloud Security → Cloud Accounts → AWS**

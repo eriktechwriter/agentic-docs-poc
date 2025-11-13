@@ -1,0 +1,11 @@
+---
+category: Threat Intelligence
+change_date: 2024-04-29T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-threat-intelligence-feed
+title: Trend Threat Intelligence Feed is now available
+---
+
+April 29, 2024— Trend Threat Intelligence Feed continuously provides up-to-date information about emerging threats and threat actors. Leveraging the feed via API into your existing security infrastructure allows your organization to stay one step ahead of cyber threats and maintain a robust and adaptive security environment.
+
+For more information, see [Trend Threat Intelligence Feed](tmthreat-intelligence-feed.md).

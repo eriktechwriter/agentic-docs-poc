@@ -1,0 +1,8 @@
+---
+slug: trend-vision-one-manage-cloud-account-tags
+title: Manage cloud account tags
+---
+
+**Related information**
+
+- [Cloud account tags](cloud-account-tags.md)

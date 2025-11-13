@@ -1,0 +1,11 @@
+---
+category: Email and Collaboration Security
+change_date: 2024-10-25T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-auto-recovery-emails-deletion-cecp
+title: Automatic recovery of false positive emails marked for deletion in Exchange Online and Gmail in Cloud Email and Collaboration Protection
+---
+
+October 25, 2024—Cloud Email and Collaboration Protection extends its capabilities to identify false positive emails detected by Advanced Spam Protection, Web Reputation, and Correlated Intelligence, and then automatically restore false positive emails marked for deletion in end users’ “Recoverable Items \> Deletions” folder in Exchange Online and the “Trash” folder in Gmail.
+
+**Email and Collaboration Security → Cloud Email and Collaboration Protection**

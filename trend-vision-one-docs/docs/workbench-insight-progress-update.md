@@ -1,0 +1,13 @@
+---
+category: Workflow and Automation
+change_date: 2025-05-19T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-workbench-insight-progress-update
+title: Workbench Insight Progression Update playbooks now available
+---
+
+May 19, 2025—Trend Vision One now offers Workbench Insight Progression Update playbooks to automatically notify stakeholders when insights are generated or updated—ensuring timely visibility into threat developments. These playbooks can open or update cases and send email notifications with key insight details. Each notification and case can include a Generative AI-generated summary of the Workbench insight, providing clear and contextual information to support faster, more informed responses.
+
+For more information, see [Create Workbench Insight Progression Update playbooks](wb-insight-progression-update.md).
+
+**Workflow and Automation → Security Playbooks**

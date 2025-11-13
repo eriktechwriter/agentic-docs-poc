@@ -1,0 +1,13 @@
+---
+category: Cloud Security
+change_date: 2025-05-01T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-whatsnew-gke-1-7-0
+title: CIS Google Kubernetes Engine (GKE) Benchmark scanning now available
+---
+
+May 1, 2025—Trend Vision One now supports compliance scanning with [CIS Google Kubernetes Engine (GKE) Benchmark](cis-gke17-recs.md) v1.7.0 in your GKE clusters. Assess and guarantee adherence to industry-leading security standards effortlessly, enhancing your Kubernetes security posture.
+
+For more information, see [Compliance](compliance-scanning.md).
+
+**Cloud Security → Container Security → Container Protection**

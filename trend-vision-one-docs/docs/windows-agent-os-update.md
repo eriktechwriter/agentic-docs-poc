@@ -1,0 +1,11 @@
+---
+category: Endpoint Security
+change_date: 2023-08-18T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-windows-agent-os-update
+title: Windows agent features improved OS update detection
+---
+
+August 18, 2023—The Trend Vision One Windows agent now checks for update build revision changes every 10 minutes. If an operating system update is detected, the agent triggers an automatic scan of the endpoint. The new process ensures that your endpoints always remain up to date and secure, minimizing potential risk from vulnerabilities and enhancing overall security.
+
+**Endpoint Security → Endpoint Inventory**

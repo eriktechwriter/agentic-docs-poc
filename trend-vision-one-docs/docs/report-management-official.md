@@ -1,0 +1,13 @@
+---
+category: Dashboards and Reports
+change_date: 2023-04-01T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-report-management-official
+title: Report Management official release
+---
+
+Report Management is now officially released and can be utilized alongside your Risk Insights and XDR entitlements as part of the Trend Vision One platform.
+
+For details on what types of entitlements are required for each report type, see [Reports license requirements](reports-license-requirements.md).
+
+**Dashboards and Reports → Reports**

@@ -1,0 +1,9 @@
+---
+category: Trend Vision One Platform
+change_date: 2023-12-15T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-azure-ad-renamed-entra-id
+title: Azure AD renamed to Microsoft Entra ID
+---
+
+December 15, 2023—Azure AD has been renamed to Microsoft Entra ID across all Trend Vision One apps and features to align with Microsoft’s naming change. No app or feature functionality has been affected by the renaming.

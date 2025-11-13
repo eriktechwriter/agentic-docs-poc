@@ -1,0 +1,11 @@
+---
+category: Workflow and Automation
+change_date: 2023-06-01T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-sg-au-service-version-2-0-6
+title: 'Service Gateway: Local ActiveUpdate Service Version 2.0.6'
+---
+
+June 1, 2023—Service Gateway Local ActiveUpdate Service Version 2.0.6 provides enhanced update management and connectivity features.
+
+This update includes the following changes:

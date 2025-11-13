@@ -1,0 +1,8 @@
+---
+slug: trend-vision-one-gs-email-security-section
+title: Getting started with Cloud Email Gateway Protection
+---
+
+**Related information**
+
+- [Provisioning a Trend Micro Business Account](provisioning-business-account.md)

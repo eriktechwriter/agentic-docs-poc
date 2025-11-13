@@ -1,0 +1,31 @@
+---
+category: Cloud Security
+change_date: 2025-06-16T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-rn-helm-chart-3-0-2
+title: Helm Chart 3.0.2
+---
+
+June 16, 2025—The 3.0.2 Helm Chart release includes a minor update to your Helm value overrides and firewall settings required when upgrading from `cloudone-container-security-helm`. See [Upgrade Helm chart from Trend Cloud One to Trend Vision One](upgrade-helm-cloud-one.md) for more information.
+
+Detailed release notes:
+
+- **Enhancements**
+
+  - Switched communication protocol used by internal components to communicate with backend.
+
+- **Upgrade instructions**
+
+  - Sample upgrade command:
+
+    ``` codeblock
+    helm upgrade \
+    --values overrides.yaml \
+    --namespace trendmicro-system \
+    trendmicro \
+    https://github.com/trendmicro/visionone-container-security-helm/archive/3.0.2.tar.gz
+    ```
+
+- **References**
+
+  - <https://github.com/trendmicro/visionone-container-security-helm/releases/tag/3.0.2>

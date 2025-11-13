@@ -1,0 +1,11 @@
+---
+category: Workflow and Automation
+change_date: 2023-12-18T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-auto-response-playbook-enhance
+title: Automated Response Playbook enhancements
+---
+
+December 18, 2023—The Automated Response Playbook has been enhanced to support a wider range of response actions, including user account actions such as disabling the user account, forcing sign out, and forcing password reset, and the ability to run custom scripts on endpoints.
+
+**Workflow and Automation → Security Playbooks**

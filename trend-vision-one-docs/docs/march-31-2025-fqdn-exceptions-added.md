@@ -1,0 +1,23 @@
+---
+category: Trend Vision One Platform
+change_date: 2025-03-31T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-march-31-2025-fqdn-exceptions-added
+title: Server & Workload Protection firewall exceptions added
+---
+
+March 31, 2025—Server & Workload Protection firewall exceptions have been added to all regions. Ensure your firewall is up to date with the latest Firewall EIP Blocks, as older Deep Security and Trend Cloud One EIP Block addresses might no longer be valid.
+
+For more information see the firewall exceptions for your region:
+
+- [Americas](firewall-americas-all-exceptions.md)
+
+- [Australia](firewall-australia-all-exceptions.md)
+
+- [Europe](firewall-europe-all-exceptions.md)
+
+- [India](firewall-india-all-exceptions.md)
+
+- [Japan](firewall-japan-all-exceptions.md)
+
+- [Middle East and Africa](firewall-uae-all-exceptions.md)

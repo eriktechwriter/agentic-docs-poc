@@ -1,0 +1,26 @@
+/**
+ * Custom CSS for Deep Security documentation
+ */
+
+:root {
+  --ifm-color-primary: #d71921;
+  --ifm-color-primary-dark: #c21720;
+  --ifm-color-primary-darker: #b7151e;
+  --ifm-color-primary-darkest: #97121a;
+  --ifm-color-primary-light: #dc3239;
+  --ifm-color-primary-lighter: #df3d43;
+  --ifm-color-primary-lightest: #e65a5f;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #e65a5f;
+  --ifm-color-primary-dark: #e23940;
+  --ifm-color-primary-darker: #e02b32;
+  --ifm-color-primary-darkest: #bb1e24;
+  --ifm-color-primary-light: #ea7b7f;
+  --ifm-color-primary-lighter: #ec898d;
+  --ifm-color-primary-lightest: #f2b5b8;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}

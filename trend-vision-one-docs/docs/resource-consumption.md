@@ -1,0 +1,11 @@
+---
+slug: trend-vision-one-resource-consumption
+title: Resource consumption
+---
+
+Learn about the performance and resource consumption benchmarks of **Mobile Security**.
+
+**Related information**
+
+- [Android device resource consumption](android-device-resource-consumption.md "View the results of Mobile Security performance tests on a Google Pixel 6.")
+- [iOS device resource consumption](ios-device-resource-consumption.md "View the results of Mobile Security performance tests on an iPhone 12.")

@@ -1,0 +1,13 @@
+---
+category: Cloud Security
+change_date: 2024-06-03T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-cis-amazon-eks-benchmark-scan
+title: CIS Amazon EKS benchmark scanning now available
+---
+
+June 12, 2024—With Trend Vision One – Container Security, compliance scanning with CIS benchmarks in your EKS clusters is seamless. Assess and guarantee adherence to industry-leading security standards effortlessly, enhancing your Kubernetes security posture.
+
+To learn more, see [Compliance](compliance-scanning.md).
+
+**Cloud Security → Container Security**

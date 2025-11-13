@@ -1,0 +1,13 @@
+---
+category: Zero Trust Secure Access
+change_date: 2025-03-24T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-ztsa-prem-gateway-v-1-0-62
+title: Zero Trust Secure Access On-premises Gateway Version 1.0.62
+---
+
+March 24, 2025—Zero Trust Secure Access On-premises Gateway Version 1.0.62 includes enhancements for FTP protocol support.
+
+This update includes the following changes:
+
+- Support access control & content inspection for FTP protocol as FTP forward proxy.

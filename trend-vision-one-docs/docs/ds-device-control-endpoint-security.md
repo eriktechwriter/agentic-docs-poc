@@ -1,0 +1,11 @@
+---
+category: Endpoint Security
+change_date: 2023-09-04T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-ds-device-control-endpoint-security
+title: View Deep Security Device Control status from Trend Vision One Endpoint Security
+---
+
+September 4, 2023—Deep Security policies in Trend Vision One Endpoint Security now display the Device Control enabled/disabled status. To take advantage of this feature, ensure that your Deep Security Manager is updated to version 20.0.817 or later.
+
+**Endpoint Security → Endpoint Policies**

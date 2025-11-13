@@ -1,0 +1,13 @@
+---
+category: Email and Collaboration Security
+change_date: 2024-12-06T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-riskai-signals-private-cecp
+title: Two more predefined detection signals available for Correlated Intelligence in Cloud Email and Collaboration Protection
+---
+
+December 6, 2024—Cloud Email and Collaboration Protection supports two predefined detection signals that incorporates social graph data between senders and recipients for anomaly detection in Correlated Intelligence. The signals check for the newly observed sender addresses and domains based on recipients within the last 30 days to help anomaly detection in the customer’s environment.
+
+These detection signals are not available in all regions.
+
+**Email and Collaboration Security → Cloud Email and Collaboration Protection**

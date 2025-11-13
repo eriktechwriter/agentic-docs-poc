@@ -1,0 +1,13 @@
+---
+category: Workflow and Automation
+change_date: 2024-12-09T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-case-management-supports-asrm-cases-2
+title: Case Management now supports Cyber Risk Exposure Management cases
+---
+
+November 29—To streamline your risk reduction workflows, in Case Management you can now assign priority and ownership to cases containing risk events from Threat and Exposure Management. When you open a case in Threat and Exposure Management, you can choose which third-party ticketing system, webhook channel, or email address to notify.
+
+**Cyber Risk Exposure Management → Threat and Exposure Management**
+
+**Workflow and Automation → Case Management**

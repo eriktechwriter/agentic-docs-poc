@@ -1,0 +1,11 @@
+---
+category: Agentic SIEM & XDR
+change_date: 2023-11-10T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-threat-hunting-queries-cyborg
+title: The Search app supports threat hunting queries from Cyborg Security
+---
+
+November 10, 2023—The Search app now supports threat hunting queries from Cyborg Security to facilitate identification of elusive IOAs in the environment. Moreover, users may view related intelligence reports to aid the understanding and resolution of cyber attacks.
+
+**Agentic SIEM & XDR → XDR Data Explorer**

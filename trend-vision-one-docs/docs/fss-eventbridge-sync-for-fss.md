@@ -1,0 +1,11 @@
+---
+category: Cloud Security
+change_date: 2025-06-02T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-fss-eventbridge-sync-for-fss
+title: EventBridge sync for File Security Storage CloudFormation template
+---
+
+June 2, 2025—Users now have an installation option that turns on the scanning of buckets by default if they have EventBridge enabled or does not turn on the scanning of any bucket when setting up their CloudFormation template.
+
+**Cloud Security → File Security → File Security Storage**

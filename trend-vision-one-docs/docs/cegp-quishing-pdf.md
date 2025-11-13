@@ -1,0 +1,11 @@
+---
+category: Email and Collaboration Security
+change_date: 2024-06-19T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-cegp-quishing-pdf
+title: Cloud Email Gateway Protection supports quishing detection for PDF attachments
+---
+
+April 19, 2024—In addition to detect quishing by scanning the QR code images attached or in the email body, Cloud Email Gateway Protection now supports quishing detection for PDF attachments after you have enabled submission of suspicious files with QR codes to Virtual Analyzer.
+
+**Email and Collaboration Security → Cloud Email Gateway Protection**

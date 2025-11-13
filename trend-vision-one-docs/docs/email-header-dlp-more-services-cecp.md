@@ -1,0 +1,11 @@
+---
+category: Email and Collaboration Security
+change_date: 2025-06-20T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-email-header-dlp-more-services-cecp
+title: Email header scanning in DLP policy available for more email services and protection modes
+---
+
+June 20, 2025—The Data Loss Prevention policy feature, which previously supported scanning email header fields for Exchange Online, now extends to Gmail, Exchange Online (Inline Mode, and Gmail (Inline Mode). This enhancement allows DLP policies to inspect email headers in addition to the subject, body, and attachments, providing broader coverage and more consistent protection across supported platforms.
+
+**Email and Collaboration Security → Cloud Email and Collaboration Protection**

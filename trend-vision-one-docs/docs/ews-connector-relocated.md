@@ -1,0 +1,11 @@
+---
+category: Endpoint Security
+change_date: 2023-06-14T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-ews-connector-relocated
+title: Cloud One Endpoint & Workload Security connector relocated
+---
+
+June 14, 2023—To streamline the implementation of planned enhancements for Trend Vision One, your Trend Cloud One - Endpoint & Workload Security service connection was relocated to the Trend Cloud One connector. This migration does not affect any of the existing functionality provided by the connection between Trend Vision One and Trend Cloud One - Endpoint & Workload Security.
+
+**Endpoint Security → Endpoint & Workload Security**

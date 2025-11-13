@@ -1,0 +1,15 @@
+---
+category: Cloud Security
+change_date: 2025-05-26T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-rn-helm-chart-3-0-0
+title: Helm Chart 3.0.0
+---
+
+May 26, 2025—The 3.0.0 Helm Chart introduces changes that are essential for accessing new functionalities and improving performance. Only Trend Vision One users are supported for this version and future releases.
+
+This release also includes a minor update to your Helm value overrides and firewall settings required when upgrading from `cloudone-container-security-helm`. See [Upgrade Helm chart from Trend Cloud One to Trend Vision One](upgrade-helm-cloud-one.md) for more information.
+
+**References**
+
+<https://github.com/trendmicro/visionone-container-security-helm/releases/tag/3.0.0>

@@ -1,0 +1,13 @@
+---
+category: Dashboards and Reports
+change_date: 2023-09-25T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-widget-summarize-oat
+title: Security Dashboard gets new widget summarizing observed attack techniques
+---
+
+September 25, 2023—To facilitate SOC analysts in quickly identifying the riskiest events within their company, the Security Dashboard has a new widget called **Observed Attack Techniques Summary**.
+
+This widget, summarizes the riskiest events within a given time range, assisting analysts in navigating towards the appropriate direction for further troubleshooting.
+
+**Dashboards and Reports → Dashboards**

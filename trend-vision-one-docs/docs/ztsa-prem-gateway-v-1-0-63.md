@@ -1,0 +1,14 @@
+---
+category: Zero Trust Secure Access
+change_date: 2025-04-07T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-ztsa-prem-gateway-v-1-0-63
+title: Zero Trust Secure Access On-premises Gateway Version 1.0.63
+---
+
+April 7, 2025—Zero Trust Secure Access On-premises Gateway Version 1.0.63 delivers enhancements and optimizations.
+
+This update includes the following changes:
+
+- Support local prompt injection service for an on-premise gateway.
+- Optimized disk usage when scanning large files that are being transferred.

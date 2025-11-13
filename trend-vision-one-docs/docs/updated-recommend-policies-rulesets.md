@@ -1,0 +1,11 @@
+---
+category: Trend Vision One Platform
+change_date: 2024-07-16T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-updated-recommend-policies-rulesets
+title: Updated recommendations for Container Security policies and rulesets
+---
+
+July 16, 2024—The recommendations for creating policies and rulesets for Container Security have been updated, including instructions for testing rules that are set to terminate or isolate, and an updated list of rulesets. For more information, see the [Business Success portal](https://success.trendmicro.com/dcx/s/solution/000295676?language=en_US).
+
+**Cloud Security → Container Security**

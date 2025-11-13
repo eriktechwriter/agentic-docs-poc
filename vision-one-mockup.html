@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend Vision One™ - Attack Surface Discovery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            overflow-x: hidden;
+        }
+
+        /* Top Header */
+        .top-header {
+            background-color: #2d2d2d;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            border-bottom: 1px solid #3d3d3d;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #d32f2f 0%, #c62828 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .product-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .page-title {
+            margin-left: 15px;
+            color: #b0b0b0;
+            font-size: 14px;
+        }
+
+        .header-right {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .search-box {
+            background-color: #3d3d3d;
+            border: 1px solid #4d4d4d;
+            border-radius: 4px;
+            padding: 8px 12px;
+            color: #b0b0b0;
+            width: 200px;
+            font-size: 13px;
+        }
+
+        .icon-button {
+            background: none;
+            border: none;
+            color: #b0b0b0;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 8px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+
+        .icon-button:hover {
+            background-color: #3d3d3d;
+            color: #ffffff;
+        }
+
+        .user-icon {
+            width: 32px;
+            height: 32px;
+            background-color: #555;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .user-icon:hover {
+            background-color: #666;
+        }
+
+        /* User Type Selector Dropdown */
+        .user-dropdown {
+            position: absolute;
+            top: 45px;
+            right: 0;
+            background-color: #2d2d2d;
+            border: 1px solid #4d4d4d;
+            border-radius: 4px;
+            padding: 8px 0;
+            min-width: 200px;
+            display: none;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .user-dropdown.active {
+            display: block;
+        }
+
+        .user-dropdown-item {
+            padding: 10px 16px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.2s;
+        }
+
+        .user-dropdown-item:hover {
+            background-color: #3d3d3d;
+        }
+
+        .user-dropdown-item.selected {
+            background-color: #4a7ba7;
+            color: #ffffff;
+        }
+
+        .demo-badge {
+            background-color: #f57c00;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        /* Secondary Nav */
+        .secondary-nav {
+            background-color: #252525;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            border-bottom: 1px solid #3d3d3d;
+            gap: 20px;
+            font-size: 13px;
+        }
+
+        /* Main Tabs */
+        .main-tabs {
+            background-color: #1f1f1f;
+            display: flex;
+            gap: 8px;
+            padding: 0 20px;
+            border-bottom: 1px solid #3d3d3d;
+        }
+
+        .tab {
+            padding: 16px 24px;
+            cursor: pointer;
+            font-size: 14px;
+            color: #b0b0b0;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tab:hover {
+            color: #ffffff;
+            background-color: #2d2d2d;
+        }
+
+        .tab.active {
+            color: #ffffff;
+            background-color: #4a7ba7;
+            border-bottom-color: #4a7ba7;
+        }
+
+        .tab-help-icon {
+            opacity: 0;
+            transition: opacity 0.2s;
+            font-size: 12px;
+            margin-left: 4px;
+            cursor: help;
+            color: #4a7ba7;
+        }
+
+        .tab:hover .tab-help-icon {
+            opacity: 1;
+        }
+
+        .tab.active .tab-help-icon {
+            color: #ffffff;
+        }
+
+        /* Tooltip Bubble */
+        .tooltip-bubble {
+            position: fixed;
+            background-color: #2d2d2d;
+            border: 1px solid #4a7ba7;
+            border-radius: 8px;
+            padding: 16px;
+            max-width: 320px;
+            z-index: 3000;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+            display: none;
+        }
+
+        .tooltip-bubble.active {
+            display: block;
+            animation: tooltipFadeIn 0.2s ease-out;
+        }
+
+        @keyframes tooltipFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .tooltip-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #3d3d3d;
+        }
+
+        .tooltip-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #4a7ba7;
+        }
+
+        .tooltip-close {
+            background: none;
+            border: none;
+            color: #808080;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 0;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tooltip-close:hover {
+            color: #ffffff;
+        }
+
+        .tooltip-content {
+            font-size: 13px;
+            line-height: 1.5;
+            color: #d0d0d0;
+        }
+
+        .tooltip-badge {
+            display: inline-block;
+            background-color: #4a7ba7;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: 600;
+            margin-left: 6px;
+        }
+
+        /* Main Content Area */
+        .main-content {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+            min-height: calc(100vh - 180px);
+        }
+
+        /* Left Panel */
+        .left-panel {
+            width: 280px;
+            background-color: #252525;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .stat-card {
+            margin-bottom: 20px;
+            padding: 16px;
+            background-color: #2d2d2d;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .stat-card:hover {
+            background-color: #353535;
+        }
+
+        .stat-title {
+            font-size: 13px;
+            color: #b0b0b0;
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .stat-badge {
+            display: inline-block;
+            background-color: #3d3d3d;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            margin-left: 8px;
+        }
+
+        /* Center Panel - Chart */
+        .center-panel {
+            flex: 1;
+            background-color: #252525;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .panel-header {
+            font-size: 12px;
+            color: #b0b0b0;
+            margin-bottom: 20px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .chart-container {
+            height: 300px;
+            display: flex;
+            align-items: flex-end;
+            gap: 12px;
+            padding: 20px 0;
+        }
+
+        .chart-bar {
+            flex: 1;
+            background: linear-gradient(180deg, #5a8fc4 0%, #4a7ba7 100%);
+            border-radius: 4px 4px 0 0;
+            position: relative;
+            transition: all 0.3s;
+        }
+
+        .chart-bar:hover {
+            background: linear-gradient(180deg, #6a9fd4 0%, #5a8bc7 100%);
+        }
+
+        .chart-label {
+            position: absolute;
+            bottom: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 11px;
+            color: #808080;
+        }
+
+        /* Right Panel - Data Sources */
+        .right-panel {
+            width: 350px;
+            background-color: #252525;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .data-source-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #3d3d3d;
+            font-size: 13px;
+        }
+
+        .data-source-item:last-child {
+            border-bottom: none;
+        }
+
+        .source-name {
+            color: #7ba3cc;
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: #b0b0b0;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        .status-dot.configured {
+            background-color: #4caf50;
+        }
+
+        .status-dot.not-configured {
+            background-color: #757575;
+        }
+
+        /* Device List Table */
+        .device-table {
+            margin-top: 20px;
+            background-color: #252525;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .table-title {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            text-align: left;
+            padding: 12px;
+            font-size: 12px;
+            color: #b0b0b0;
+            font-weight: 600;
+            border-bottom: 1px solid #3d3d3d;
+        }
+
+        td {
+            padding: 12px;
+            font-size: 13px;
+            border-bottom: 1px solid #2d2d2d;
+        }
+
+        tr:hover {
+            background-color: #2d2d2d;
+        }
+
+        .risk-score {
+            color: #ffa726;
+            font-weight: 600;
+        }
+
+        .device-name {
+            color: #7ba3cc;
+        }
+
+        /* Sliding Panel */
+        .docs-panel {
+            position: fixed;
+            top: 0;
+            right: -450px;
+            width: 450px;
+            height: 100vh;
+            background-color: #2d2d2d;
+            box-shadow: -4px 0 20px rgba(0,0,0,0.5);
+            transition: right 0.3s ease-in-out;
+            z-index: 2000;
+            overflow-y: auto;
+        }
+
+        .docs-panel.open {
+            right: 0;
+        }
+
+        .panel-content {
+            padding: 30px;
+        }
+
+        .panel-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: #b0b0b0;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .panel-close:hover {
+            color: #ffffff;
+        }
+
+        .panel-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #4a7ba7;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        .section-content {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #d0d0d0;
+            margin-bottom: 20px;
+        }
+
+        .how-to-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .how-to-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #3d3d3d;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            padding-left: 10px;
+        }
+
+        .how-to-list li:hover {
+            background-color: #353535;
+        }
+
+        .how-to-list li:before {
+            content: "→";
+            margin-right: 10px;
+            color: #4a7ba7;
+        }
+
+        .action-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 25px;
+        }
+
+        .action-button {
+            padding: 12px 20px;
+            border: 1px solid #4a7ba7;
+            background-color: transparent;
+            color: #4a7ba7;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .action-button:hover {
+            background-color: #4a7ba7;
+            color: #ffffff;
+        }
+
+        .action-button.primary {
+            background-color: #4a7ba7;
+            color: #ffffff;
+        }
+
+        .action-button.primary:hover {
+            background-color: #5a8bc7;
+        }
+
+        /* Loading indicator */
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #808080;
+        }
+
+        .spinner {
+            border: 3px solid #3d3d3d;
+            border-top: 3px solid #4a7ba7;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="logo">
+            <div class="logo-icon">T</div>
+            <span class="product-name">Trend Vision One™</span>
+            <span class="page-title">Attack Surface Discovery</span>
+        </div>
+        <div class="header-right">
+            <span class="demo-badge">POC DEMO</span>
+            <input type="text" class="search-box" placeholder="Search (Preview)">
+            <button class="icon-button">🕐</button>
+            <button class="icon-button">📊</button>
+            <button class="icon-button" id="helpButton">❓</button>
+            <button class="icon-button">🔔</button>
+            <div class="user-icon" id="userIcon">
+                👤
+                <div class="user-dropdown" id="userDropdown">
+                    <div class="user-dropdown-item selected" data-type="admin">
+                        <strong>Admin User</strong>
+                        <div style="font-size: 12px; color: #b0b0b0;">Full system access</div>
+                    </div>
+                    <div class="user-dropdown-item" data-type="analyst">
+                        <strong>Security Analyst</strong>
+                        <div style="font-size: 12px; color: #b0b0b0;">Threat investigation</div>
+                    </div>
+                    <div class="user-dropdown-item" data-type="ciso">
+                        <strong>CISO</strong>
+                        <div style="font-size: 12px; color: #b0b0b0;">Executive oversight</div>
+                    </div>
+                    <div class="user-dropdown-item" data-type="viewer">
+                        <strong>Report Viewer</strong>
+                        <div style="font-size: 12px; color: #b0b0b0;">Read-only access</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Secondary Nav -->
+    <div class="secondary-nav">
+        <span>Credits Usage</span>
+        <span>⚙️ Data sources</span>
+        <span>Manage Reports</span>
+        <span style="margin-left: auto; font-size: 12px; color: #808080;">
+            Current User Type: <span id="currentUserType" style="color: #4a7ba7; font-weight: 600;">Admin User</span>
+        </span>
+    </div>
+
+    <!-- Main Tabs -->
+    <div class="main-tabs">
+        <div class="tab active" data-tab="devices">
+            📱 Devices
+            <span class="tab-help-icon" data-tooltip="devices">❓</span>
+        </div>
+        <div class="tab" data-tab="internet-facing">
+            🌐 Internet-Facing Assets
+            <span class="tab-help-icon" data-tooltip="internet-facing">❓</span>
+        </div>
+        <div class="tab" data-tab="accounts">
+            👥 Accounts
+            <span class="tab-help-icon" data-tooltip="accounts">❓</span>
+        </div>
+        <div class="tab" data-tab="applications">
+            📦 Applications
+            <span class="tab-help-icon" data-tooltip="applications">❓</span>
+        </div>
+        <div class="tab" data-tab="cloud-assets">
+            ☁️ Cloud Assets
+            <span class="tab-help-icon" data-tooltip="cloud-assets">❓</span>
+        </div>
+        <div class="tab" data-tab="apis">
+            🔌 APIs
+            <span class="tab-help-icon" data-tooltip="apis">❓</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Left Panel -->
+        <div class="left-panel">
+            <div class="stat-card">
+                <div class="stat-title">All discovered devices</div>
+                <div class="stat-value">15 <span class="stat-badge">0</span></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-title">Devices can be assessed for risk</div>
+                <div class="stat-value">15 <span class="stat-badge">0</span></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-title">Devices with managed agents</div>
+                <div class="stat-value">15 <span class="stat-badge">0</span></div>
+            </div>
+            <div style="margin-top: 20px; font-size: 12px; color: #808080; line-height: 1.5;">
+                Use the filter to modify the device detected period. For unmanaged devices, only devices detected in the last 30 days can be shown.
+            </div>
+        </div>
+
+        <!-- Center Panel -->
+        <div class="center-panel">
+            <div class="panel-header">DEVICE OVERVIEW</div>
+            <div class="chart-container">
+                <div class="chart-bar" style="height: 60%;">
+                    <div class="chart-label">Nov</div>
+                </div>
+                <div class="chart-bar" style="height: 80%;">
+                    <div class="chart-label">Dec</div>
+                </div>
+                <div class="chart-bar" style="height: 85%;">
+                    <div class="chart-label">Jan</div>
+                </div>
+                <div class="chart-bar" style="height: 90%;">
+                    <div class="chart-label">Feb</div>
+                </div>
+                <div class="chart-bar" style="height: 75%;">
+                    <div class="chart-label">Mar</div>
+                </div>
+                <div class="chart-bar" style="height: 95%;">
+                    <div class="chart-label">Apr</div>
+                </div>
+                <div class="chart-bar" style="height: 100%;">
+                    <div class="chart-label">May</div>
+                </div>
+                <div class="chart-bar" style="height: 88%;">
+                    <div class="chart-label">Jun</div>
+                </div>
+                <div class="chart-bar" style="height: 92%;">
+                    <div class="chart-label">Jul</div>
+                </div>
+                <div class="chart-bar" style="height: 85%;">
+                    <div class="chart-label">Aug</div>
+                </div>
+                <div class="chart-bar" style="height: 97%;">
+                    <div class="chart-label">Sep</div>
+                </div>
+                <div class="chart-bar" style="height: 93%;">
+                    <div class="chart-label">Oct</div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 30px; color: #808080; font-size: 12px;">
+                🔵 All discovered devices
+            </div>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="right-panel">
+            <div class="panel-header">CONTRIBUTING DATA SOURCES</div>
+            <div class="data-source-item">
+                <span class="source-name">Endpoint Sensor</span>
+                <div class="status-indicator">
+                    <span class="status-dot configured"></span>
+                    Configured
+                </div>
+            </div>
+            <div class="data-source-item">
+                <span class="source-name">Network Sensor</span>
+                <div class="status-indicator">
+                    <span class="status-dot not-configured"></span>
+                    Not configured
+                </div>
+            </div>
+            <div class="data-source-item">
+                <span class="source-name">Trend Micro Deep Discovery Inspector</span>
+                <div class="status-indicator">
+                    <span class="status-dot not-configured"></span>
+                    Not configured
+                </div>
+            </div>
+            <div class="data-source-item">
+                <span class="source-name">Standard Endpoint Protection</span>
+                <div class="status-indicator">
+                    <span class="status-dot configured"></span>
+                    Configured
+                </div>
+            </div>
+            <div class="data-source-item">
+                <span class="source-name">Trend Micro Apex One as a Service</span>
+                <div class="status-indicator">
+                    <span class="status-dot not-configured"></span>
+                    Not configured
+                </div>
+            </div>
+            <div class="data-source-item">
+                <span class="source-name">Trend Micro Apex One On-premises</span>
+                <div class="status-indicator">
+                    <span class="status-dot not-configured"></span>
+                    Not configured
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Device List Table -->
+    <div style="padding: 0 20px 20px 20px;">
+        <div class="device-table">
+            <div class="table-header">
+                <div class="table-title">DEVICE LIST (15) ℹ️</div>
+                <div>
+                    <button style="padding: 8px 16px; background-color: #3d3d3d; border: none; color: #b0b0b0; border-radius: 4px; cursor: pointer; margin-right: 8px;">📤 Export</button>
+                    <button style="padding: 8px 16px; background-color: #3d3d3d; border: none; color: #b0b0b0; border-radius: 4px; cursor: pointer;">📋 Exception List</button>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <th>Device name</th>
+                        <th>Asset risk score ⬇️</th>
+                        <th>Device type</th>
+                        <th>Device category</th>
+                        <th>Operating system</th>
+                        <th>IP address</th>
+                        <th>Last user</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="device-name">Endpoint-M-CS1\ttrium...</td>
+                        <td class="risk-score">38.0</td>
+                        <td>Desktop</td>
+                        <td>IT</td>
+                        <td>Microsoft Windows...</td>
+                        <td>172.16.31.27</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="device-name">Endpoint-M-CS3\ttrium...</td>
+                        <td class="risk-score">38.0</td>
+                        <td>Desktop</td>
+                        <td>IT</td>
+                        <td>Microsoft Windows...</td>
+                        <td>172.16.30.71</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="device-name">Endpoint-M-CS2\ttrium...</td>
+                        <td class="risk-score">38.0</td>
+                        <td>Desktop</td>
+                        <td>IT</td>
+                        <td>Microsoft Windows...</td>
+                        <td>172.16.30.142</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="device-name">win10-vm-devc2-</td>
+                        <td class="risk-score">0.0</td>
+                        <td>Desktop</td>
+                        <td>IT</td>
+                        <td>Windows 10 10.0...</td>
+                        <td>10.0.0.4</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="device-name">Endpoint-M-AS1</td>
+                        <td class="risk-score">0.0</td>
+                        <td>Desktop</td>
+                        <td>IT</td>
+                        <td>Windows 10 10.0...</td>
+                        <td>10.209.63.177</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Sliding Documentation Panel -->
+    <div class="docs-panel" id="docsPanel">
+        <button class="panel-close" id="closePanel">×</button>
+        <div class="panel-content" id="panelContent">
+            <div class="loading">
+                <div class="spinner"></div>
+                <div>Loading personalized help...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tooltip Bubble -->
+    <div class="tooltip-bubble" id="tooltipBubble">
+        <div class="tooltip-header">
+            <span class="tooltip-title" id="tooltipTitle">Tab Help</span>
+            <button class="tooltip-close" id="tooltipClose">×</button>
+        </div>
+        <div class="tooltip-content" id="tooltipContent">
+            Loading...
+        </div>
+    </div>
+
+    <script>
+        // User type management
+        let currentUserType = 'admin';
+        
+        const userIcon = document.getElementById('userIcon');
+        const userDropdown = document.getElementById('userDropdown');
+        const currentUserTypeDisplay = document.getElementById('currentUserType');
+        
+        // Toggle user dropdown
+        userIcon.addEventListener('click', (e) => {
+            e.stopPropagation();
+            userDropdown.classList.toggle('active');
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!userIcon.contains(e.target)) {
+                userDropdown.classList.remove('active');
+            }
+        });
+        
+        // Handle user type selection
+        document.querySelectorAll('.user-dropdown-item').forEach(item => {
+            item.addEventListener('click', () => {
+                // Remove selected class from all items
+                document.querySelectorAll('.user-dropdown-item').forEach(i => {
+                    i.classList.remove('selected');
+                });
+                
+                // Add selected class to clicked item
+                item.classList.add('selected');
+                
+                // Update current user type
+                currentUserType = item.dataset.type;
+                currentUserTypeDisplay.textContent = item.querySelector('strong').textContent;
+                
+                // Close dropdown
+                userDropdown.classList.remove('active');
+                
+                console.log('User type changed to:', currentUserType);
+            });
+        });
+        
+        // Help button - open sliding panel
+        const helpButton = document.getElementById('helpButton');
+        const docsPanel = document.getElementById('docsPanel');
+        const closePanel = document.getElementById('closePanel');
+        const panelContent = document.getElementById('panelContent');
+        
+        helpButton.addEventListener('click', () => {
+            docsPanel.classList.add('open');
+            loadPersonalizedDocs();
+        });
+        
+        closePanel.addEventListener('click', () => {
+            docsPanel.classList.remove('open');
+        });
+        
+        // Mock function to load personalized documentation
+        function loadPersonalizedDocs() {
+            // Show loading
+            panelContent.innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <div>Loading personalized help for ${currentUserType}...</div>
+                </div>
+            `;
+            
+            // Simulate API call delay
+            setTimeout(() => {
+                const content = getPersonalizedContent(currentUserType);
+                panelContent.innerHTML = content;
+            }, 1500);
+        }
+        
+        // Mock personalized content based on user type
+        function getPersonalizedContent(userType) {
+            const contexts = {
+                admin: {
+                    title: 'Attack Surface Discovery',
+                    whatIs: 'The Attack Surface Discovery module provides comprehensive visibility into all devices across your organization\'s network. As an administrator, you can configure data sources, manage device policies, and assess risk scores across your entire infrastructure. This view helps you identify potential security gaps and ensure proper coverage of security controls.',
+                    howTo: [
+                        'Configure new data sources and sensors',
+                        'Review and adjust device risk scoring parameters',
+                        'Set up automated compliance reporting',
+                        'Manage exception lists for false positives',
+                        'Export device inventory for audit purposes'
+                    ]
+                },
+                analyst: {
+                    title: 'Attack Surface Discovery',
+                    whatIs: 'The Attack Surface Discovery dashboard shows all detected devices that may require investigation. As a security analyst, you can quickly identify high-risk devices, investigate anomalies, and track device status changes over time. Focus on devices with elevated risk scores or unusual network behavior to prioritize your investigation efforts.',
+                    howTo: [
+                        'Identify devices with high risk scores for investigation',
+                        'Filter devices by specific risk factors or categories',
+                        'Track device behavior changes over time',
+                        'Investigate unmanaged or unknown devices',
+                        'Correlate device data with threat intelligence'
+                    ]
+                },
+                ciso: {
+                    title: 'Attack Surface Discovery',
+                    whatIs: 'Attack Surface Discovery provides executive visibility into your organization\'s digital exposure and asset inventory. This strategic view helps you understand the scope of devices under management, assess overall security posture, and identify gaps in coverage. Use these metrics to communicate risk to the board, justify security investments, and track progress on reducing organizational attack surface.',
+                    howTo: [
+                        'Review attack surface trends for board reporting',
+                        'Assess coverage gaps and prioritize security investments',
+                        'Track compliance status across device inventory',
+                        'Evaluate ROI of security control deployments',
+                        'Generate executive dashboards for stakeholder communication'
+                    ]
+                },
+                viewer: {
+                    title: 'Attack Surface Discovery',
+                    whatIs: 'This overview displays discovered devices across your organization\'s network. You can view device statistics, risk trends, and data source status. Use the charts and tables to understand your organization\'s device landscape and identify patterns in the data. For detailed investigations or configuration changes, contact your security team.',
+                    howTo: [
+                        'View current device inventory and statistics',
+                        'Monitor device discovery trends over time',
+                        'Review data source connection status',
+                        'Export reports for stakeholder presentations',
+                        'Identify devices that need attention from your team'
+                    ]
+                }
+            };
+            
+            const ctx = contexts[userType];
+            
+            return `
+                <div class="panel-title">${ctx.title}</div>
+                
+                <div class="section-title">What is this?</div>
+                <div class="section-content">
+                    ${ctx.whatIs}
+                </div>
+                
+                <div class="section-title">How to:</div>
+                <ul class="how-to-list">
+                    ${ctx.howTo.map(item => `<li>${item}</li>`).join('')}
+                </ul>
+                
+                <div class="action-buttons">
+                    <button class="action-button primary">
+                        💬 Chat with Companion
+                    </button>
+                    <button class="action-button">
+                        📖 Open Full Documentation
+                    </button>
+                </div>
+            `;
+        }
+        
+        // Add dynamic tooltip on hover for chart bars
+        document.querySelectorAll('.chart-bar').forEach((bar, index) => {
+            bar.addEventListener('mouseenter', (e) => {
+                const tooltip = document.createElement('div');
+                tooltip.style.position = 'absolute';
+                tooltip.style.backgroundColor = '#2d2d2d';
+                tooltip.style.border = '1px solid #4a7ba7';
+                tooltip.style.padding = '8px 12px';
+                tooltip.style.borderRadius = '4px';
+                tooltip.style.fontSize = '12px';
+                tooltip.style.zIndex = '1000';
+                tooltip.style.pointerEvents = 'none';
+                tooltip.textContent = `Devices: ${12 + index * 2}`;
+                tooltip.id = 'chart-tooltip';
+                
+                document.body.appendChild(tooltip);
+                
+                const rect = bar.getBoundingClientRect();
+                tooltip.style.left = rect.left + (rect.width / 2) - (tooltip.offsetWidth / 2) + 'px';
+                tooltip.style.top = rect.top - tooltip.offsetHeight - 10 + 'px';
+            });
+            
+            bar.addEventListener('mouseleave', () => {
+                const tooltip = document.getElementById('chart-tooltip');
+                if (tooltip) tooltip.remove();
+            });
+        });
+        
+        // Tooltip Management
+        const tooltipBubble = document.getElementById('tooltipBubble');
+        const tooltipTitle = document.getElementById('tooltipTitle');
+        const tooltipContent = document.getElementById('tooltipContent');
+        const tooltipClose = document.getElementById('tooltipClose');
+        let currentTooltip = null;
+        
+        // Tooltip content by tab and user type
+        const tooltipData = {
+            devices: {
+                admin: {
+                    title: 'Devices',
+                    content: 'View and manage all endpoints across your network. Configure device policies, assess risk scores, and ensure comprehensive coverage. Use this view to identify unmanaged devices and verify sensor deployments.'
+                },
+                analyst: {
+                    title: 'Devices',
+                    content: 'Investigate endpoints for potential threats or anomalies. Focus on high-risk devices, track behavioral changes, and identify devices that may be compromised or exhibiting unusual activity.'
+                },
+                ciso: {
+                    title: 'Devices',
+                    content: 'Executive overview of endpoint security posture. Assess device coverage, track compliance metrics, and identify gaps in protection that may require investment or policy changes.'
+                },
+                viewer: {
+                    title: 'Devices',
+                    content: 'View discovered devices across your organization. Monitor device inventory trends and review current statistics. Contact your security team for detailed analysis or configuration changes.'
+                }
+            },
+            'internet-facing': {
+                admin: {
+                    title: 'Internet-Facing Assets',
+                    content: 'Manage external-facing infrastructure including web servers, mail servers, and remote access points. Configure scanning policies and manage vulnerability assessments for exposed assets.'
+                },
+                analyst: {
+                    title: 'Internet-Facing Assets',
+                    content: 'Monitor external attack surface for potential exploitation attempts. Prioritize investigation of publicly exposed assets with known vulnerabilities or suspicious access patterns.'
+                },
+                ciso: {
+                    title: 'Internet-Facing Assets',
+                    content: 'Strategic view of your organization\'s external exposure. Understand which assets are internet-accessible, assess associated risks, and track efforts to minimize attack surface.'
+                },
+                viewer: {
+                    title: 'Internet-Facing Assets',
+                    content: 'View your organization\'s internet-facing infrastructure. Review which assets are publicly accessible and their current security status.'
+                }
+            },
+            accounts: {
+                admin: {
+                    title: 'Accounts',
+                    content: 'Manage user accounts and access permissions across your environment. Configure authentication policies, review privileged accounts, and enforce least-privilege principles.'
+                },
+                analyst: {
+                    title: 'Accounts',
+                    content: 'Investigate suspicious account activity including unusual logins, privilege escalations, and credential misuse. Track account behavior patterns to identify potential compromises.'
+                },
+                ciso: {
+                    title: 'Accounts',
+                    content: 'Oversight of identity and access management posture. Review privileged account usage, assess authentication controls, and track identity-related risk metrics.'
+                },
+                viewer: {
+                    title: 'Accounts',
+                    content: 'View account inventory and activity summaries. Monitor user authentication trends and review current account statistics.'
+                }
+            },
+            applications: {
+                admin: {
+                    title: 'Applications',
+                    content: 'Manage discovered applications across your environment. Track software inventory, identify unauthorized applications, and configure application control policies.'
+                },
+                analyst: {
+                    title: 'Applications',
+                    content: 'Investigate application behavior and identify potentially malicious software. Focus on unknown applications, suspicious processes, and anomalous application activity.'
+                },
+                ciso: {
+                    title: 'Applications',
+                    content: 'Strategic view of application landscape. Understand software inventory, assess application-related risks, and track shadow IT or unauthorized software usage.'
+                },
+                viewer: {
+                    title: 'Applications',
+                    content: 'View discovered applications across your organization. Review application inventory and usage statistics.'
+                }
+            },
+            'cloud-assets': {
+                admin: {
+                    title: 'Cloud Assets',
+                    content: 'Manage cloud infrastructure across AWS, Azure, GCP, and other providers. Configure cloud security policies, monitor misconfigurations, and ensure compliance with cloud best practices.'
+                },
+                analyst: {
+                    title: 'Cloud Assets',
+                    content: 'Investigate cloud-based threats and misconfigurations. Focus on exposed storage, overly permissive access controls, and suspicious activity in cloud environments.'
+                },
+                ciso: {
+                    title: 'Cloud Assets',
+                    content: 'Executive oversight of cloud security posture. Assess multi-cloud risk exposure, track cloud adoption patterns, and evaluate cloud security investments and controls.'
+                },
+                viewer: {
+                    title: 'Cloud Assets',
+                    content: 'View cloud infrastructure inventory across providers. Review cloud asset statistics and current security status.'
+                }
+            },
+            apis: {
+                admin: {
+                    title: 'APIs',
+                    content: 'Manage API endpoints and integrations. Configure API security policies, monitor API usage, and track API vulnerabilities or authentication issues.'
+                },
+                analyst: {
+                    title: 'APIs',
+                    content: 'Investigate API abuse, unauthorized access attempts, and anomalous API usage patterns. Identify APIs that may be targets for exploitation or data exfiltration.'
+                },
+                ciso: {
+                    title: 'APIs',
+                    content: 'Strategic view of API security landscape. Understand API exposure, assess data access risks through APIs, and track API security governance.'
+                },
+                viewer: {
+                    title: 'APIs',
+                    content: 'View API endpoints discovered in your environment. Review API inventory and connection statistics.'
+                }
+            }
+        };
+        
+        // Handle tooltip icon clicks
+        document.querySelectorAll('.tab-help-icon').forEach(icon => {
+            icon.addEventListener('click', (e) => {
+                e.stopPropagation();
+                
+                const tabType = icon.dataset.tooltip;
+                const data = tooltipData[tabType][currentUserType];
+                
+                // Update tooltip content
+                tooltipTitle.innerHTML = `${data.title} <span class="tooltip-badge">AI</span>`;
+                tooltipContent.textContent = data.content;
+                
+                // Position tooltip
+                const rect = icon.getBoundingClientRect();
+                tooltipBubble.style.left = rect.left - 160 + 'px';
+                tooltipBubble.style.top = rect.bottom + 10 + 'px';
+                
+                // Show tooltip
+                tooltipBubble.classList.add('active');
+                currentTooltip = tabType;
+            });
+        });
+        
+        // Close tooltip
+        tooltipClose.addEventListener('click', () => {
+            tooltipBubble.classList.remove('active');
+            currentTooltip = null;
+        });
+        
+        // Close tooltip when clicking outside
+        document.addEventListener('click', (e) => {
+            if (currentTooltip && 
+                !tooltipBubble.contains(e.target) && 
+                !e.target.classList.contains('tab-help-icon')) {
+                tooltipBubble.classList.remove('active');
+                currentTooltip = null;
+            }
+        });
+        
+        console.log('Trend Vision One Mock Console loaded!');
+        console.log('Current user type:', currentUserType);
+    </script>
+</body>
+</html>

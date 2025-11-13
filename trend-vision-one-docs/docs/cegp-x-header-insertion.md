@@ -1,0 +1,11 @@
+---
+category: Email and Collaboration Security
+change_date: 2024-04-19T00:00:00Z
+is_what_new: true
+slug: trend-vision-one-cegp-x-header-insertion
+title: Cloud Email Gateway Protection supports X-Header insertion for messages matching scan exceptions
+---
+
+April 19, 2024—Cloud Email Gateway Protection allows you to leverage the action "Insert X-Header" for messages matching scan exceptions in virus scan to meet your specific needs, for example, identify the specific scan exception for subsequent processing.
+
+**Email and Collaboration Security → Cloud Email Gateway Protection**
