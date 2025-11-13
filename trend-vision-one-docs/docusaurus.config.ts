@@ -65,9 +65,9 @@ const config: Config = {
     //image: 'img/docusaurus-social-card.jpg',
     navbar: {
       style: "dark",
-      title: "Online Help Center", // The title that appears in the navbar
+      title: "", // Custom title handled in Logo component
       logo: {
-        alt: "Trend Micro Online Help Center",
+        alt: "Trend Vision One",
         src: "brand/logo.png",
       },
       items: [

@@ -1,6 +1,13 @@
 /**
- * Custom CSS for Deep Security documentation
+ * Custom CSS for Trend Vision One documentation
  */
+
+/* Custom navbar title styling */
+.navbar__title--custom {
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
+  color: var(--ifm-navbar-link-color);
+}
 
 :root {
   --ifm-color-primary: #d71921;
