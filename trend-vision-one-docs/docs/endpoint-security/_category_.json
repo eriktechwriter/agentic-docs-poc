@@ -1,0 +1,9 @@
+{
+  "position": 17,
+  "label": "Endpoint Security",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/index"
+  },
+  "collapsed": true
+}

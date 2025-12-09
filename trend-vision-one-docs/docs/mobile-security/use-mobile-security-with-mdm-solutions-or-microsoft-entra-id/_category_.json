@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Use Mobile Security with MDM solutions or Microsoft Entra ID",
+  "link": {
+    "type": "doc",
+    "id": "mobile-security/use-mobile-security-with-mdm-solutions-or-microsoft-entra-id/index"
+  },
+  "collapsed": true
+}

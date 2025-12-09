@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Deployment guides",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/getting-started-with-zero-trust-secure-access/deployment-guides/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,13 @@
+---
+slug: trend-vision-one-unusual-product-behavior-events
+sidebar_position: 1
+title: Unusual Product Behavior Events
+---
+
+Use the **Event Notifications** screen to enable and configure notifications for unusual product behaviors detected on your network.
+
+**Related information**
+
+- [Managed Product Unreachable](./managed-product-unreachable)
+- [Real-time Scan Disabled](./realtime-scan-disabled-apex)
+- [Real-time Scan Enabled](./realtime-scan-enabled-apex)

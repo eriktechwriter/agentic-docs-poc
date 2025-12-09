@@ -1,0 +1,21 @@
+---
+slug: trend-vision-one-slack-communication-2
+sidebar_position: 5
+title: Slack communication
+---
+
+Trend Vision One™ – Cloud Risk Management supports notifications sent via Slack. These notifications will be sent to user-created Slack channels with all relevant Slack users receiving the alerts.
+
+### Set up a Slack channel {#set-up-a-slack-channel}
+
+1.  Click on *Create another Slack channel*
+2.  [Set automatic notifications](../../../../../../cyber-risk-exposure-management/security-posture-management/cloud-risk-management/misconfiguration-and-compliance/communication-and-notification/communication-settings/toggle-automatic-notifications)
+3.  [Configure Triggers](../../../../../../cyber-risk-exposure-management/security-posture-management/cloud-risk-management/misconfiguration-and-compliance/communication-and-notification/communication-settings/communication-triggers)
+4.  *Configure now* will allow the addition of Slack channel using the following parameters
+    1.  *Webhook URL*
+    2.  *Channel Name*
+    3.  *Include "Introduced by"* - User who introduced the failure
+    4.  *Include "Resource"* - Resource ID or Name
+    5.  *Include "Tags"* - Tags associated with the resource
+    6.  *Include "Extra Data"-* data associated with Availability Zone, Create Time, Instance Id, Size, and Type of Rule failure.
+    7.  [Copy communication settings](../../../../../../cyber-risk-exposure-management/security-posture-management/cloud-risk-management/misconfiguration-and-compliance/communication-and-notification/communication-settings/copy-communication-settings)

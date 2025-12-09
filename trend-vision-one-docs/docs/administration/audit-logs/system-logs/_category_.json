@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "System logs",
+  "link": {
+    "type": "doc",
+    "id": "administration/audit-logs/system-logs/index"
+  },
+  "collapsed": true
+}

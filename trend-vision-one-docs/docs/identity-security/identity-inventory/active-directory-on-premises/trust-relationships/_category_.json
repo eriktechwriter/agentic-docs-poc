@@ -1,0 +1,9 @@
+{
+  "position": 7,
+  "label": "Trust Relationships",
+  "link": {
+    "type": "doc",
+    "id": "identity-security/identity-inventory/active-directory-on-premises/trust-relationships/index"
+  },
+  "collapsed": true
+}

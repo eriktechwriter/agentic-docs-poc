@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Response Management",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/response-management/index"
+  },
+  "collapsed": true
+}

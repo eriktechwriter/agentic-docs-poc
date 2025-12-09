@@ -1,0 +1,79 @@
+---
+slug: trend-vision-one-ports-urls-used-network-sensor
+sidebar_position: 5
+title: Ports and firewall exceptions for Virtual Network Sensor
+---
+
+Use these settings to configure your firewall and connected products.
+
+In order for Virtual Network Sensor to send data to **Network Security**, configure your products with the following settings:
+
+- Firewall exceptions for Virtual Network Sensor. For details, see [Firewall exception requirements for Trend Vision One](../../../getting-started/getting-started-with-trend-vision-one/firewall-exception-requirements-for-trend-vision-one).
+
+- Ports used by Virtual Network Sensor as listed below
+
+**Listen Ports**
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr>
+<th>Port</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p>22</p></td>
+<td><p>CLISH console connection, log (if the Virtual Network Sensor is registered in SSH)</p></td>
+</tr>
+<tr>
+<td><p>68</p></td>
+<td><p>DHCP server responses</p></td>
+</tr>
+<tr>
+<td><p>80</p></td>
+<td><p>Debug log export</p></td>
+</tr>
+</tbody>
+</table>
+
+**Outbound Ports**
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr>
+<th>Port</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p>53</p></td>
+<td><p>DNS resolution</p></td>
+</tr>
+<tr>
+<td><p>67</p></td>
+<td><p>Requests to DHCP server if IP addresses are assigned dynamically</p></td>
+</tr>
+<tr>
+<td><p>123</p></td>
+<td><p>Connection to NTP server for time synchronization (default NTP server: <code>pool.ntp.org</code>)</p></td>
+</tr>
+<tr>
+<td><p>137</p></td>
+<td><p>IP address to host name resolution through NetBIOS</p></td>
+</tr>
+<tr>
+<td><p>443</p></td>
+<td><p>Smart Protection Network anonymous threat information sharing</p></td>
+</tr>
+</tbody>
+</table>

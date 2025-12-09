@@ -1,0 +1,19 @@
+---
+slug: trend-vision-one-attachment-match-keyword-criteria
+sidebar_position: 14
+title: Using attachment content matches keyword criteria
+---
+
+The **Attachment content matches** "**keyword expressions**" criteria allows you to create policy rules that take actions on messages based on keyword expressions contained in a message.
+
+### Procedure {#procedure}
+
+1.  On the **Scanning Criteria** tab, click **Advanced**.
+
+2.  Select the **Attachment content matches** "**keyword expressions**" criteria.
+
+3.  Click the "**keyword expressions**" link.
+
+    The **Attachment Content Keyword Expressions** screen appears.
+
+4.  Configure the keywords.

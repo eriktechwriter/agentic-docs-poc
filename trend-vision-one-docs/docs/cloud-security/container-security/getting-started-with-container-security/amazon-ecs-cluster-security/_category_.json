@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Amazon ECS cluster security",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/getting-started-with-container-security/amazon-ecs-cluster-security/index"
+  },
+  "collapsed": true
+}

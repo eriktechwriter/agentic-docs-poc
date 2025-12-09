@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Domain-based authentication",
+  "link": {
+    "type": "doc",
+    "id": "email-and-collaboration-security/cloud-email-gateway-protection/inbound-and-outbound-protection/domain-based-authentication/index"
+  },
+  "collapsed": true
+}

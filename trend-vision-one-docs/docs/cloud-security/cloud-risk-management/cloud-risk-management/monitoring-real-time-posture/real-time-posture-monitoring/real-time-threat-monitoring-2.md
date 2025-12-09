@@ -1,0 +1,53 @@
+---
+slug: trend-vision-one-real-time-threat-monitoring-2
+sidebar_position: 1
+title: Real-Time Posture Monitoring
+---
+
+Trend Vision One™ – Cloud Risk Management Real-Time Posture Monitoring (RTPM) provides live monitoring with instant threat and remediation alerts for activities and events within your [AWS , Azure, and Google Cloud accounts](https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-real-time-threat-mon).
+
+Cloud Risk Management RTPM ingests raw events to allow you to easily monitor your environment, and supports updating Checks for a subset of Rules in near real-time. You can view our documentation listing the [Cloud Risk Management Rules supported by RTPM](https://docs.trendmicro.com/en-us/documentation/article/trend-micro-cloud-one-conformity-rules).
+
+Real-Time Posture Monitoring offers two *key features*:
+
+### Procedure {#procedure}
+
+1.  [Activity Dashboard](../../../../../cyber-risk-exposure-management/security-posture-management/cloud-risk-management/monitoring-real-time-posture/activity-dashboard) - identify unusual user activities
+
+2.  [Monitoring Dashboard](../../../../../cyber-risk-exposure-management/security-posture-management/cloud-risk-management/monitoring-real-time-posture/monitoring-dashboard) - get an in-depth record of all events in an AWS account
+
+### Next steps {#next-steps}
+
+*What's the number of rules RTPM covers once it's enabled?*
+
+- 8 pure RTPM rules, running for any kind of events
+- 25+ additional rules looking for events of significance.For example, internet gateway config changes
+- 350+ rules running in real-time whenever resources are modified\_
+
+  :::note
+  The number of rules covered does not match the\_ [total number of rules](../../../../../cyber-risk-exposure-management/security-posture-management/cloud-risk-management/misconfiguration-and-compliance/misconfiguration-and-compliance-rules/introduction-to-cloud-risk-management-rules/introduction-rules) that Cloud Risk Management supports. This is because RTPM is set up to cover the most used AWS services. New services or not-so-critical services are not integrated with RTPM
+  :::
+- The services for which we have extensive but not necessarily complete coverage are:
+  - S3
+  - EC2
+  - ELB
+  - Auto Scaling
+  - CloudFormation
+  - IAM
+  - DynamoDB
+  - Lambda
+  - CloudFront
+
+## Set up Real-Time Posture Monitoring {#set-up-real-time-posture-monitoring}
+
+### Procedure {#procedure-1}
+
+1.  Follow the instructions on [setting up Real-Time Posture Monitoring](../../../../../cyber-risk-exposure-management/security-posture-management/cloud-risk-management/monitoring-real-time-posture/realtime-threat-monitor)
+
+## Access Real-Time Posture Monitoring {#access-real-time-posture-monitoring}
+
+### Procedure {#procedure-2}
+
+1.  Select an Account where Real-Time monitoring is enabled
+
+2.  Open the *Main Dashboard* to view the Activity and Monitoring Dashboards

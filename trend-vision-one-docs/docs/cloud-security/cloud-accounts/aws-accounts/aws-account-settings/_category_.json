@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "AWS Account Settings",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/cloud-accounts/aws-accounts/aws-account-settings/index"
+  },
+  "collapsed": true
+}

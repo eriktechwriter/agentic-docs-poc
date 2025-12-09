@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Deploy a Virtual Appliance",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/file-security/file-security-virtual-appliance/deploy-a-virtual-appliance/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Reports",
+  "link": {
+    "type": "doc",
+    "id": "dashboards-and-reports/reports/index"
+  },
+  "collapsed": true
+}

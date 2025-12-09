@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Load balancing for containerized ICAP scanners",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/file-security/file-security-containerized-scanner/icap-protocol-and-containerized-scanner/load-balancing-for-containerized-icap-scanners/index"
+  },
+  "collapsed": true
+}

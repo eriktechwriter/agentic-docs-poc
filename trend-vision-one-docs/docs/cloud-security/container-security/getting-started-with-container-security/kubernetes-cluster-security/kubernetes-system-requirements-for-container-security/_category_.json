@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Kubernetes system requirements for Container Security",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/getting-started-with-container-security/kubernetes-cluster-security/kubernetes-system-requirements-for-container-security/index"
+  },
+  "collapsed": true
+}

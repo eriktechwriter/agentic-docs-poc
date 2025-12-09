@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Container Image Scanning",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/log/container-image-scanning/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Manage compartment settings",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/cloud-accounts/oracle-cloud-infrastructure-oci-compartments/manage-compartment-settings/index"
+  },
+  "collapsed": true
+}

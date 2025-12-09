@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Asset Visibility Management",
+  "link": {
+    "type": "doc",
+    "id": "service-management/asset-visibility-management/index"
+  },
+  "collapsed": true
+}

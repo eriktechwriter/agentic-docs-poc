@@ -1,0 +1,9 @@
+{
+  "position": 8,
+  "label": "IP address groups",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-resources/ip-address-groups/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Connect Google GKE clusters",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/getting-started-with-container-security/kubernetes-cluster-security/connect-google-gke-clusters/index"
+  },
+  "collapsed": true
+}

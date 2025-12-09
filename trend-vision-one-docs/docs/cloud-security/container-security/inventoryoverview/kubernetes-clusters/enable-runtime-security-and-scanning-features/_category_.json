@@ -1,0 +1,9 @@
+{
+  "position": 9,
+  "label": "Enable Runtime Security and scanning features",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/inventoryoverview/kubernetes-clusters/enable-runtime-security-and-scanning-features/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Network Inventory",
+  "link": {
+    "type": "doc",
+    "id": "network-security/network-inventory/index"
+  },
+  "collapsed": true
+}

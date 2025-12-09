@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Amazon ECS clusters",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/inventoryoverview/amazon-ecs-clusters/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Primary User Account",
+  "link": {
+    "type": "doc",
+    "id": "administration/user-accounts/primary-user-account/index"
+  },
+  "collapsed": true
+}

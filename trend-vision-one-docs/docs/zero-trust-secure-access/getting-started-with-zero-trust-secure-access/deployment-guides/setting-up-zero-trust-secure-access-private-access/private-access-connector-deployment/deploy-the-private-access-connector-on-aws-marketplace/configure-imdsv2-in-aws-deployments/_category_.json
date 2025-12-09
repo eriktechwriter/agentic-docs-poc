@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Configure IMDSv2 in AWS deployments",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/getting-started-with-zero-trust-secure-access/deployment-guides/setting-up-zero-trust-secure-access-private-access/private-access-connector-deployment/deploy-the-private-access-connector-on-aws-marketplace/configure-imdsv2-in-aws-deployments/index"
+  },
+  "collapsed": true
+}

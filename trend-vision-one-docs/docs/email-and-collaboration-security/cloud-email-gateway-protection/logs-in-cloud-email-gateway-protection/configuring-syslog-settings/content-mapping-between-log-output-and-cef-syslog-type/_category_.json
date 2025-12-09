@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Content mapping between log output and CEF syslog type",
+  "link": {
+    "type": "doc",
+    "id": "email-and-collaboration-security/cloud-email-gateway-protection/logs-in-cloud-email-gateway-protection/configuring-syslog-settings/content-mapping-between-log-output-and-cef-syslog-type/index"
+  },
+  "collapsed": true
+}

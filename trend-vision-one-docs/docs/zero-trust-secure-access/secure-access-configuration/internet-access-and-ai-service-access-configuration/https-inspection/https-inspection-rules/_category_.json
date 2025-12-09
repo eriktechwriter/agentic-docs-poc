@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "HTTPS inspection rules",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-configuration/internet-access-and-ai-service-access-configuration/https-inspection/https-inspection-rules/index"
+  },
+  "collapsed": true
+}

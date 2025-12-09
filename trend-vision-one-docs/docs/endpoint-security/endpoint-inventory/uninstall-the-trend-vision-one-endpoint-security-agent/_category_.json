@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Uninstall the Trend Vision One Endpoint Security agent",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/endpoint-inventory/uninstall-the-trend-vision-one-endpoint-security-agent/index"
+  },
+  "collapsed": true
+}

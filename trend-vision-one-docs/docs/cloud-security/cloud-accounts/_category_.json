@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Cloud Accounts",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/cloud-accounts/index"
+  },
+  "collapsed": true
+}

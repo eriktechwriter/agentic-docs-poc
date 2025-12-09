@@ -1,0 +1,33 @@
+---
+slug: trend-vision-one-setup-ztsa-private-access
+sidebar_position: 1
+title: Setting up Zero Trust Secure Access Private Access
+---
+
+Prepare your environment with Private Access Connectors, Secure Access Modules, and identify your corporate resources.
+
+Zero Trust Secure Access Private Access requires that you set up your environment and identify your corporate resources before creating rules that control user and device access.
+
+The following lists out the high-level overview of the steps involved in setting up your Zero Trust Private Access environment.
+
+1.  [Integrate your identity and access management (IAM) system](./identity-and-access-management-integration) or add [local user accounts](../../../secure-access-configuration/identity-and-access-management-iam/local-user-account-management).
+
+2.  [Deploy Private Access Connectors](./private-access-connector-deployment) to the cloud and local infrastructure that host your corporate applications.
+
+3.  Choose how your end users and devices can access internal applications.
+
+    - [Deploy the Secure Access Module](./secure-access-module-deployment) to secure end user access through managed devices.
+
+    - [Set up a User Portal](./user-portal-for-pa-config) to allow end users to access applications through a browser.
+
+4.  [Add your internal applications](../../../secure-access-configuration/private-access-configuration/internal-application-configuration/add-an-internal-application-to-private-access) to Zero Trust Secure Access Private Access.
+
+5.  Manage access to corporate resources and the internet with [private access rules](../../../secure-access-rules/creating-pac-rule).
+
+**Related information**
+
+- [Identity and access management integration](./identity-and-access-management-integration "Integrate a supported IAM system with Zero Trust Secure Access and grant the required permissions.")
+- [Private Access Connector deployment](./private-access-connector-deployment "Deploy one or multiple Private Access Connectors to the supported platforms.")
+- [Secure Access Module deployment](./secure-access-module-deployment)
+- [Connector Site Configuration Through the CLI](./connector-site-configuration-cli)
+- [User portal for Private Access configuration](./user-portal-for-pa-config "Configure a web-based user portal to ensure that all user traffic is validated even when the Secure Access Module is not available.")

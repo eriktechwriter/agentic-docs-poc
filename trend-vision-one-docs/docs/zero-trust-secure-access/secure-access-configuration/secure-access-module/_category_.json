@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Secure Access Module",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-configuration/secure-access-module/index"
+  },
+  "collapsed": true
+}

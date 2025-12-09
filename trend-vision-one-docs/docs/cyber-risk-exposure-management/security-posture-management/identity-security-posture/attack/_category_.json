@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Attack",
+  "link": {
+    "type": "doc",
+    "id": "cyber-risk-exposure-management/security-posture-management/identity-security-posture/attack/index"
+  },
+  "collapsed": true
+}

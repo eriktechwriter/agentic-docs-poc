@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "AWS S3 bucket connector",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/aws-s3-bucket-connector/index"
+  },
+  "collapsed": true
+}

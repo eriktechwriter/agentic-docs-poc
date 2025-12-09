@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Configure accounts",
+  "link": {
+    "type": "doc",
+    "id": "administration/user-accounts/configure-accounts/index"
+  },
+  "collapsed": true
+}

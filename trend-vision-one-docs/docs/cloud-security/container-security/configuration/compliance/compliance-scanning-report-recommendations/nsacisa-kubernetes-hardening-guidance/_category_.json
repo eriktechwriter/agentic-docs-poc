@@ -1,0 +1,9 @@
+{
+  "position": 7,
+  "label": "NSA/CISA Kubernetes Hardening Guidance",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/configuration/compliance/compliance-scanning-report-recommendations/nsacisa-kubernetes-hardening-guidance/index"
+  },
+  "collapsed": true
+}

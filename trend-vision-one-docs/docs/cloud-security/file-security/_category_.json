@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "File Security",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/file-security/index"
+  },
+  "collapsed": true
+}

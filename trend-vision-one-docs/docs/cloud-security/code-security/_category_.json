@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Code Security",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/code-security/index"
+  },
+  "collapsed": true
+}

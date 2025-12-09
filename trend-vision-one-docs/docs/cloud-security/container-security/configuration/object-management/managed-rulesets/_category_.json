@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Managed rulesets",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/configuration/object-management/managed-rulesets/index"
+  },
+  "collapsed": true
+}

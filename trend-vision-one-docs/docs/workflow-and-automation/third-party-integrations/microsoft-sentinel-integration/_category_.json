@@ -1,0 +1,9 @@
+{
+  "position": 29,
+  "label": "Microsoft Sentinel integration",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/microsoft-sentinel-integration/index"
+  },
+  "collapsed": true
+}

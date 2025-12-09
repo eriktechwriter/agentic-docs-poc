@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Integrate AI Guard",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/ai-application-security/integrate-ai-guard/index"
+  },
+  "collapsed": true
+}

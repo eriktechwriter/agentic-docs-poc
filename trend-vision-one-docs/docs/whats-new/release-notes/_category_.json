@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Release Notes",
+  "link": {
+    "type": "doc",
+    "id": "whats-new/release-notes/index"
+  },
+  "collapsed": true
+}

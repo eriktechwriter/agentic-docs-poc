@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Endpoint Inventory",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/endpoint-inventory/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Scan Exclusions",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/policy-management/apex-one-mac-policy-settings/exceptions/scan-exclusions/index"
+  },
+  "collapsed": true
+}

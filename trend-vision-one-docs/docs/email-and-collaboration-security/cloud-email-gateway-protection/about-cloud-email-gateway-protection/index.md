@@ -1,0 +1,20 @@
+---
+slug: trend-vision-one-cegp-introduction
+sidebar_position: 1
+title: About Cloud Email Gateway Protection
+---
+
+Cloud Email Gateway Protection is an enterprise-class solution that delivers continuously updated protection to stop phishing, ransomware, Business Email Compromise (BEC) scams, spam and other advanced email threats before they reach your network. It provides advanced protection for Microsoft™ Exchange Server, Microsoft 365, Google™ Gmail, and other cloud or on-premises email solutions.
+
+Using Cloud Email Gateway Protection, mail administrators set up policies to handle email messages based on the threats detected. For example, administrators can remove detected malware from incoming messages before they reach the corporate network or quarantine detected spam and other inappropriate messages.
+
+Furthermore, Cloud Email Gateway Protection delivers Email Continuity against planned or unplanned downtime events, which allows end users to continue sending and receiving email messages in the event of an outage.
+
+**Related information**
+
+- [Service requirements](./service-requirements)
+- [Features and benefits](./features-benefits-email-security)
+- [Data center geography](./data-center-geography-email)
+- [Inbound message protection](./inbound-message-protection)
+- [Outbound message protection](./outbound-message-protection)
+- [Integration with Trend Micro products](./integration-with-trend-micro-products)

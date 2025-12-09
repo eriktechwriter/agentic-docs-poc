@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Subscription settings",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/cloud-accounts/azure-subscriptions/subscription-settings/index"
+  },
+  "collapsed": true
+}

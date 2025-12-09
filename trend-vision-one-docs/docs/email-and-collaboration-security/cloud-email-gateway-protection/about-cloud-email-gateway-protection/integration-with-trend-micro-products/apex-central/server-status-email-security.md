@@ -1,0 +1,15 @@
+---
+slug: trend-vision-one-server-status-email-security
+sidebar_position: 3
+title: Checking Cloud Email Gateway Protection server status
+---
+
+### Procedure {#procedure}
+
+1.  Go to **Dashboard**.
+
+2.  Click the **Summary** tab.
+
+3.  Scroll down and find the **Product Connection Status** widget.
+
+    You can check the status of any Cloud Email Gateway Protection server registered with Trend Micro Apex Central.

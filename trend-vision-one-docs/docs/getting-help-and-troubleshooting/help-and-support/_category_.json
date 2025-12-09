@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Help and Support",
+  "link": {
+    "type": "doc",
+    "id": "getting-help-and-troubleshooting/help-and-support/index"
+  },
+  "collapsed": true
+}

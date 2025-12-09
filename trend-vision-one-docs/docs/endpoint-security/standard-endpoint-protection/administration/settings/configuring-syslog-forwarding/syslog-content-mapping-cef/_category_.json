@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Syslog Content Mapping - CEF",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/administration/settings/configuring-syslog-forwarding/syslog-content-mapping-cef/index"
+  },
+  "collapsed": true
+}

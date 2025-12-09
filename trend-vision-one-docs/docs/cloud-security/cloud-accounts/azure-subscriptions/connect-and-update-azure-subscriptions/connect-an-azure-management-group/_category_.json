@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Connect an Azure Management Group",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/cloud-accounts/azure-subscriptions/connect-and-update-azure-subscriptions/connect-an-azure-management-group/index"
+  },
+  "collapsed": true
+}

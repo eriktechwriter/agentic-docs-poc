@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Log repositories",
+  "link": {
+    "type": "doc",
+    "id": "service-management/data-source-and-log-management/data-sources-and-retention/third-party-log-collection/log-repositories/index"
+  },
+  "collapsed": true
+}

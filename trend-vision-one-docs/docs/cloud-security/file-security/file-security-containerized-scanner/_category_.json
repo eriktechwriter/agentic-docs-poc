@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "File Security Containerized Scanner",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/file-security/file-security-containerized-scanner/index"
+  },
+  "collapsed": true
+}

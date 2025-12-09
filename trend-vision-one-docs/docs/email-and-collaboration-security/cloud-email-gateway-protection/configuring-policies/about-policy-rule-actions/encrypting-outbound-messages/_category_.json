@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Encrypting outbound messages",
+  "link": {
+    "type": "doc",
+    "id": "email-and-collaboration-security/cloud-email-gateway-protection/configuring-policies/about-policy-rule-actions/encrypting-outbound-messages/index"
+  },
+  "collapsed": true
+}

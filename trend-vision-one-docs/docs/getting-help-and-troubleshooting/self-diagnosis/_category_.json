@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Self-Diagnosis",
+  "link": {
+    "type": "doc",
+    "id": "getting-help-and-troubleshooting/self-diagnosis/index"
+  },
+  "collapsed": true
+}

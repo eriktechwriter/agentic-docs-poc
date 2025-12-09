@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Identity Security Posture",
+  "link": {
+    "type": "doc",
+    "id": "identity-security/identity-security-posture/index"
+  },
+  "collapsed": true
+}

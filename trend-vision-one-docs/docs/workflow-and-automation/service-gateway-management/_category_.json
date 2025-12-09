@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Service Gateway Management",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/service-gateway-management/index"
+  },
+  "collapsed": true
+}

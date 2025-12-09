@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Global Settings",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/endpoint-inventory/global-settings/index"
+  },
+  "collapsed": true
+}

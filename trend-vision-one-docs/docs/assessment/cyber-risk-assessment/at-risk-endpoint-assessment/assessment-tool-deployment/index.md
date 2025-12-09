@@ -1,0 +1,15 @@
+---
+slug: trend-vision-one-assessment-tool-deployment
+sidebar_position: 1
+title: Assessment tool deployment
+---
+
+Deploy the assessment tool before you start the endpoint assessment, Samba vulnerability assessment, or Log4Shell vulnerability assessment.
+
+If deployed correctly, the tool automatically collects and uploads data to Trend Vision One for in-depth analysis and reporting.
+
+**Related information**
+
+- [Deploying the assessment tool to Linux endpoints](./deploy-assessment-tool-linux "Deploy the assessment tool to scan Linux endpoints for vulnerable versions of the Log4j library or Samba service.")
+- [Deploying the assessment tool to macOS endpoints](./deploy-assessment-tool-macos "Deploy the assessment tool to scan macOS endpoints for suspicious file activity and file-based threat indicators from global intelligence sources.")
+- [Deploying the assessment tool to Windows endpoints](./deploy-assessment-tool-windows "Deploy the assessment tool to scan Windows endpoints for file-based threat indicators from global intelligence sources.")

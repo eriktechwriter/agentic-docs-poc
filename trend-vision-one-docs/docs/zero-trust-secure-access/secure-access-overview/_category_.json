@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Secure access overview",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-overview/index"
+  },
+  "collapsed": true
+}

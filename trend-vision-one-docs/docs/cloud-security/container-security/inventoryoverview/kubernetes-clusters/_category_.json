@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Kubernetes clusters",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/inventoryoverview/kubernetes-clusters/index"
+  },
+  "collapsed": true
+}

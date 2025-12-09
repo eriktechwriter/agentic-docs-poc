@@ -1,0 +1,28 @@
+---
+slug: trend-vision-one-outbound-static-ip-settings
+sidebar_position: 1
+title: Outbound static IP settings
+---
+
+Configure outbound static IP settings to forward outbound web traffic through static IP addresses provisioned via the Internet Access Cloud Gateway.
+
+Unmanaged devices cannot use the static outbound IP from public or home networks. To use this feature, the user must either:
+
+- Deploy the Secure Access Module to all endpoints, or
+- Add the Internet Access Cloud gateway with their corporate public IP address.
+
+If outbound static IP settings are enabled, Trend Vision One provisions your organization with two fixed-bandwidth static IP addresses based in a chosen [regional point-of-presence (PoP)](../../../../getting-started-with-zero-trust-secure-access/preparing-to-deploy-private-access-internet-access-and-ai-service-access-services/port-and-fqdnip-address-requirements). Selected outbound web traffic is forwarded through the provisioned static IP addresses rather than dynamically assigned IP addresses, allowing access to web resources that only accept static IP address requests.
+
+**Related information**
+
+- [Configure an outbound static IP pair](./configure-outbound-static-ip-pair)
+- [Modify an outbound static IP pair](./modify-outbound-static-ip-pair)
+- [Delete an outbound static IP pair](./delete-outbound-static-ip-pair)
+
+## Bandwidth usage chart {#bandwidth-usage-chart}
+
+The Outbound Static IP page also contains a usage graph of the bandwidth usage. Select the region and time range whose data you want to see, and the bandwidth usage for each of the IPs is displayed. The bandwidth usage value is the average value for the specified interval period. Note that the bandwidth usage includes internal health check traffic.
+
+:::note
+You can only view one region at a time.
+:::

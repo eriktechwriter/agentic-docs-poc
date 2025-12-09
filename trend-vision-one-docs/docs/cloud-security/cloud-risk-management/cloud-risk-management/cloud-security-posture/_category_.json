@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Cloud Security Posture",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/cloud-risk-management/cloud-risk-management/cloud-security-posture/index"
+  },
+  "collapsed": true
+}

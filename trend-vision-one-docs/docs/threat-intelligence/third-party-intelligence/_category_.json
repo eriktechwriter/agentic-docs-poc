@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Third-Party Intelligence",
+  "link": {
+    "type": "doc",
+    "id": "threat-intelligence/third-party-intelligence/index"
+  },
+  "collapsed": true
+}

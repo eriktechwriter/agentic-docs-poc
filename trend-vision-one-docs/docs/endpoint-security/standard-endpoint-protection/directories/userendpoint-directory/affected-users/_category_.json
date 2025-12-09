@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Affected Users",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/directories/userendpoint-directory/affected-users/index"
+  },
+  "collapsed": true
+}

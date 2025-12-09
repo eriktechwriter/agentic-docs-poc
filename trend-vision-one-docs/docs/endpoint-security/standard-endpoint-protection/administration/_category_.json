@@ -1,0 +1,9 @@
+{
+  "position": 7,
+  "label": "Administration",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/administration/index"
+  },
+  "collapsed": true
+}

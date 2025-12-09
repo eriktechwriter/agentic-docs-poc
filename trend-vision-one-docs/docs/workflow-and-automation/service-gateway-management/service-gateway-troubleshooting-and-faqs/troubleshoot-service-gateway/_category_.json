@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Troubleshoot Service Gateway",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/service-gateway-management/service-gateway-troubleshooting-and-faqs/troubleshoot-service-gateway/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 7,
+  "label": "Recommended practices",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/recommended-practices/index"
+  },
+  "collapsed": true
+}

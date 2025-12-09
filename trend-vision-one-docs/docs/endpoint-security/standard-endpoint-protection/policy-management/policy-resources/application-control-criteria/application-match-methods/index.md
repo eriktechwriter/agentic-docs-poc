@@ -1,0 +1,20 @@
+---
+slug: trend-vision-one-application-match-methods
+sidebar_position: 1
+title: Application Match Methods
+---
+
+Application Control provides multiple methods for identifying applications to include in the allow and block criteria.
+
+:::note
+Application Control also provides the Gray Software List which you cannot modify.
+
+The Gray Software List is a subset of the Application Reputation List and contains applications that may be malicious if not used properly. Trend Micro recommends blocking or monitoring applications in the Gray Software List to ensure that your network remains secure.
+:::
+
+**Related information**
+
+- [Application Reputation List](./application-reputation-list)
+- [File Paths](./file-paths)
+- [Certificates](./certificates)
+- [Hash Values](./hash-values)

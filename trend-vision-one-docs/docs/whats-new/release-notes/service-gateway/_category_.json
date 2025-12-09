@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Service Gateway",
+  "link": {
+    "type": "doc",
+    "id": "whats-new/release-notes/service-gateway/index"
+  },
+  "collapsed": true
+}

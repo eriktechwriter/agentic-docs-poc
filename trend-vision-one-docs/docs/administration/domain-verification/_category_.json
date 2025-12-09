@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Domain Verification",
+  "link": {
+    "type": "doc",
+    "id": "administration/domain-verification/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Packet Capture",
+  "link": {
+    "type": "doc",
+    "id": "network-security/network-analysis-configuration/monitor-and-scanning-network-traffic/packet-capture/index"
+  },
+  "collapsed": true
+}

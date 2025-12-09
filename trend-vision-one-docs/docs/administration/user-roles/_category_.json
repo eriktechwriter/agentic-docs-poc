@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "User Roles",
+  "link": {
+    "type": "doc",
+    "id": "administration/user-roles/index"
+  },
+  "collapsed": true
+}

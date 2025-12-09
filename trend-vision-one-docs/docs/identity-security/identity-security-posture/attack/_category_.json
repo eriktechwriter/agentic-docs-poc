@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Attack",
+  "link": {
+    "type": "doc",
+    "id": "identity-security/identity-security-posture/attack/index"
+  },
+  "collapsed": true
+}

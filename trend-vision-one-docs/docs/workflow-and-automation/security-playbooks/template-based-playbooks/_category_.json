@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Template-based playbooks",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/security-playbooks/template-based-playbooks/index"
+  },
+  "collapsed": true
+}

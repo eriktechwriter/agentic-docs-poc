@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Standard Endpoint Protection",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/index"
+  },
+  "collapsed": true
+}

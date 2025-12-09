@@ -1,0 +1,17 @@
+---
+slug: trend-vision-one-unregistering-apex-central
+sidebar_position: 4
+title: Unregistering from Apex Central
+---
+
+### Procedure {#procedure}
+
+1.  Go to **Administration → Managed Servers → Server Registration**.
+
+2.  Click **Cloud Service Settings**.
+
+3.  Click **Stop managing services with Apex Central**.
+
+4.  In the dialog box that appears, click **Yes**.
+
+    The Cloud Email Gateway Protection server disappears from the server list.

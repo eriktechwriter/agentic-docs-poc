@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "User",
+  "link": {
+    "type": "doc",
+    "id": "identity-security/identity-inventory/active-directory-on-premises/user/index"
+  },
+  "collapsed": true
+}

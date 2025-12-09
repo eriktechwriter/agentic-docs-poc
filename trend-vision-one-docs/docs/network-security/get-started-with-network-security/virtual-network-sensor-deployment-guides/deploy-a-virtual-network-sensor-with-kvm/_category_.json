@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Deploy a Virtual Network Sensor with KVM",
+  "link": {
+    "type": "doc",
+    "id": "network-security/get-started-with-network-security/virtual-network-sensor-deployment-guides/deploy-a-virtual-network-sensor-with-kvm/index"
+  },
+  "collapsed": true
+}

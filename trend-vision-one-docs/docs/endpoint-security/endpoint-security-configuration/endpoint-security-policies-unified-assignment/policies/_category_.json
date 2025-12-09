@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Policies",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/endpoint-security-configuration/endpoint-security-policies-unified-assignment/policies/index"
+  },
+  "collapsed": true
+}

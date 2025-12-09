@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Deploy a Service Gateway and Configure Firewall Exceptions",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/getting-started-with-trend-vision-one-endpoint-security/deploy-a-service-gateway-and-configure-firewall-exceptions/index"
+  },
+  "collapsed": true
+}

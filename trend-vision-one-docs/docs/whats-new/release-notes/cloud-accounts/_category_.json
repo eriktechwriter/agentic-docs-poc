@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Cloud Accounts",
+  "link": {
+    "type": "doc",
+    "id": "whats-new/release-notes/cloud-accounts/index"
+  },
+  "collapsed": true
+}

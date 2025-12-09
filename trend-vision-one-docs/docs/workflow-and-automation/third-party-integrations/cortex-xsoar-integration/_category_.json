@@ -1,0 +1,9 @@
+{
+  "position": 8,
+  "label": "Cortex XSOAR integration",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/cortex-xsoar-integration/index"
+  },
+  "collapsed": true
+}

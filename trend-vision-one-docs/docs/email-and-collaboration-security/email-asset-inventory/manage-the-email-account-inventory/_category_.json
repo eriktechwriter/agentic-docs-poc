@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Manage the email account inventory",
+  "link": {
+    "type": "doc",
+    "id": "email-and-collaboration-security/email-asset-inventory/manage-the-email-account-inventory/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Install the Endpoint Security agent image builder",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/getting-started-with-trend-vision-one-endpoint-security/manage-your-agent-deployments/deploy-agents/install-the-endpoint-security-agent-image-builder/index"
+  },
+  "collapsed": true
+}

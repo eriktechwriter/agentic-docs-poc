@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Supported evidence types",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/security-playbooks/template-based-playbooks/create-incident-response-evidence-collection-playbooks/supported-evidence-types/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,31 @@
+---
+slug: trend-vision-one-assigning-insights
+sidebar_position: 2
+title: Assign owners to Workbench insights
+---
+
+Assign owners to your Workbench insights so your security team can track changes and receive notifications.
+
+- You can only assign insights to owners with a valid Trend Vision One account.
+
+- You can assign multiple owners to one insight.
+
+- You can also assign owners to Workbench alerts. For more information, see [Assign owners to Workbench alerts](../all-alerts/assigning-alerts).
+
+### Procedure {#procedure}
+
+1.  Go to **Agentic SIEM & XDR → Workbench → Workbench Insights**.
+
+2.  Click **Open new case** for any insight.
+
+3.  Select the case **Status**, **Findings**, and **Priority**.
+
+4.  Specify one or more Trend Vision One accounts as **Owners**.
+
+    :::warning[Important]
+    Adding new assignees overrides the current insight owners.
+    :::
+
+5.  Click **Open**.
+
+    The **Case Viewer** panel shows the new case.

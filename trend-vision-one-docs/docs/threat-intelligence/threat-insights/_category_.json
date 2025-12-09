@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Threat Insights",
+  "link": {
+    "type": "doc",
+    "id": "threat-intelligence/threat-insights/index"
+  },
+  "collapsed": true
+}

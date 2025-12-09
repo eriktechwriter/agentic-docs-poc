@@ -1,0 +1,18 @@
+---
+slug: trend-vision-one-cef-syslog-type-email-security
+sidebar_position: 1
+title: Content mapping between log output and CEF syslog type
+---
+
+To enable flexible integration with third-party log management systems, Cloud Email Gateway Protection supports Common Event Format (CEF) as the syslog message format.
+
+Common Event Format (CEF) is an open log management standard created by HP ArcSight. Cloud Email Gateway Protection uses a subset of the CEF dictionary.
+
+The following tables outline syslog content mapping between Cloud Email Gateway Protection log output and CEF syslog types.
+
+**Related information**
+
+- [CEF detection logs](./cef-detection-logs)
+- [CEF audit logs](./cef-audit-logs)
+- [CEF mail tracking logs (accepted traffic)](./cef-mail-tracking-traffic)
+- [CEF URL click tracking logs](./cef-url-click-tracking-logs)

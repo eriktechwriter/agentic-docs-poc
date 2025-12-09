@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Data sources and retention",
+  "link": {
+    "type": "doc",
+    "id": "service-management/data-source-and-log-management/data-sources-and-retention/index"
+  },
+  "collapsed": true
+}

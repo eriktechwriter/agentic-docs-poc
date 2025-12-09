@@ -1,0 +1,16 @@
+---
+slug: trend-vision-one-device-control-mac-intro
+sidebar_position: 1
+title: Device Control
+---
+
+Device Control regulates access to external storage devices and network resources connected to endpoints. Device Control helps prevent data loss and leakage and, combined with file scanning, helps guard against security risks.
+
+You can configure Device Control policies for internal and external agents. Administrators typically configure a stricter policy for external agents.
+
+Policies are granular settings in the agent tree. You can enforce specific policies to agent groups or individual Trend Vision One Endpoint Security agents. You can also enforce a single policy to all Trend Vision One Endpoint Security agents.
+
+**Related information**
+
+- [Configuring Device Control Settings](./configure-the-dc-set)
+- [Permissions for Storage Devices](./permissions-for-storage-devices)

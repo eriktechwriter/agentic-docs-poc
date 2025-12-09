@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Manage mount points and scanning",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/file-security/file-security-virtual-appliance/manage-mount-points-and-scanning/index"
+  },
+  "collapsed": true
+}

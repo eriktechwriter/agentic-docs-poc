@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Active Directory Integration",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/administration/settings/active-directory-and-compliance-settings/active-directory-integration/index"
+  },
+  "collapsed": true
+}

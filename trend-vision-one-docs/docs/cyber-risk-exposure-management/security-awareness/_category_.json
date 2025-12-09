@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Security Awareness",
+  "link": {
+    "type": "doc",
+    "id": "cyber-risk-exposure-management/security-awareness/index"
+  },
+  "collapsed": true
+}

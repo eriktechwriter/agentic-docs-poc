@@ -1,0 +1,9 @@
+---
+slug: trend-vision-one-error-agent-version-not-supported
+sidebar_position: 4
+title: 'Error: Agent version not supported'
+---
+
+The error message "Agent version not supported" indicates that the agent version currently installed on the computer is not supported by Server & Workload Protection.
+
+Although the unsupported agent will still protect the computer based on the last policy settings it received from Server & Workload Protection, we recommend that you upgrade the agent so that you can react quickly to the latest threats. For more information, see [Upgrade the agent](../administration/upgrade-server-workload-protection/upgrade-the-agent/upgrade-agent).

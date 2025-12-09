@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Supported Helm versions",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/inventoryoverview/kubernetes-clusters/supported-helm-versions/index"
+  },
+  "collapsed": true
+}

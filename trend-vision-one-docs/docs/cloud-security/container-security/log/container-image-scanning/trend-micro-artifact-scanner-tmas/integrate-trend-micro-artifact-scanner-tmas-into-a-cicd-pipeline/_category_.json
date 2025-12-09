@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Integrate Trend Micro Artifact Scanner (TMAS) into a CI/CD pipeline",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/log/container-image-scanning/trend-micro-artifact-scanner-tmas/integrate-trend-micro-artifact-scanner-tmas-into-a-cicd-pipeline/index"
+  },
+  "collapsed": true
+}

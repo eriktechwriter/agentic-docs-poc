@@ -1,0 +1,23 @@
+---
+slug: trend-vision-one-advanced-threat-protection
+sidebar_position: 1
+title: Advanced Threat Protection
+---
+
+Advanced Threat Protection secures cloud applications and services by protecting your users from emerging advanced threats. Where once attackers were content to simply deface a website or gain notoriety through mass system disruption, they now realize that they can make significant money, steal important data, or interfere with major infrastructure systems via cyber warfare instead.
+
+A targeted attack is a long-term cyber-espionage campaign against a person or organization to gain persistent access to the target network. Persistent access can allow attackers to extract confidential company data or damage the target network over a period of time. Compromised networks can be used for attacks against other organizations, making it harder to trace the attack back to its originator.
+
+Advanced persistent threats are targeted attacks with a pre-determined objective: steal sensitive data or cause targeted damage. Threats are usually not isolated incidents, but rather they are often conducted as a series of failed and successful attempts over time to get deeper into a target's network.
+
+**Related information**
+
+- [Real-time and on-demand scanning](./real-time-demand-scanning)
+- [Actions available for different services](./actions-different-services)
+- [Menu controls for ATP policies](./menu-controls-for-atp-policies)
+- [Internal domains](./internal-domains)
+- [Adding advanced threat protection policies](./adding-advanced-threat-protection-policies)
+- [Running a manual scan](./running-manual-scan-cas)
+- [Compressed file handling](./compressed-file-handling)
+- [Quishing detection](./quishing-detection "Detect phishing by scanning the QR codes in email body and attachments")
+- [Token list](./token-list)

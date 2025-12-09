@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Configuring approved and blocked sender lists",
+  "link": {
+    "type": "doc",
+    "id": "email-and-collaboration-security/cloud-email-gateway-protection/inbound-and-outbound-protection/managing-sender-filter/configuring-approved-and-blocked-sender-lists/index"
+  },
+  "collapsed": true
+}

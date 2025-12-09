@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Automated tagging",
+  "link": {
+    "type": "doc",
+    "id": "service-management/tag-management/automated-tagging/index"
+  },
+  "collapsed": true
+}

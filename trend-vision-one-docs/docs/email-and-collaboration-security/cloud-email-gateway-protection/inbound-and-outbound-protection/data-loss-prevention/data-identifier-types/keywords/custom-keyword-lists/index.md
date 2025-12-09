@@ -1,0 +1,25 @@
+---
+slug: trend-vision-one-custom-keyword-lists-3
+sidebar_position: 1
+title: Custom keyword lists
+---
+
+Create custom keyword lists if none of the predefined keyword lists meets your requirements.
+
+There are several criteria that you can choose from when configuring a keyword list. A keyword list must satisfy your chosen criteria before data loss prevention subjects it to a policy. Choose one of the following criteria for each keyword list:
+
+- *Any keyword*
+
+- *All keywords*
+
+- *All keywords within \<x\> characters*
+
+- *Combined score for keywords exceeds threshold*
+
+For details regarding the criteria rules, see [Custom keyword list criteria](../../../../../../../zero-trust-secure-access/secure-access-resources/data-loss-prevention-rules/data-identifier-types/keyword-lists/custom-keyword-lists/custom-keyword-list-criteria).
+
+**Related information**
+
+- [Custom keyword list criteria](./custom-keyword-list-criteria-3 "View criteria used to create custom keyword lists for use in data loss prevention templates.")
+- [Creating a Keyword List](./creating-keyword-list)
+- [Importing a Keyword List](./importing-keyword-list)

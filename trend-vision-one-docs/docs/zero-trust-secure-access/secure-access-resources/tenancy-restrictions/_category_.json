@@ -1,0 +1,9 @@
+{
+  "position": 9,
+  "label": "Tenancy restrictions",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-resources/tenancy-restrictions/index"
+  },
+  "collapsed": true
+}

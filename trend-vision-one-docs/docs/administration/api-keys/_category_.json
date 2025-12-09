@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "API Keys",
+  "link": {
+    "type": "doc",
+    "id": "administration/api-keys/index"
+  },
+  "collapsed": true
+}

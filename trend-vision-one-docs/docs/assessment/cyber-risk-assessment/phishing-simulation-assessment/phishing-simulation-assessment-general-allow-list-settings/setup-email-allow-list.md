@@ -1,0 +1,17 @@
+---
+slug: trend-vision-one-setup-email-allow-list
+sidebar_position: 2
+title: Setting up a Trend Micro Email Security allow list
+---
+
+Allow Phishing Simulation Assessment emails to bypass Trend Micro Email Security scans.
+
+### Procedure {#procedure}
+
+1.  On the Trend Micro Email Security console, click **Administration** and then click **Phishing Simulation**.
+
+2.  Enable **Bypass scans for Trend Micro phishing simulations**.
+
+3.  Click **Save**.
+
+    You have configured Trend Micro Email Security to allow employees in your organization to receive phishing simulation emails from Phishing Simulation Assessment.

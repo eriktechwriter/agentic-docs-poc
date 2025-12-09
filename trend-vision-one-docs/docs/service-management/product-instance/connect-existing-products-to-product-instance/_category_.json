@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Connect existing products to Product Instance",
+  "link": {
+    "type": "doc",
+    "id": "service-management/product-instance/connect-existing-products-to-product-instance/index"
+  },
+  "collapsed": true
+}

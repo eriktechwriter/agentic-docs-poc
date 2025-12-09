@@ -1,0 +1,27 @@
+---
+slug: trend-vision-one-ztsa-gcp-identity-integrate
+sidebar_position: 5
+title: Google Cloud Identity integration and SSO for Zero Trust Secure Access
+---
+
+Integrate with Google Cloud Identity to authenticate user access attempts and take action on risky account activity.
+
+:::warning[Important]
+You cannot configure single sign-on (SSO) from multiple IAMs. Ensure that you configure the necessary permissions and SSO on the IAM you want to use for Private Access and Internet Access authentication.
+
+**Threat and Exposure Management** and **Zero Trust Secure Access** both require data upload permission to ensure certain features function properly. Revoking data upload permission may prevent secure access policy enforcement and risk analysis.
+:::
+
+Integration requires access to the Google Admin console using a Google administrator account with super administrator privileges.
+
+### Procedure {#procedure}
+
+1.  Go to **Zero Trust Secure Access → Secure Access Configuration → Identity and Access Management**.
+
+2.  Click **Grant permissions** under **Google Cloud Identity**.
+
+    A new browser tab opens to **Third Party Integration → Google Cloud Identity**.
+
+3.  Grant the relevant permissions associated with **Zero Trust Secure Access** by confirming the permissions in the [Google Admin console](../../../../../workflow-and-automation/third-party-integrations/google-cloud-identity-integration/gcp-identity-integration).
+
+4.  In the Google Admin console, [Configure Google Cloud Identity](../../../../../administration/identity-providers/config-google-cloud-saml).

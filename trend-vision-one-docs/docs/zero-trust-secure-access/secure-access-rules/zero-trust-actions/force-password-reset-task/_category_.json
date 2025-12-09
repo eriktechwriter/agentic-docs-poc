@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Force Password Reset task",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-rules/zero-trust-actions/force-password-reset-task/index"
+  },
+  "collapsed": true
+}

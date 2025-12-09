@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Suspicious Object Sync - Distribution Settings",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/suspicious-object-sync-distribution-settings/index"
+  },
+  "collapsed": true
+}

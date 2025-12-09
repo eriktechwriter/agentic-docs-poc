@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Collectors",
+  "link": {
+    "type": "doc",
+    "id": "service-management/data-source-and-log-management/data-sources-and-retention/third-party-log-collection/collectors/index"
+  },
+  "collapsed": true
+}

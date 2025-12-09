@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Intelligence Reports",
+  "link": {
+    "type": "doc",
+    "id": "threat-intelligence/intelligence-reports/index"
+  },
+  "collapsed": true
+}

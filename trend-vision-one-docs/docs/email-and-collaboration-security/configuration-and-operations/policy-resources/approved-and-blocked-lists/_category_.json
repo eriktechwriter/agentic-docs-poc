@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Approved and blocked lists",
+  "link": {
+    "type": "doc",
+    "id": "email-and-collaboration-security/configuration-and-operations/policy-resources/approved-and-blocked-lists/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Custom rulesets",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/configuration/object-management/custom-rulesets/index"
+  },
+  "collapsed": true
+}

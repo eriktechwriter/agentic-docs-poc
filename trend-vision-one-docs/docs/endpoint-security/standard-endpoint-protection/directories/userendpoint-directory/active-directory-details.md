@@ -1,0 +1,11 @@
+---
+slug: trend-vision-one-active-directory-details
+sidebar_position: 3
+title: Active Directory Details
+---
+
+The Active Directory node displays the integrated Active Directory structure. When viewing an organizational unit in the Active Directory node, the list provides two tabs:
+
+- **Users**: For more information, see [User Details](./user-details).
+
+- **Endpoints**: For more information, see [Endpoint Details](./endpoint-details).

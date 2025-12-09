@@ -1,0 +1,12 @@
+---
+slug: trend-vision-one-configuring-blocked-ptr-domain-list
+sidebar_position: 1
+title: Configuring the blocked PTR domain list
+---
+
+When the domain in the PTR record of a sending IP address matches the blocked PTR domain list, Cloud Email Gateway Protection rejects email messages from this IP address.
+
+**Related information**
+
+- [Adding PTR domains](./adding-ptr-domains)
+- [Editing PTR domains](./editing-ptr-domains)

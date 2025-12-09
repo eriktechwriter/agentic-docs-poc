@@ -1,0 +1,9 @@
+{
+  "position": 14,
+  "label": "Assessment",
+  "link": {
+    "type": "doc",
+    "id": "assessment/index"
+  },
+  "collapsed": true
+}

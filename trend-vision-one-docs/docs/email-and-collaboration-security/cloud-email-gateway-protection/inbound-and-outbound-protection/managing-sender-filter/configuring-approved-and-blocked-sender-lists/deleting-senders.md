@@ -1,0 +1,19 @@
+---
+slug: trend-vision-one-deleting-senders
+sidebar_position: 3
+title: Deleting senders
+---
+
+Cloud Email Gateway Protection allows you to delete the existing approved and blocked senders.
+
+### Procedure {#procedure}
+
+1.  Click the **Approved Senders** or **Blocked Senders** tab.
+
+2.  Delete senders by using either of the following methods:
+
+    - To delete all senders of one or more recipients, select one or more recipient records, and **Delete**.
+
+    - To delete senders of a single recipient, click the recipient name, select one or more sender records, and click **Delete**.
+
+3.  Click **OK** in the confirmation dialog box.

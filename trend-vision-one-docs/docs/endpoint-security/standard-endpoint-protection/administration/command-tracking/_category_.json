@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Command Tracking",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/administration/command-tracking/index"
+  },
+  "collapsed": true
+}

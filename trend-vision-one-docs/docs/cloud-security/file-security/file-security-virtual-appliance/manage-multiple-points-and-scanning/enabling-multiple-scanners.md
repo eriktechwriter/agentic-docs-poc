@@ -1,0 +1,21 @@
+---
+slug: trend-vision-one-enabling-multiple-scanners
+sidebar_position: 2
+title: Enable scanning for multiple mount points
+---
+
+You can enable the scanning in multiple mount points at the same time.
+
+### Procedure {#procedure}
+
+1.  In Trend Vision One go to **Cloud Security → File Security**.
+
+2.  Click **Inventory**.
+
+3.  Click the **Virtual Appliance** node.
+
+4.  Select the checkboxes of the **Folder Paths** whose scanning you want to enable.
+
+5.  From the **Manage scanning configuration** list, select **Enable scanning**.
+
+6.  Click **Enable**.

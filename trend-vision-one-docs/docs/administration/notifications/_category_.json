@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Notifications",
+  "link": {
+    "type": "doc",
+    "id": "administration/notifications/index"
+  },
+  "collapsed": true
+}

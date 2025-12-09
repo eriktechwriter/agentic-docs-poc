@@ -1,0 +1,9 @@
+{
+  "position": 20,
+  "label": "Email and Collaboration Security",
+  "link": {
+    "type": "doc",
+    "id": "email-and-collaboration-security/index"
+  },
+  "collapsed": true
+}

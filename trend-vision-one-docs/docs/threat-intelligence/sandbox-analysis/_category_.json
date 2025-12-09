@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Sandbox Analysis",
+  "link": {
+    "type": "doc",
+    "id": "threat-intelligence/sandbox-analysis/index"
+  },
+  "collapsed": true
+}

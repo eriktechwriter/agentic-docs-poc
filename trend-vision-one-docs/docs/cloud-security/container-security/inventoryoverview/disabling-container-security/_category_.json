@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Disabling Container Security",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/inventoryoverview/disabling-container-security/index"
+  },
+  "collapsed": true
+}

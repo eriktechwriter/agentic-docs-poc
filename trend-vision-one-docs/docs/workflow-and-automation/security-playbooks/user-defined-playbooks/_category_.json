@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "User-defined playbooks",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/security-playbooks/user-defined-playbooks/index"
+  },
+  "collapsed": true
+}

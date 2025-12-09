@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Google Cloud projects",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/cloud-accounts/google-cloud-projects/index"
+  },
+  "collapsed": true
+}

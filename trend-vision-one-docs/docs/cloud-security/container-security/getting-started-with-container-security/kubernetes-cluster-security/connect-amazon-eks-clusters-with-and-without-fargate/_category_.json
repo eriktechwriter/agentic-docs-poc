@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Connect Amazon EKS clusters (with and without Fargate)",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/getting-started-with-container-security/kubernetes-cluster-security/connect-amazon-eks-clusters-with-and-without-fargate/index"
+  },
+  "collapsed": true
+}

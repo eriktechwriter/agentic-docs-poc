@@ -1,0 +1,17 @@
+---
+slug: trend-vision-one-managing-pml-exception-list
+sidebar_position: 4
+title: Managing Predictive Machine Learning exception list
+---
+
+The Predictive Machine Learning Exception List specifies the SHA-1 hash values of files to exclude from scanning by Trend Micro Predictive Machine Learning.
+
+The exception list is applicable to all enabled Advanced Threat Protection policies as a global setting.
+
+### Procedure {#procedure}
+
+1.  Go to **Policies → Global Settings → User-Defined Lists → Predictive Machine Learning Exception List**.
+
+2.  View the SHA-1 hash values and the affected files added from the **Predictive Machine Learning Log Details** screen in **Logs**.
+
+3.  Select one or multiple SHA-1 hash values and click **Delete** to remove them from the exception list.

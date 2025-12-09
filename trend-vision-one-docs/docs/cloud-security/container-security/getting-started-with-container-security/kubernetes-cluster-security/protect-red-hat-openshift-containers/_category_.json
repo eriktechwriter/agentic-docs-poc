@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Protect Red Hat OpenShift containers",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/getting-started-with-container-security/kubernetes-cluster-security/protect-red-hat-openshift-containers/index"
+  },
+  "collapsed": true
+}

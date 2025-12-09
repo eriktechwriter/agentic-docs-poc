@@ -1,0 +1,19 @@
+---
+slug: trend-vision-one-settings-predefined-expressions
+sidebar_position: 2
+title: Viewing Settings for Predefined Expressions
+---
+
+:::note
+Predefined expressions cannot be modified or deleted.
+:::
+
+### Procedure {#procedure}
+
+1.  Go to **Policies → Policy Resources → DLP Data Identifiers**.
+
+2.  Click the **Expression** tab.
+
+3.  Click the expression name.
+
+4.  View settings in the screen that opens.

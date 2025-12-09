@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Security Posture Tab",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/about-the-dashboard/default-dashboard-tabs-and-widgets/security-posture-tab/index"
+  },
+  "collapsed": true
+}

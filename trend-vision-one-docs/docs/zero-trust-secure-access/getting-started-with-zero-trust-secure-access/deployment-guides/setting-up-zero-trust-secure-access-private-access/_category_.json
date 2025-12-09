@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Setting up Zero Trust Secure Access Private Access",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/getting-started-with-zero-trust-secure-access/deployment-guides/setting-up-zero-trust-secure-access-private-access/index"
+  },
+  "collapsed": true
+}

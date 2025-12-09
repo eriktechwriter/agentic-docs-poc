@@ -1,0 +1,29 @@
+---
+slug: trend-vision-one-cis-aks17-463
+sidebar_position: 28
+title: 4.6.3 - The default namespace should not be used (Automated)
+---
+
+Profile Applicability: Level 2
+
+Kubernetes provides a default namespace, where objects are placed if no namespace is specified for them. Placing objects in this namespace makes application of RBAC and other controls more difficult.
+
+Resources in a Kubernetes cluster should be segregated by namespace, to allow for security controls to be applied at that level and to make it easier to manage resources.
+
+:::note
+Unless a namespace is specific on object creation, the `default` namespace will be used.
+:::
+
+### Audit {#audit}
+
+Run this command to list objects in default namespace:
+
+``` codeblock
+kubectl get all -n default
+```
+
+The only entries there should be system managed resources such as the `kubernetes` service.
+
+### Remediation {#remediation}
+
+Ensure that namespaces are created to allow for appropriate segregation of Kubernetes resources and that all new resources are created in a specific namespace.

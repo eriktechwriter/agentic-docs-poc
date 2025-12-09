@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Network Analysis Configuration",
+  "link": {
+    "type": "doc",
+    "id": "network-security/network-analysis-configuration/index"
+  },
+  "collapsed": true
+}

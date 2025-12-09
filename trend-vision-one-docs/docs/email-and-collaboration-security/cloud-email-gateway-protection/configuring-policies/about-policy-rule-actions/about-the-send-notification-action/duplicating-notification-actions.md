@@ -1,0 +1,13 @@
+---
+slug: trend-vision-one-duplicating-notification-actions
+sidebar_position: 3
+title: Duplicating or copying send notification actions
+---
+
+### Procedure {#procedure}
+
+1.  Select a message that you want to create a copy of from the list of those available on the left side of the screen.
+
+2.  Click **Copy**.
+
+    The copy of the selected message appears in the **Available** list, with the prefix **Copy of** in its original name.

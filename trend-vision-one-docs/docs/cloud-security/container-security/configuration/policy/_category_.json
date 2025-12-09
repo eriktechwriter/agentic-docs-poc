@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Policy",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/configuration/policy/index"
+  },
+  "collapsed": true
+}

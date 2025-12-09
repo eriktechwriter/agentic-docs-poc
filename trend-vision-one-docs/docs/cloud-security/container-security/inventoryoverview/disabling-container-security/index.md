@@ -1,0 +1,44 @@
+---
+slug: trend-vision-one-disable-container-security
+sidebar_position: 1
+title: Disabling Container Security
+---
+
+You can easily disable Container Security on a cluster if you no longer require protection.
+
+Disabling Container Security on Kubernetes and Amazon ECS clusters is a straightforward task. For Kubernetes clusters, you can also [uninstall the Helm chart](./removing-kubernetes-helm-chart) to remove Container Security. For Amazon ECS clusters, there are other methods available if you want to [remove protection at the account level](./remove-container-aws-account).
+
+:::note
+Disabling Container Security on a cluster does not delete existing data received by Trend Vision One.
+:::
+
+### Procedure {#procedure}
+
+- To disable Container Security on a Kubernetes cluster:
+
+  1.  Go to **Cloud Security → Container Security → Inventory/Overview**.
+
+  2.  Select the **Kubernetes** node in the tree.
+
+  3.  Select the radio button next to the necessary cluster.
+
+  4.  Click **Remove Cluster**.
+
+- To disable Container Security on an Amazon ECS cluster:
+
+  1.  Go to **Cloud Security → Container Security → Inventory/Overview**.
+
+  2.  Select the **Amazon ECS** node in the tree.
+
+  3.  Click the necessary cluster name.
+
+  4.  Turn off **Runtime Security**.
+
+  5.  Turn off **Runtime Scanning**.
+
+  6.  Click **Save**.
+
+**Related information**
+
+- [Removing Container Security by uninstalling the Kubernetes Helm chart](./removing-kubernetes-helm-chart)
+- [Removing Container Security from your AWS account](./remove-container-aws-account "You can completely remove Container Security from Amazon AWS accounts if you no longer require protection.")

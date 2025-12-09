@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Security Playbooks",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/security-playbooks/index"
+  },
+  "collapsed": true
+}

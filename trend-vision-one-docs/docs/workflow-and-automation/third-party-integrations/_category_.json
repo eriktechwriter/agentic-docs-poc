@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Third-Party Integrations",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/index"
+  },
+  "collapsed": true
+}

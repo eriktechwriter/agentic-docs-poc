@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Compliance scan - GCP",
+  "link": {
+    "type": "doc",
+    "id": "cyber-risk-exposure-management/security-posture-management/cloud-risk-management/misconfiguration-and-compliance/compliance-scan-help/compliance-scan-gcp/index"
+  },
+  "collapsed": true
+}

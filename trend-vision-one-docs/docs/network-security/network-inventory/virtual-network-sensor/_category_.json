@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Virtual Network Sensor",
+  "link": {
+    "type": "doc",
+    "id": "network-security/network-inventory/virtual-network-sensor/index"
+  },
+  "collapsed": true
+}

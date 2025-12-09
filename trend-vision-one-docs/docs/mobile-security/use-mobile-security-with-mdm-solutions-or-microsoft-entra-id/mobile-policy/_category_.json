@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Mobile Policy",
+  "link": {
+    "type": "doc",
+    "id": "mobile-security/use-mobile-security-with-mdm-solutions-or-microsoft-entra-id/mobile-policy/index"
+  },
+  "collapsed": true
+}

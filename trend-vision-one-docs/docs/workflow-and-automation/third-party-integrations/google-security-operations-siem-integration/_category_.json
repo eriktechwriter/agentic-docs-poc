@@ -1,0 +1,9 @@
+{
+  "position": 18,
+  "label": "Google Security Operations SIEM integration",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/google-security-operations-siem-integration/index"
+  },
+  "collapsed": true
+}

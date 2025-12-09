@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Data Security Posture",
+  "link": {
+    "type": "doc",
+    "id": "cyber-risk-exposure-management/security-posture-management/data-security-posture/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Manage services in Service Gateway",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/service-gateway-management/service-gateway-appliance-configuration/manage-services-in-service-gateway/index"
+  },
+  "collapsed": true
+}

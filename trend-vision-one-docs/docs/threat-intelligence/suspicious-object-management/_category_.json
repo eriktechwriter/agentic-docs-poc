@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Suspicious Object Management",
+  "link": {
+    "type": "doc",
+    "id": "threat-intelligence/suspicious-object-management/index"
+  },
+  "collapsed": true
+}

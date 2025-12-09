@@ -1,0 +1,36 @@
+---
+slug: trend-vision-one-getting-started-data-posture-2
+sidebar_position: 1
+title: Get started with Data Security Posture
+---
+
+Before you can use Data Security Posture, you must ensure the following:
+
+- You have updated to the Foundation Services release of Trend Vision One, which was released on July 3, 2023 and provides strengthened centralized management capabilities. For more information, including important update considerations, see [Update Trend Vision One to the Foundation Services release](../../../../getting-started/getting-started-with-trend-vision-one/update-trend-vision-one-to-the-foundation-services-release).
+
+- You have an AWS account or Azure subscription added to Trend Vision One.
+
+Data Security Posture provides two methods for scanning cloud assets for sensitive data:
+
+- Monitor sensitive data by enabling Data Security Posture on your AWS and Azure accounts. This method does not require that you configure a third-party solution, and offers a complete solution within Trend Vision One. For more information, see [Enable Data Security Posture for your AWS cloud accounts](../../../../cyber-risk-exposure-management/security-posture-management/data-security-posture/get-started-with-data-security-posture/data-posture-for-aws-accounts) and [Enable Data Security Posture on an Azure subscription](../../../../cyber-risk-exposure-management/security-posture-management/data-security-posture/get-started-with-data-security-posture/data-security-posture-azure).
+
+- Monitor sensitive data using AWS Macie. Use this method if you are already using AWS Macie and you want to use AWS Macie in addition to enabling Data Security Posture on your AWS accounts. Data Security Posture integrates with Amazon Macie to scan S3 buckets for sensitive data and potential data leak issues. To learn how to enable Amazon Macie, see [Enable Amazon Macie](../../../../cyber-risk-exposure-management/security-posture-management/data-security-posture/get-started-with-data-security-posture/enable-amazon-macie)
+
+To enable Data Security Posture:
+
+### Procedure {#procedure}
+
+1.  On the Trend Vision One console, go to **Cyber Risk Exposure Management** \> **Data Security Posture**.
+
+2.  If you have not updated to the Foundation Services release of Trend Vision One, an **Update Trend Vision One** button displays. Click the button and follow the steps to update.
+
+3.  If you have not provisioned Cyber Risk Exposure Management, you are prompted to configure it.
+
+4.  If you do not have an updated AWS account or Azure subscription added to Trend Vision One, an **Add/Update Cloud Account** button displays. Click the button and follow the steps to add or update an AWS or Azure cloud account to Trend Vision One. For more information, see [Enable Data Security Posture for your AWS cloud accounts](../../../../cyber-risk-exposure-management/security-posture-management/data-security-posture/get-started-with-data-security-posture/data-posture-for-aws-accounts) and [Enable Data Security Posture on an Azure subscription](../../../../cyber-risk-exposure-management/security-posture-management/data-security-posture/get-started-with-data-security-posture/data-security-posture-azure).
+
+**Related information**
+
+- [Enable Data Security Posture for your AWS cloud accounts](./data-posture-for-aws-accounts-2)
+- [Enable Data Security Posture on an Azure subscription](./data-security-posture-azure-2)
+- [Enable or disable Data Security Posture for cloud storage assets](./enable-or-disable-data-posture-2)
+- [Enable Amazon Macie](./enable-amazon-macie-2)

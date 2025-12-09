@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Identity Providers",
+  "link": {
+    "type": "doc",
+    "id": "administration/identity-providers/index"
+  },
+  "collapsed": true
+}

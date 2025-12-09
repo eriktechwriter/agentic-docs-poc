@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Container Security",
+  "link": {
+    "type": "doc",
+    "id": "whats-new/release-notes/container-security/index"
+  },
+  "collapsed": true
+}

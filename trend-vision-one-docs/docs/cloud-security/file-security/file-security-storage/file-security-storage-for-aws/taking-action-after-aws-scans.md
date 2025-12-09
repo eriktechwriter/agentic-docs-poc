@@ -1,0 +1,17 @@
+---
+slug: trend-vision-one-taking-action-after-aws-scans
+sidebar_position: 13
+title: Take action after AWS scans
+---
+
+Actions to perform after scanning files with Trend Vision One™ File Security SDK
+
+After completing a scan, [File Security displays scan results](./scans-and-tags-in-aws/scans-tags-aws) immediately so you can take action right away to reduce risk and fulfill compliance requirements. Scan results include custom information that is passed to the SDK so you can take further action.
+
+If the File Security Storage scanner:
+
+### Procedure {#procedure}
+
+- finds a file contains malware, the file is sent to the quarantine bucket that you set up when adding the account.
+
+- does not find malware in a file, it is sent to the S3 bucket.

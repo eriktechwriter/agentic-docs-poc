@@ -1,0 +1,27 @@
+---
+slug: trend-vision-one-rule-categories
+sidebar_position: 2
+title: Rule categories
+---
+
+Trend Vision One™ – Cloud Risk Management organizes all [rules](./introduction-to-cloud-risk-management-rules/introduction-rules) into 5 categories to identify distinct outcomes targeted by public cloud infrastructure users. These categories are based on the [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/) but follow Cloud Risk Management's rule classification framework.
+
+*Categories:*
+
+### Procedure {#procedure}
+
+1.  Security
+
+2.  Cost Optimisation
+
+3.  Operational Excellence
+
+4.  Reliability
+
+5.  Performance Efficiency
+
+6.  Sustainability
+
+### Next steps {#next-steps}
+
+A rule can belong to 1 or more categories.

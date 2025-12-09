@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Policy Resources",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/policy-management/policy-resources/index"
+  },
+  "collapsed": true
+}

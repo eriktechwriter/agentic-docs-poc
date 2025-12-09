@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Compliance scan - AWS",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/cloud-risk-management/cloud-risk-management/misconfiguration-and-compliance/compliance-scan-help/compliance-scan-aws/index"
+  },
+  "collapsed": true
+}

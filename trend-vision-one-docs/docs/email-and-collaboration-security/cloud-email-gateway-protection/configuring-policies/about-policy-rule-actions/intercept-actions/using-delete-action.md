@@ -1,0 +1,11 @@
+---
+slug: trend-vision-one-using-delete-action
+sidebar_position: 2
+title: Using the delete action
+---
+
+This action deletes the message and all attachments. The message is recorded as deleted in the Cloud Email Gateway Protection logs, but once deleted, the message cannot be recovered. It is one of the "intercept" category of actions. To configure a policy rule action to delete a message:
+
+### Procedure {#procedure}
+
+- Select the **Delete entire message** action from the "Intercept" section.

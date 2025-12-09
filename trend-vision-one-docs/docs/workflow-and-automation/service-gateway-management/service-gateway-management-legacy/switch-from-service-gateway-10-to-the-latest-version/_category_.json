@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Switch from Service Gateway 1.0 to the latest version",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/service-gateway-management/service-gateway-management-legacy/switch-from-service-gateway-10-to-the-latest-version/index"
+  },
+  "collapsed": true
+}

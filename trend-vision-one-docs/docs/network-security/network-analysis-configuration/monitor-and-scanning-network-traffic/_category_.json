@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Monitor and Scanning Network Traffic",
+  "link": {
+    "type": "doc",
+    "id": "network-security/network-analysis-configuration/monitor-and-scanning-network-traffic/index"
+  },
+  "collapsed": true
+}

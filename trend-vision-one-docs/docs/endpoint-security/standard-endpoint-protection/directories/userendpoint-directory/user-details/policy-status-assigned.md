@@ -1,0 +1,13 @@
+---
+slug: trend-vision-one-policy-status-assigned
+sidebar_position: 3
+title: Policy Status
+---
+
+The **Policy Status** tab displays all the products installed on the target endpoint, any Trend Micro Apex Central policies assigned, and the current policy status for each installed product.
+
+:::note
+Trend Micro Apex Central identifies and associates users with endpoints based on the type of endpoint or through integration with Active Directory.
+:::
+
+Click the *Assigned Policy* name to view or edit a policy.

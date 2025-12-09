@@ -1,0 +1,9 @@
+{
+  "position": 11,
+  "label": "Support Settings",
+  "link": {
+    "type": "doc",
+    "id": "administration/support-settings/index"
+  },
+  "collapsed": true
+}

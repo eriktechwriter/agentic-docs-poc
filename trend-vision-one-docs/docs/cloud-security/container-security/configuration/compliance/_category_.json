@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Compliance",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/configuration/compliance/index"
+  },
+  "collapsed": true
+}

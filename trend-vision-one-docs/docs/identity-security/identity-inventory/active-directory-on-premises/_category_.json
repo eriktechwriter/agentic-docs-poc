@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Active Directory (on-premises)",
+  "link": {
+    "type": "doc",
+    "id": "identity-security/identity-inventory/active-directory-on-premises/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Run the deployment script",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/getting-started-with-trend-vision-one-endpoint-security/manage-your-agent-deployments/deploy-agents/run-the-deployment-script/index"
+  },
+  "collapsed": true
+}

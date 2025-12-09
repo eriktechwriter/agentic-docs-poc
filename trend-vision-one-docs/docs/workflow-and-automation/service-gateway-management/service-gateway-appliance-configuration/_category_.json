@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Service Gateway appliance configuration",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/service-gateway-management/service-gateway-appliance-configuration/index"
+  },
+  "collapsed": true
+}

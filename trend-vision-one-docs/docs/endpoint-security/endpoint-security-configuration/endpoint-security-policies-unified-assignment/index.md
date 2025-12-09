@@ -1,0 +1,35 @@
+---
+slug: trend-vision-one-endpoint-security-policies
+sidebar_position: 1
+title: Endpoint Security Policies (unified assignment)
+---
+
+Configure policy settings and assignments to centrally manage endpoint security features.
+
+:::warning[Important]
+- If this is your first time using the new Endpoint Security Policies, please read [Before you enroll](./before-you-enroll-policies). This version of Endpoint Security Policies is an updated and improved version which integrates most features from Standard Endpoint Protection and Server & Workload Protection. However, support for some features is still under development. Review [Before you enroll](./before-you-enroll-policies) to avoid any potential interruption to your security environment.
+
+  To verify which version of Endpoint Security Policies you are using, look for the **Assignments** and **Policies** tabs. If you do not see the tabs, see [Endpoint Security Policies](../endpoint-security-policies).
+
+  <figure>
+  <img src="./images/unifiedpoliciestabs=e61a1e75-21f3-4398-9512-0f7bf63b6b7b.webp" />
+  <figcaption>Endpoint Security Policies (unified assignment)</figcaption>
+  </figure>
+
+- Endpoint security policies (unified assignment) only support endpoints with the Trend Vision One Endpoint Security agent version 202507 release or later installed.
+
+- Endpoint Security Policies (unified assignment) is a "Pre-release" feature and is not considered an official release. Please review the [Pre-Release Disclaimer](../../../privacy-and-personal-data-collection-disclosure/pre-release-disclaimer) before using the feature.
+
+- This feature is not available in all regions.
+:::
+
+**Endpoint Security Policies** allows you to manage Trend Vision One Endpoint Security agent features using [Policies](./policies) and [Assignments](./assignments). Policies offer a unified method for configuring security features from across all agent features including the Endpoint Sensor, Standard Endpoint Protection, and Server & Workload Protection. Use assignments to apply policies to target endpoint groups based on priority criteria.
+
+**Related information**
+
+- [About endpoint security policies (unified assignment)](./about-endpoint-security-policies-unified-assignment "Centralize management of Trend Vision One Endpoint Security agent settings for Endpoint Sensor and protection manager features.")
+- [Before you enroll your endpoint groups](./before-you-enroll-policies "Review the supported features for Endpoint Security Polices before enrolling your endpoint groups.")
+- [Getting started with Endpoint Security Policies (unified assignment)](./get-started-endpoint-policies "Get an overview on how to create and assign policies to your endpoint groups.")
+- [Policies](./policies "Create and manage policy settings.")
+- [Assignments](./assignments "Create assignments to apply policies to your endpoint groups.")
+- [Endpoint Security Policies troubleshooting and FAQ](./endpoint-security-policies-troubleshooting-and-faq)

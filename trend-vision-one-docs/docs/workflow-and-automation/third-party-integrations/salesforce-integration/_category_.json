@@ -1,0 +1,9 @@
+{
+  "position": 49,
+  "label": "Salesforce integration",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/salesforce-integration/index"
+  },
+  "collapsed": true
+}

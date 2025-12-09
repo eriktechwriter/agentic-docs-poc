@@ -1,0 +1,15 @@
+---
+slug: trend-vision-one-updating-artifact-scanner-cli
+sidebar_position: 3
+title: Update to the latest version
+---
+
+To ensure optimal performance and access to the latest features, update to the most recent version of Trend Micro Artifact Scanner (TMAS).
+
+### Procedure {#procedure}
+
+1.  [Download the updated binary](.) for the latest version of the TMAS CLI.
+
+2.  Adjust your system's binary path settings by replacing the existing TMAS binary with the updated binary. For more information, see Add Trend Micro Artifact Scanner CLI to your PATH in the README file.
+
+    TMAS is now successfully updated to the latest version.

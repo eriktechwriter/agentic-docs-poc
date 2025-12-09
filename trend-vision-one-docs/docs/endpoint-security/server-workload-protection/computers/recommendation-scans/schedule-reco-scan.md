@@ -1,0 +1,27 @@
+---
+slug: trend-vision-one-schedule-reco-scan
+sidebar_position: 4
+title: Schedule a recommendation scan
+---
+
+### Procedure {#procedure}
+
+1.  On the Server & Workload Protection console, go to **Administration → Scheduled Tasks**.
+
+2.  Select **New → New Scheduled Task** to display the New Scheduled Task wizard.
+
+3.  Select **Type → Scan Computers for Recommendations**.
+
+4.  Select how often you want the scan to occur then click **Next**.
+
+5.  Specify the scan frequency based on your selection then click **Next**.
+
+6.  Select the computers to scan then click **Next**.
+
+7.  Name the new scheduled task.
+
+8.  To immediately run the scan, select **Run Task on Finish**.
+
+9.  Click **Finish**.
+
+The results of the latest recommendation scan appear on the General tab of the Intrusion Prevention, Integrity Monitoring, or Log Inspection protection module.

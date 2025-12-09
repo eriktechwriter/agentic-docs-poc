@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Active Directory On-Premises integration and SSO for Zero Trust Secure Access",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/getting-started-with-zero-trust-secure-access/deployment-guides/setting-up-zero-trust-secure-access-internet-access-and-ai-service-access/identity-and-access-management-integration/active-directory-on-premises-integration-and-sso-for-zero-trust-secure-access/index"
+  },
+  "collapsed": true
+}

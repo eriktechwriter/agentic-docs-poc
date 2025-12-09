@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Network Resources",
+  "link": {
+    "type": "doc",
+    "id": "network-security/network-analysis-configuration/network-resources/index"
+  },
+  "collapsed": true
+}

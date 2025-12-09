@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Agent Installer Proxy Settings",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/endpoint-inventory/global-settings/agent-installer-proxy-settings/index"
+  },
+  "collapsed": true
+}

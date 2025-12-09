@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Configure load balancers to use multiple Internet Access on-premises gateways as the authentication proxy",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-configuration/internet-access-and-ai-service-access-configuration/global-settings/configuring-ntlm-or-kerberos-single-sign-on-with-active-directory-on-premises/configure-load-balancers-to-use-multiple-internet-access-on-premises-gateways-as-the-authentication-proxy/index"
+  },
+  "collapsed": true
+}

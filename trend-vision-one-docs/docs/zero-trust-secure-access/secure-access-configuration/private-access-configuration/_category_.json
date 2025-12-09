@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Private Access configuration",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-configuration/private-access-configuration/index"
+  },
+  "collapsed": true
+}

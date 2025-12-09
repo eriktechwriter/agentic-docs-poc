@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Configuring the blocked PTR domain list",
+  "link": {
+    "type": "doc",
+    "id": "email-and-collaboration-security/cloud-email-gateway-protection/inbound-and-outbound-protection/managing-reverse-dns-validation/configuring-the-blocked-ptr-domain-list/index"
+  },
+  "collapsed": true
+}

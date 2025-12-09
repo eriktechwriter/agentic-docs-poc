@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Microsoft Endpoint Manager (Intune) integration",
+  "link": {
+    "type": "doc",
+    "id": "mobile-security/get-started-with-mobile-security/microsoft-endpoint-manager-intune-integration/index"
+  },
+  "collapsed": true
+}

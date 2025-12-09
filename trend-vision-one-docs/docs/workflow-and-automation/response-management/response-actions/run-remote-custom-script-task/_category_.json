@@ -1,0 +1,9 @@
+{
+  "position": 21,
+  "label": "Run Remote Custom Script task",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/response-management/response-actions/run-remote-custom-script-task/index"
+  },
+  "collapsed": true
+}

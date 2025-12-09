@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "What is File Security?",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/file-security/what-is-file-security/index"
+  },
+  "collapsed": true
+}

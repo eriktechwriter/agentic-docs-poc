@@ -1,0 +1,13 @@
+---
+slug: trend-vision-one-header-differs-reply-criteria
+sidebar_position: 4
+title: Using message header sender differs from header reply-to criteria
+---
+
+One common sign of spoofed messages is mismatched message header sender (specified by the header "From") and header Reply-To. Cloud Email Gateway Protection can detect messages with the header sender different from header Reply-To to protect you against spoofing.
+
+### Procedure {#procedure}
+
+1.  On the **Scanning Criteria** tab, click **Advanced**.
+
+2.  Select **Message header sender differs from header Reply-To**.

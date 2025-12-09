@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "AWS features and permissions",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/cloud-accounts/aws-accounts/aws-features-and-permissions/index"
+  },
+  "collapsed": true
+}

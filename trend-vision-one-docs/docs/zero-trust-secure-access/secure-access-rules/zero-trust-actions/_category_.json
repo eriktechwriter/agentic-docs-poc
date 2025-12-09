@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Zero Trust actions",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-rules/zero-trust-actions/index"
+  },
+  "collapsed": true
+}

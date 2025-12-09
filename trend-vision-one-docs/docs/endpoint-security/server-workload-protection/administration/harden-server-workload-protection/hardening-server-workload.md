@@ -1,0 +1,15 @@
+---
+slug: trend-vision-one-hardening-server-workload
+sidebar_position: 2
+title: About Server & Workload Protection hardening
+---
+
+Server & Workload Protection runs on Amazon Linux. The Server & Workload Protection team has hardened it based on the [Center for Internet Security](https://www.cisecurity.org/) (CIS) standard for Amazon Linux.
+
+Hardening involves making changes to secure the system and make it less vulnerable to attack. For Server & Workload Protection, the changes included updating the web installer so that it terminates after Server & Workload Protection is online, removing unnecessary software, and configuring system settings to use the principal of least privilege, wherever it is applicable.
+
+Additionally, you can:
+
+- [Set up multi-factor authentication](../../../../administration/user-accounts)
+- [Manage trusted certificates](./manage-trusted-certificates/manage-trusted-certificates)
+- [SSL implementation and credential provisioning](./ssl-implementation-credentials)

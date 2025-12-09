@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "TAXII feeds",
+  "link": {
+    "type": "doc",
+    "id": "threat-intelligence/third-party-intelligence/taxii-feeds/index"
+  },
+  "collapsed": true
+}

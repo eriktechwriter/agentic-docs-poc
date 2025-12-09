@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Configuring reverse DNS validation settings",
+  "link": {
+    "type": "doc",
+    "id": "email-and-collaboration-security/cloud-email-gateway-protection/inbound-and-outbound-protection/managing-reverse-dns-validation/configuring-reverse-dns-validation-settings/index"
+  },
+  "collapsed": true
+}

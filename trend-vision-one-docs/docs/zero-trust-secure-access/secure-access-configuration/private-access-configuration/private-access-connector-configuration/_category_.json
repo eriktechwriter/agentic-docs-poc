@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Private Access Connector configuration",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-configuration/private-access-configuration/private-access-connector-configuration/index"
+  },
+  "collapsed": true
+}

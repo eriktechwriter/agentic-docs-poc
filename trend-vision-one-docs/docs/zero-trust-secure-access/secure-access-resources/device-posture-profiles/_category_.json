@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Device posture profiles",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-resources/device-posture-profiles/index"
+  },
+  "collapsed": true
+}

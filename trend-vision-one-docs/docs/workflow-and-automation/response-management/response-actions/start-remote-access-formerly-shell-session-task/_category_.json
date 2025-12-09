@@ -1,0 +1,9 @@
+{
+  "position": 24,
+  "label": "Start remote access (formerly shell) session task",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/response-management/response-actions/start-remote-access-formerly-shell-session-task/index"
+  },
+  "collapsed": true
+}

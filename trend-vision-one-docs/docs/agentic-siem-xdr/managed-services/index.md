@@ -1,0 +1,50 @@
+---
+slug: trend-vision-one-managed-services
+sidebar_position: 1
+title: Managed Services
+---
+
+Augment your team with the expertly managed detection and response service.
+
+Backed by a team of highly qualified security analysts, Trend Micro Managed Services is a flexible 24/7 service that provides advanced threat detection, investigation, and response.
+
+The following table outlines the available tabs in **Managed Services**:
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr>
+<th><p>Tab</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p><a href="trend-vision-one-request-list">Request List</a></p></td>
+<td><p>Displays a list of response action requests that the Managed Services team submitted.</p></td>
+</tr>
+<tr>
+<td><p><strong>Reports</strong></p></td>
+<td><p>Displays a list of reports available for download that the Managed Services team generated.</p></td>
+</tr>
+<tr>
+<td><p><a href="trend-vision-one-settings">Settings</a></p></td>
+<td><p>Specify contact information, <a href="trend-vision-one-config-response-approval-settings">response action approval</a> settings, and other settings for your organization.</p></td>
+</tr>
+</tbody>
+</table>
+
+:::warning[Important]
+- Allow a few days for data synchronization after allocating credits to Managed Services.
+
+- Once the synchronization completes, the **Get Started** button appears. You can proceed to enable the service and complete the initial setup as instructed.
+:::
+
+**Related information**
+
+- [Request list](./request-list "Track and manage all the response action requests submitted by the Managed Services operations team.")
+- [Managed Services settings](./managed-services-settings "Specify the contact information, response approval settings, critical asset list, and cross-app management settings for your organization.")
+- [Response actions](./response-actions-mdr "Explore the response actions available to the Managed Services operations team.")

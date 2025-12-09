@@ -1,0 +1,33 @@
+---
+slug: trend-vision-one-triage-endpoints
+sidebar_position: 5
+title: Triage endpoints
+---
+
+Use **Forensics** to identify, prioritize, and manage attacked endpoints based on the severity and impact.
+
+You can collect detailed evidence from potentially compromised endpoints for internal investigations into critical incidents that occurred on your network and may require further attention.
+
+### Procedure {#procedure}
+
+1.  In the Trend Vision One console, go to **Agentic SIEM & XDR → Forensics**.
+
+2.  Click the name of the workspace that has the endpoints you want to triage.
+
+3.  Select one or more endpoints from the list. Selected endpoints must all use the same operating system.
+
+4.  Use one of the available options for triage:
+
+    - [Run YARA Rules](../../../workflow-and-automation/response-management/response-actions/run-yara-rules-task)
+
+    - [Run osquery](../../../workflow-and-automation/response-management/response-actions/run-osquery-task)
+
+    The task you selected starts running
+
+5.  After the task you executed finishes running, click **View Query Results** to see the results.
+
+6.  Analyze the results to decide further actions.
+
+    :::note
+    For more information, see [Endpoint Response Actions](../../../workflow-and-automation/response-management/response-actions).
+    :::

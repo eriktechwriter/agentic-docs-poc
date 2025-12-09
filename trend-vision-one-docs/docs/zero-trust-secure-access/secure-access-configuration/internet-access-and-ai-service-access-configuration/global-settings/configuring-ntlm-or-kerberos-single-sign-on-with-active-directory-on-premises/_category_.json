@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Configuring NTLM or Kerberos single sign-on with Active Directory (on-premises)",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-configuration/internet-access-and-ai-service-access-configuration/global-settings/configuring-ntlm-or-kerberos-single-sign-on-with-active-directory-on-premises/index"
+  },
+  "collapsed": true
+}

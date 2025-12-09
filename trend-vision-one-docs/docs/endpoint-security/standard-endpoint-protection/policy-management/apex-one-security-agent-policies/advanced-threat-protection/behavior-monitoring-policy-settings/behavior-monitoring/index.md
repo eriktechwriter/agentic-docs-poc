@@ -1,0 +1,16 @@
+---
+slug: trend-vision-one-behavior-monitoring
+sidebar_position: 1
+title: Behavior Monitoring
+---
+
+Behavior Monitoring constantly monitors endpoints for unusual modifications to the operating system or on installed software. Behavior Monitoring protects endpoints through *Malware Behavior Blocking* and *Event Monitoring*. Complementing these two features are a user-configured *exception list* and the *Certified Safe Software Service*.
+
+:::warning[Important]
+By default, Behavior Monitoring is disabled on all versions of Windows Server platforms.
+:::
+
+**Related information**
+
+- [Behavior Monitoring Rules](./behavior-monitoring-policy-rules "Configure how Behavior Monitoring is applied to the policy.")
+- [Behavior Monitoring Exception List](./behavior-monitoring-exception-list)

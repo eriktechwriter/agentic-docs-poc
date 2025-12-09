@@ -1,0 +1,9 @@
+{
+  "position": 16,
+  "label": "Google Cloud Identity integration",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/google-cloud-identity-integration/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Microsoft Entra ID",
+  "link": {
+    "type": "doc",
+    "id": "identity-security/identity-inventory/microsoft-entra-id/index"
+  },
+  "collapsed": true
+}

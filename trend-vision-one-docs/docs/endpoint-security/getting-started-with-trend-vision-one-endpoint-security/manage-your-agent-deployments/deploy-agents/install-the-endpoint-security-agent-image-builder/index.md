@@ -1,0 +1,21 @@
+---
+slug: trend-vision-one-install-agent-image-builder
+sidebar_position: 1
+title: Install the Endpoint Security agent image builder
+---
+
+After subscribing to the Trend Vision One Endpoint Security agent on the Amazon Web Services (AWS) marketplace, you can use the agent to create an Amazon Machine Image (AMI) to start and connect an Amazon Elastic Compute Cloud (EC2) to Trend Vision One.
+
+### Procedure {#procedure}
+
+1.  [Retrieve the Trend Vision One parameters](./retrieve-v1-parameters).
+
+2.  [Set parameter store values](./set-parameter-store-values).
+
+3.  [Set up the image builder and create an Amazon Elastic Compute Cloud (EC2) instance](./image-builder-ec2-instance).
+
+**Related information**
+
+- [Retrieve the Trend Vision One parameters](./retrieve-v1-parameters)
+- [Set parameter store values](./set-parameter-store-values)
+- [Set up the image builder and create an Amazon Elastic Compute Cloud (EC2) instance](./image-builder-ec2-instance)

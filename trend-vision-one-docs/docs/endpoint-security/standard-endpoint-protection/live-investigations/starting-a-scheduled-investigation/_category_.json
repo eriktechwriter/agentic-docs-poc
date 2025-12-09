@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Starting a Scheduled Investigation",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/live-investigations/starting-a-scheduled-investigation/index"
+  },
+  "collapsed": true
+}

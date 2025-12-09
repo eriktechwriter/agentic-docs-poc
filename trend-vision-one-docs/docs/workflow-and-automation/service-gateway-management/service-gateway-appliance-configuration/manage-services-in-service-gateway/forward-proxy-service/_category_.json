@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Forward Proxy Service",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/service-gateway-management/service-gateway-appliance-configuration/manage-services-in-service-gateway/forward-proxy-service/index"
+  },
+  "collapsed": true
+}

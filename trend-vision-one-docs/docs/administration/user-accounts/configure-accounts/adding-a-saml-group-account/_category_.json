@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Adding a SAML Group Account",
+  "link": {
+    "type": "doc",
+    "id": "administration/user-accounts/configure-accounts/adding-a-saml-group-account/index"
+  },
+  "collapsed": true
+}

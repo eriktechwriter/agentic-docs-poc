@@ -1,0 +1,9 @@
+{
+  "position": 35,
+  "label": "Okta integration",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/okta-integration/index"
+  },
+  "collapsed": true
+}

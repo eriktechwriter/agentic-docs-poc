@@ -1,0 +1,14 @@
+---
+slug: trend-vision-one-windows-agent-updates-release-notes
+sidebar_position: 2
+title: Windows agent updates
+---
+
+**Related information**
+
+- [Trend Vision One Endpoint Security agent August 2025 update - Windows](windows-agent-august-2025-update.md)
+- [Trend Vision One Endpoint Security agent July 2025 update - Windows](windows-agent-july-2025-update.md)
+- [Trend Vision One Endpoint Security agent June 2025 update - Windows](windows-agent-june-2025-update.md)
+- [Trend Vision One Endpoint Security agent April 2025 update - Windows](windows-agent-april-2025-update.md)
+- [Trend Vision One Endpoint Security agent March 2025 update - Windows](agent-march-2025-update-windows.md)
+- [Trend Vision One Endpoint Security agent January 2025 update - Windows](windows-agent-january-2025.md)

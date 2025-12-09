@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Runtime Proxy Settings",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/endpoint-inventory/global-settings/runtime-proxy-settings/index"
+  },
+  "collapsed": true
+}

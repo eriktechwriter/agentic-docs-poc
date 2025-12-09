@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Configuring notifications",
+  "link": {
+    "type": "doc",
+    "id": "administration/notifications/configuring-notifications/index"
+  },
+  "collapsed": true
+}

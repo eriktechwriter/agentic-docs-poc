@@ -1,0 +1,59 @@
+---
+slug: trend-vision-one-risk-management-guidance
+sidebar_position: 6
+title: Risk management guidance
+---
+
+Review recommended actions to mitigate ongoing attacks and prevent potential attacks.
+
+This section displays the top recommended actions to harden your defenses, investigate attack scope, and monitor your environment. The recommended actions vary depending on factors including enabled security features, security feature configurations, and the type of threat in your environment.
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr>
+<th><p>Security Objective</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p>Prevention and Containment</p></td>
+<td><p>Prevent the spread of new and ongoing attacks.</p>
+<p>This section provides steps to harden your defenses and mitigate ongoing or potential attacks.</p></td>
+</tr>
+<tr>
+<td><p>Monitoring and Investigation</p></td>
+<td><p>Increase visibility and monitor new or ongoing attacks.</p>
+<p>This section provides steps to further investigate the scope of ongoing attacks, monitor, and search for attack indicators in your environment.</p></td>
+</tr>
+<tr>
+<td><p>Managed Services and Support</p></td>
+<td><p>Contact threat experts to provide guidance and analysis of ongoing threats.</p>
+<p>Click <strong>Request Help from Trend Micro Threat Experts</strong> for expert assistance.</p>
+
+:::note
+
+<p>This section only appears during an ongoing attack campaign or when your attack scope is <em>Medium</em> or <em>High</em> risk.</p>
+
+:::
+
+</td>
+</tr>
+</tbody>
+</table>
+
+- Each *Security Objective* lists several *Vectors*.
+
+- Vectors appear based on your current security posture and contain a list of *Suggestions*.
+
+- Suggestions expand to show individual recommended *Actions*.
+
+- Click the button next to each action to view more information. Follow the provided guidance to complete the recommended action.
+
+  :::warning[Important]
+  Some recommendations require actions in other parts of Trend Vision One, like managing connected products. Read each recommendation carefully.
+  :::

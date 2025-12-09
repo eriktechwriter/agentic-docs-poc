@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Security Posture Management",
+  "link": {
+    "type": "doc",
+    "id": "cyber-risk-exposure-management/security-posture-management/index"
+  },
+  "collapsed": true
+}

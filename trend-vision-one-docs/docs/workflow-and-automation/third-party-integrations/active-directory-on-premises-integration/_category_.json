@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Active Directory (on-premises) integration",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/active-directory-on-premises-integration/index"
+  },
+  "collapsed": true
+}

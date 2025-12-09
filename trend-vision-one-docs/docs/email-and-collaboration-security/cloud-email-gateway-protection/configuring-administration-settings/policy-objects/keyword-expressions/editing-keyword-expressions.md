@@ -1,0 +1,17 @@
+---
+slug: trend-vision-one-editing-keyword-expressions
+sidebar_position: 4
+title: Editing keyword expressions
+---
+
+Existing keyword expressions can be modified, or can be copied with a new name.
+
+### Procedure {#procedure}
+
+1.  Go to **Administration → Policy Objects → Keywords and Expressions**.
+
+2.  Click the name of a keyword expression list.
+
+3.  Edit the keyword expression information as required.
+
+4.  Click **Save**.

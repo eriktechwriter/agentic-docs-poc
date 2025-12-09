@@ -1,0 +1,9 @@
+{
+  "position": 7,
+  "label": "Deployment using a golden image",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/getting-started-with-trend-vision-one-endpoint-security/manage-your-agent-deployments/deploy-agents/deployment-using-a-golden-image/index"
+  },
+  "collapsed": true
+}

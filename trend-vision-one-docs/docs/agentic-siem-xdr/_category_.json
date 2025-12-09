@@ -1,0 +1,9 @@
+{
+  "position": 10,
+  "label": "Agentic SIEM & XDR",
+  "link": {
+    "type": "doc",
+    "id": "agentic-siem-xdr/index"
+  },
+  "collapsed": true
+}

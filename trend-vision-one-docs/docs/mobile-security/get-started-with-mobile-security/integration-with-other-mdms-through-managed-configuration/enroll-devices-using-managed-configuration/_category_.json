@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Enroll devices using managed configuration",
+  "link": {
+    "type": "doc",
+    "id": "mobile-security/get-started-with-mobile-security/integration-with-other-mdms-through-managed-configuration/enroll-devices-using-managed-configuration/index"
+  },
+  "collapsed": true
+}

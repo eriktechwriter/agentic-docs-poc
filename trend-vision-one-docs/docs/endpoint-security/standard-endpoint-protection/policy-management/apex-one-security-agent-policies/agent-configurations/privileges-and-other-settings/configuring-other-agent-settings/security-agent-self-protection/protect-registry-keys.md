@@ -1,0 +1,15 @@
+---
+slug: trend-vision-one-protect-registry-keys
+sidebar_position: 4
+title: Protect Security Agent Registry Keys
+---
+
+The Trend Vision One Endpoint Security agent blocks all attempts to modify, delete, or add new entries under the following registry keys and subkeys:
+
+- `HKEY_LOCAL_MACHINE\SOFTWARE\TrendMicro\PC-cillinNTCorp\CurrentVersion`
+
+- `HKEY_LOCAL_MACHINE\SOFTWARE\TrendMicro\NSC`
+
+- `HKEY_LOCAL_MACHINE\SOFTWARE\TrendMicro\Osprey`
+
+- `HKEY_LOCAL_MACHINE\SOFTWARE\TrendMicro\AMSP`

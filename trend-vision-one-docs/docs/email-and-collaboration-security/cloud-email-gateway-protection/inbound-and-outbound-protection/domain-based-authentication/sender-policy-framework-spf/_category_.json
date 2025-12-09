@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Sender policy framework (SPF)",
+  "link": {
+    "type": "doc",
+    "id": "email-and-collaboration-security/cloud-email-gateway-protection/inbound-and-outbound-protection/domain-based-authentication/sender-policy-framework-spf/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Create Incident Response Evidence Collection playbooks",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/security-playbooks/template-based-playbooks/create-incident-response-evidence-collection-playbooks/index"
+  },
+  "collapsed": true
+}

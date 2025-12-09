@@ -1,0 +1,9 @@
+{
+  "position": 53,
+  "label": "ServiceNow ITSM ticketing system integration (for Security Playbooks and Case Management)",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/servicenow-itsm-ticketing-system-integration-for-security-playbooks-and-case-management/index"
+  },
+  "collapsed": true
+}

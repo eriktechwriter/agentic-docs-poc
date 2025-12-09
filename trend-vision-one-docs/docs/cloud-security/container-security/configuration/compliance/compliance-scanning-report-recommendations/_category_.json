@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Compliance scanning report recommendations",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/configuration/compliance/compliance-scanning-report-recommendations/index"
+  },
+  "collapsed": true
+}

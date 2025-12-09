@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Threat protection rules",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-resources/threat-protection-rules/index"
+  },
+  "collapsed": true
+}

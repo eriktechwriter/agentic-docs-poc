@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Deployment guides",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/service-gateway-management/getting-started-with-service-gateway/deployment-guides/index"
+  },
+  "collapsed": true
+}

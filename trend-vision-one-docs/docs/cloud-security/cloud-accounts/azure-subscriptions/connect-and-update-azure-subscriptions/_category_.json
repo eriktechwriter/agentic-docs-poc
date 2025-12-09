@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Connect and update Azure subscriptions",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/cloud-accounts/azure-subscriptions/connect-and-update-azure-subscriptions/index"
+  },
+  "collapsed": true
+}

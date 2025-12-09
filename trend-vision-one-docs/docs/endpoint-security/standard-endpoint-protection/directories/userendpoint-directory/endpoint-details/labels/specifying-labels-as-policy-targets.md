@@ -1,0 +1,17 @@
+---
+slug: trend-vision-one-specifying-labels-as-policy-targets
+sidebar_position: 5
+title: Specifying Labels as Policy Targets
+---
+
+### Procedure {#procedure}
+
+1.  Go to **Policies → Policy Management**.
+
+2.  Create or edit a policy.
+
+3.  In the **Targets** section, select the **Labels** icon and click **Select Labels**.
+
+    The **Select Labels** screen appears.
+
+4.  Select the label(s) you want to specify as the policy target(s) and then click **OK**.

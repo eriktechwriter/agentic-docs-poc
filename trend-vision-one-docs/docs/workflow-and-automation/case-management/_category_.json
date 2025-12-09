@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Case Management",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/case-management/index"
+  },
+  "collapsed": true
+}

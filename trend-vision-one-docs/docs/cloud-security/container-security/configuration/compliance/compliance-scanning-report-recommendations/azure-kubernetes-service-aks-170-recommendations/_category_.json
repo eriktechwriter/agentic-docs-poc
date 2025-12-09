@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Azure Kubernetes Service (AKS) 1.7.0 recommendations",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/configuration/compliance/compliance-scanning-report-recommendations/azure-kubernetes-service-aks-170-recommendations/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "CEF Content Security Logs",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/administration/settings/configuring-syslog-forwarding/syslog-content-mapping-cef/cef-content-security-logs/index"
+  },
+  "collapsed": true
+}

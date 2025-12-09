@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Cluster-managed policies",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/configuration/policy/cluster-managed-policies/index"
+  },
+  "collapsed": true
+}

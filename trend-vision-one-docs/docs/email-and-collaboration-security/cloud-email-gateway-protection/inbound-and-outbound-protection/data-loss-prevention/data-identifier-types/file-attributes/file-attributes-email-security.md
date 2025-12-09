@@ -1,0 +1,7 @@
+---
+slug: trend-vision-one-file-attributes-email-security
+sidebar_position: 2
+title: Predefined file attributes list
+---
+
+Data Loss Prevention comes with a predefined file attributes list. This list cannot be modified or deleted. The list has its own built-in conditions that determine if the template should trigger a policy violation.

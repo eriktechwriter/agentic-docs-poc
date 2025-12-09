@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "At-Risk Endpoint Assessment",
+  "link": {
+    "type": "doc",
+    "id": "assessment/cyber-risk-assessment/at-risk-endpoint-assessment/index"
+  },
+  "collapsed": true
+}

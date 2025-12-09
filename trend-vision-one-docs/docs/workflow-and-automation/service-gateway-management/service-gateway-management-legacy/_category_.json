@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Service Gateway Management (legacy)",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/service-gateway-management/service-gateway-management-legacy/index"
+  },
+  "collapsed": true
+}

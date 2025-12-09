@@ -1,0 +1,35 @@
+---
+slug: trend-vision-one-sg-deploy-tippingpoint-sms
+sidebar_position: 1
+title: Service Gateway deployment for TippingPoint SMS
+---
+
+Review the required services for connecting TippingPoint SMS and how to deploy a Service Gateway.
+
+:::warning[Important]
+TippingPoint SMS only supports connecting to Service Gateway version 2.0 or later.
+:::
+
+To connect a TippingPoint SMS to Network Security using a Service Gateway, ensure the following services are installed and enabled:
+
+- Forward proxy
+
+- Suspicious Object List Synchronization
+
+- TippingPoint log forwarding (required for TippingPoint SMS 6.0.0 and earlier)
+
+- TippingPoint policy management (required for TippingPoint SMS 6.0.0 and earlier)
+
+For detailed deployment instructions, see:
+
+- [Deploy a Service Gateway virtual appliance with VMware ESXi](./service-gateway-vmware-esxi)
+
+- [Deploy a Service Gateway virtual appliance with Microsoft Hyper-V](./sg-appliances-hyper-v)
+
+For a complete list of Service Gateway system requirements, see [Service Gateway appliance system requirements](./sys-sg-requirements).
+
+**Related information**
+
+- [Service Gateway appliance system requirements](./sys-sg-requirements "View detailed Service Gateway system requirements based on service deployment")
+- [Deploy a Service Gateway virtual appliance with VMware ESXi](./service-gateway-vmware-esxi "Discover how to install the Service Gateway virtual appliance on VMware ESXi.")
+- [Deploy a Service Gateway virtual appliance with Microsoft Hyper-V](./sg-appliances-hyper-v "Instructions on how to use the Command Line Interface (CLI) to deploy a Service Gateway virtual appliance with Microsoft Hyper-V.")

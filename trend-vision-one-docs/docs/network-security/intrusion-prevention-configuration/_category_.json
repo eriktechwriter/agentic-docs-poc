@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Intrusion Prevention Configuration",
+  "link": {
+    "type": "doc",
+    "id": "network-security/intrusion-prevention-configuration/index"
+  },
+  "collapsed": true
+}

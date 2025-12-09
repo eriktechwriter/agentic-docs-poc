@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Create a Container Security policy",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/getting-started-with-container-security/create-a-container-security-policy/index"
+  },
+  "collapsed": true
+}

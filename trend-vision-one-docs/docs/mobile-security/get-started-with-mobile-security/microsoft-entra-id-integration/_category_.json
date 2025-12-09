@@ -1,0 +1,9 @@
+{
+  "position": 9,
+  "label": "Microsoft Entra ID integration",
+  "link": {
+    "type": "doc",
+    "id": "mobile-security/get-started-with-mobile-security/microsoft-entra-id-integration/index"
+  },
+  "collapsed": true
+}

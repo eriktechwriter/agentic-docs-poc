@@ -1,0 +1,9 @@
+{
+  "position": 10,
+  "label": "HTTP/HTTPS traffic filters",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-resources/httphttps-traffic-filters/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Data Source and Log Management",
+  "link": {
+    "type": "doc",
+    "id": "service-management/data-source-and-log-management/index"
+  },
+  "collapsed": true
+}

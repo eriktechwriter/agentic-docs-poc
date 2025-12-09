@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Deploy the Private Access Connector on Microsoft Azure",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/getting-started-with-zero-trust-secure-access/deployment-guides/setting-up-zero-trust-secure-access-private-access/private-access-connector-deployment/deploy-the-private-access-connector-on-microsoft-azure/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "Track sensitive data movement",
+  "link": {
+    "type": "doc",
+    "id": "data-security/data-security/track-sensitive-data-movement/index"
+  },
+  "collapsed": true
+}

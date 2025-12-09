@@ -1,0 +1,15 @@
+---
+slug: trend-vision-one-modify-outbound-static-ip-pair
+sidebar_position: 3
+title: Modify an outbound static IP pair
+---
+
+You can modify the bandwidth and type of traffic for an existing outbound static IP pair by clicking edit and make changes in those fields. You cannot change the region of a pair, you must create a new static pair for the new region.
+
+### Procedure {#procedure}
+
+1.  Click the edit (pencil) icon.
+
+2.  Change the required field.
+
+3.  Click **Save**.

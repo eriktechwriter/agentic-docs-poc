@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Domainkeys identified mail (DKIM)",
+  "link": {
+    "type": "doc",
+    "id": "email-and-collaboration-security/cloud-email-gateway-protection/inbound-and-outbound-protection/domain-based-authentication/domainkeys-identified-mail-dkim/index"
+  },
+  "collapsed": true
+}

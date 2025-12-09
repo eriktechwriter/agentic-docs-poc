@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Endpoint Security Configuration",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/endpoint-security-configuration/index"
+  },
+  "collapsed": true
+}

@@ -1,0 +1,130 @@
+---
+slug: trend-vision-one-network-sensor-vmware-vcenter
+sidebar_position: 1
+title: Deploy a Virtual Network Sensor with VMware vCenter
+---
+
+Learn how to deploy your own Virtual Network Sensor on VMware vCenter.
+
+Virtual Network Sensor is a lightweight network sensor that scans your network activity and feeds network activity data to Trend Vision One and allows you to discover unmanaged assets and gain a holistic view of your attack surface. Before using the features of **Network Security**, you need to set up your Virtual Network Sensor and connect your appliance to Trend Vision One.
+
+:::warning[Important]
+Before deploying the Virtual Network Sensor, make sure you complete the following:
+
+- Review the [Virtual Network Sensor system requirements](../network-sensor-system-requirements) and ensure that you have adequate system resources.
+
+- Add the [Virtual Network Sensor firewall exceptions](../../../../getting-started/getting-started-with-trend-vision-one/firewall-exception-requirements-for-trend-vision-one) to your firewall settings.
+:::
+
+### Procedure {#procedure}
+
+1.  In the Trend Vision One console, go to **Network Security → Network Inventory → Virtual Network Sensor**.
+
+2.  Click **Deploy Virtual Network Sensor**.
+
+    The **Virtual Network Sensor Deployment** panel appears.
+
+3.  Select **VMware vCenter (OVA)** for the platform.
+
+4.  Select the **Connection method**.
+
+    - **Direct connection**: the Virtual Network Sensor connects to Trend Vision One directly. Make sure the Virtual Network Sensor is able to connect to the internet when using this configuration.
+
+    - **Connect using a custom proxy**: the Virtual Network Sensor connects to Trend Vision One through a third-party proxy. After choosing this method, configure the following fields:
+
+      - **Proxy address**: Specify the IP address of the proxy.
+
+      - **Proxy port**: Specify the connecting port of the proxy.
+
+      - **Proxy server requires authentication**: (Optional) Select if the proxy requires authentication credentials.
+
+      - **User name**: Specify the user name for the proxy credentials.
+
+      - **Password**: Specify the password for the proxy credentials.
+
+    - **Connect using a Service Gateway as proxy**: the Virtual Network Sensor connects to Trend Vision One through a Service Gateway. Select a Service Gateway to use for this method.
+
+      :::warning[Important]
+      The Virtual Network Sensor must be able to connect to a Service Gateway with the Forward Proxy Service configured and enabled. For more information, see [Manage services in Service Gateway](../../../../workflow-and-automation/service-gateway-management/service-gateway-appliance-configuration/manage-services-in-service-gateway).
+      :::
+
+5.  Click **Download Disk Image**.
+
+6.  In the VMware vCenter console, [configure network settings](./vsphere-st-switch-promiscuous-rspan) to allow the Virtual Network Sensor to monitor data in VMware vCenter.
+
+7.  Right-click the IP address for your server and select **Deploy OVF Template...**
+
+8.  On the **Select an OVF template** screen, select **Local file** and click **UPLOAD FILES** to select the Virtual Network Sensor disk image.
+
+9.  Click **NEXT**.
+
+10. On the **Select a name and folder** screen, specify a **Virtual machine name** and select a location for the virtual machine.
+
+11. Click **NEXT**.
+
+12. On the **Select a compute resource** screen, select a resource that you want to deploy the virtual appliance to and click **NEXT**.
+
+    :::note
+    The default is the virtual machine you previously selected.
+    :::
+
+13. On the **Review details** screen, verify the template details and click **NEXT**.
+
+14. On the **Configuration** screen, select the network throughput and click **NEXT**.
+
+15. On the **Select storage** screen, select the destination storage for where the virtual machine resides and **Thick Provision Lazy Zeroed** for virtual disk format.
+
+16. Click **NEXT**.
+
+17. On the **Select networks** screen, select **VM Network** as the management network (NIC 1), and **Data Network** as the data network (NIC 2) and click **NEXT**.
+
+    :::note
+    The NIC you chose for the management network must be able to connect to the internet.
+    :::
+
+18. On the **Customize template** screen, specify the following settings:
+
+    - Expand **System Settings**, select **1000** for the bandwidth, and enter the **Administrator password**.
+
+    - Expand **Network Settings** and configure the settings.
+
+      :::note
+      The device name or FQDN may not include underlines.
+      :::
+
+    - Expand **Proxy Settings** and configure the settings.
+
+19. Click **Next**.
+
+20. On the **Ready to complete** screen, review your settings and click **FINISH**.
+
+    Your Virtual Network Sensor deploys and automatically connects to Network Inventory.
+
+21. To confirm that the Virtual Network Sensor has successfully deployed, open Network Inventory on the Trend Vision One console and view information about your deployed Virtual Network Sensor.
+
+    If the Virtual Network Sensor does not appear in Network Inventory after deployment, verify the following settings:
+
+    - Network settings (NIC/vNIC setting and order)
+
+    - Firewall settings
+
+    - Proxy settings if using a proxy
+
+    - Review the [Virtual Network Sensor FAQ](../../../network-security-troubleshooting-faq/virtual-network-sensor-faqs) to verify and test the connection
+
+    :::note
+    For information about troubleshooting the Virtual Network Sensor see [Virtual Network Sensor CLI commands](../../../network-inventory/virtual-network-sensor/virtual-network-sensor-cli-commands).
+    :::
+
+**Related information**
+
+- [VMware vCenter network settings](./vmware-vcenter-network-settings "After successfully deploying your Virtual Network Sensor, decide which network configurations to use based on your requirements.")
+- [Configure internal network traffic with the VMware vSphere Distributed Switch (promiscuous mode)](./vsphere-dist-switch-promiscuous "Configure internal network traffic with the VMware vSphere Distributed Switch using promiscuous mode to allow Virtual Network Sensor to monitor data.")
+- [Configure internal network traffic with the VMware vSphere Distributed Switch (SPAN)](./vsphere-distributed-switch-span "Configure internal network traffic with the VMware vSphere Distributed Switch using SPAN to allow Virtual Network Sensor to monitor data.")
+- [Configure internal network traffic with the VMware vSphere Standard Switch (promiscuous mode)](./intertraffic-vsphere-promiscuous "Configure internal network traffic with the VMware vSphere Standard Switch in promiscuous mode to allow Virtual Network Sensor to monitor data.")
+- [Configure external network traffic with the VMware vSphere Standard Switch (promiscuous mode/RSPAN)](./vsphere-st-switch-promiscuous-rspan "Configure network settings in VMware vCenter to allow Virtual Network Sensor to monitor data.")
+- [Configure external network traffic with the VMware vSphere Distributed Switch (RSPAN)](./external-vsphere-switch-rspan "Configure external network traffic with the VMware vSphere Distributed Switch using RSPAN to allow Virtual Network Sensor to monitor data.")
+- [Configure external network traffic with the VMware vSphere Distributed Switch (SPAN)](./external-vsphere-dist-switch-span "Configure external network traffic with the VMware vSphere Distributed Switch using SPAN to allow Virtual Network Sensor to monitor data.")
+- [Configure external network traffic with PCI passthrough (SPAN/RSPAN)](./external-pci-passthrough-rspan "Configure external network traffic with a PCI passthrough using SPAN or RSPAN to allow Virtual Network Sensor to monitor data.")
+- [Configure external inter-VM traffic with ERSPAN](./external-inter-erspan "Configure network settings in VMware vCenter to allow Virtual Network Sensor to monitor data.")
+- [Configure external inter-VM traffic with the VMware vSphere Distributed Switch (RSPAN)](./vm-vsphere-switch-rspan "Configure network settings in VMware vCenter to allow Virtual Network Sensor to monitor data.")

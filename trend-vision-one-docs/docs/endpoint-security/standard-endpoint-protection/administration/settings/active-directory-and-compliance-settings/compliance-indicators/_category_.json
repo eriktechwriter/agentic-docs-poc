@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Compliance Indicators",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/administration/settings/active-directory-and-compliance-settings/compliance-indicators/index"
+  },
+  "collapsed": true
+}

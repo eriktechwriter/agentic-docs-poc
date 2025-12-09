@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "CEF Data Loss Prevention Logs",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/administration/settings/configuring-syslog-forwarding/syslog-content-mapping-cef/cef-data-loss-prevention-logs/index"
+  },
+  "collapsed": true
+}

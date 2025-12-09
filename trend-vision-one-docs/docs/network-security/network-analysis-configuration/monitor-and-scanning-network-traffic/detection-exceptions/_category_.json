@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Detection Exceptions",
+  "link": {
+    "type": "doc",
+    "id": "network-security/network-analysis-configuration/monitor-and-scanning-network-traffic/detection-exceptions/index"
+  },
+  "collapsed": true
+}

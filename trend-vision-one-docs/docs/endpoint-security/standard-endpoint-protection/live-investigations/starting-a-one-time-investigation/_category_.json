@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Starting a One-time Investigation",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/live-investigations/starting-a-one-time-investigation/index"
+  },
+  "collapsed": true
+}

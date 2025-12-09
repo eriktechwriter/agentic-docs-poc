@@ -1,0 +1,9 @@
+{
+  "position": 59,
+  "label": "Syslog content mapping - CEF",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/syslog-content-mapping-cef/index"
+  },
+  "collapsed": true
+}

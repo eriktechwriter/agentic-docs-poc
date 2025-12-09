@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Object management",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/configuration/object-management/index"
+  },
+  "collapsed": true
+}

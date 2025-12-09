@@ -1,0 +1,9 @@
+{
+  "position": 27,
+  "label": "Microsoft Entra ID integration",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/third-party-integrations/microsoft-entra-id-integration/index"
+  },
+  "collapsed": true
+}

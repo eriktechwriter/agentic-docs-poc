@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Data Security Posture",
+  "link": {
+    "type": "doc",
+    "id": "data-security/data-security/data-security-posture/index"
+  },
+  "collapsed": true
+}

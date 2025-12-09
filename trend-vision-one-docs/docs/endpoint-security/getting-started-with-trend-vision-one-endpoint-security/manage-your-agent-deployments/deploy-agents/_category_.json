@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Deploy agents",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/getting-started-with-trend-vision-one-endpoint-security/manage-your-agent-deployments/deploy-agents/index"
+  },
+  "collapsed": true
+}

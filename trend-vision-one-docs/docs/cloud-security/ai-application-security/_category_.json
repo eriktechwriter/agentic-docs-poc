@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "AI Application Security",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/ai-application-security/index"
+  },
+  "collapsed": true
+}

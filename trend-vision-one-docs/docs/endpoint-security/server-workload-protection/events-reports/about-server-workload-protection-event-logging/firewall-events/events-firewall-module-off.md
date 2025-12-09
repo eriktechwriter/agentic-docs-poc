@@ -1,0 +1,7 @@
+---
+slug: trend-vision-one-events-firewall-module-off
+sidebar_position: 2
+title: Why am I seeing firewall events when the firewall module is off?
+---
+
+If you have Intrusion Prevention or Web Reputation enabled, you may see some Firewall events because the Intrusion Prevention and Web Reputation modules leverage the Firewall’s stateful configuration mechanism to perform inspections.

@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Configure Service Gateway settings",
+  "link": {
+    "type": "doc",
+    "id": "workflow-and-automation/service-gateway-management/service-gateway-appliance-configuration/configure-service-gateway-settings/index"
+  },
+  "collapsed": true
+}

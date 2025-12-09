@@ -1,0 +1,9 @@
+{
+  "position": 6,
+  "label": "Trend Threat Intelligence Feed",
+  "link": {
+    "type": "doc",
+    "id": "threat-intelligence/trend-threat-intelligence-feed/index"
+  },
+  "collapsed": true
+}

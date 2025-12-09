@@ -1,0 +1,14 @@
+---
+slug: trend-vision-one-create-container-policy
+sidebar_position: 1
+title: Create a Container Security policy
+---
+
+Define Container Security policies to ensure protection and vulnerability detection for your containers during deployment and run time.
+
+Container Security allows you to define cluster-wide policy rules and more granular, prioritized namespace rules to ensure that you can configure optimal protection to all of your Kubernetes containers during deployment and run time. Create and assign rulesets to both your Kubernetes and Amazon ECS clusters to ensure run time protection for all your containers.
+
+**Related information**
+
+- [Creating a Kubernetes protection policy](./kubernetes-prot-policy "Container Security policies for Kubernetes clusters contain deployment, continuous, and runtime rules that you can apply to entire clusters and that you can apply directly to namespaces within clusters.")
+- [Creating an Amazon ECS policy](./creating-amazon-ecs-policy "Container Protection policies for Amazon ECS clusters contain runtime rules that you can apply to entire clusters.")

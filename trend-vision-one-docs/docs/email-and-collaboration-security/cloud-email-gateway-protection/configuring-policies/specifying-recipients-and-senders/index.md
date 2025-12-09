@@ -1,0 +1,12 @@
+---
+slug: trend-vision-one-specifying-recipients-senders
+sidebar_position: 1
+title: Specifying recipients and senders
+---
+
+Configure senders, recipients, and exception lists with your organization or specific users and groups on the **Recipients and Senders** tab. This tab differs slightly depending on which direction the messages are routed and whether **Sender** or **Recipient** addresses are being selected.
+
+**Related information**
+
+- [Inbound policy rules](./inbound-policy-rules)
+- [Outbound policy rules](./outbound-policy-rules)

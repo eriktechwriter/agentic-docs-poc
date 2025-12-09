@@ -1,0 +1,31 @@
+---
+slug: trend-vision-one-verify-app-control-enabled
+sidebar_position: 2
+title: Verify that Application Control is enabled
+---
+
+For an overview of Application Control, see [Lock down software with Application Control](./about-application-control/application-control). For initial configuration instructions, see [Set up Application Control](./set-up-application-control/set-up-application-control).
+
+When Application Control is enabled and has finished its initial software inventory scan:
+
+- The *State* field indicates "On" or "On, Blocking unrecognized software".
+- On *Computers*, the *Status* field changes from "Application Control Ruleset Build In Progress" to "Managed (Online)".
+- **Events & Reports → Events → System Events** will record "Application Control Ruleset Build Started" and "Application Control Ruleset Build Completed". (If you don’t see any logs, see [Choose which Application Control events to log](../../alerts/monitor-application-control-events/monitor-application-control-events).)
+
+![](/images/application-control-enable-verify=1362770a-a08c-4f14-810b-13d048dbb087.webp)
+
+To verify that Application Control is working:
+
+### Procedure {#procedure}
+
+1.  Copy an executable to the computer or add execute permissions to a plain text file. Try to run the executable.
+
+    Depending on your enforcement setting for unrecognized software, it should be either blocked or allowed. Once Application Control has built initial allow rules or downloaded a shared ruleset, if any change is detected, it should appear in the *Actions* tab, which you can use to create allow and block rules (see [Monitor new and changed software](./set-up-application-control/set-up-application-control)). Depending on your alert configuration, you will also see an alert if unrecognized software is detected, or if Application Control blocks software from launching (see [Monitor Application Control events](../../alerts/monitor-application-control-events/monitor-application-control-events)). The event should persist until the software change no longer exists, or until the oldest data has been removed from the database.
+
+2.  Add an allow or block rule for your test software and then try again. This time, Application Control should apply your allow or block rule.
+
+    :::tip
+    If software is accidentally blocked because you've selected *Block unrecognized software until it is explicitly allowed* and the software isn't being recognized, the *Reason* column in Application Control event logs can help you to troubleshoot the cause.
+    :::
+
+### Next steps {#next-steps}

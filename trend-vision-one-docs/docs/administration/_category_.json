@@ -1,0 +1,9 @@
+{
+  "position": 23,
+  "label": "Administration",
+  "link": {
+    "type": "doc",
+    "id": "administration/index"
+  },
+  "collapsed": true
+}

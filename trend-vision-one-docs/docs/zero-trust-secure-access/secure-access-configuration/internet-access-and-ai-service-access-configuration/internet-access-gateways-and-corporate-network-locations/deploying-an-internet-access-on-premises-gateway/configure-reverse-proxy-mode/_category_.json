@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Configure reverse proxy mode",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-configuration/internet-access-and-ai-service-access-configuration/internet-access-gateways-and-corporate-network-locations/deploying-an-internet-access-on-premises-gateway/configure-reverse-proxy-mode/index"
+  },
+  "collapsed": true
+}

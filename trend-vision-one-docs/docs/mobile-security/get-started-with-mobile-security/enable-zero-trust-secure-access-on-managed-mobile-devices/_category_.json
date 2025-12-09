@@ -1,0 +1,9 @@
+{
+  "position": 11,
+  "label": "Enable Zero Trust Secure Access on managed mobile devices",
+  "link": {
+    "type": "doc",
+    "id": "mobile-security/get-started-with-mobile-security/enable-zero-trust-secure-access-on-managed-mobile-devices/index"
+  },
+  "collapsed": true
+}

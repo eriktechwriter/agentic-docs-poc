@@ -1,0 +1,9 @@
+{
+  "position": 5,
+  "label": "What's New",
+  "link": {
+    "type": "doc",
+    "id": "whats-new/index"
+  },
+  "collapsed": true
+}

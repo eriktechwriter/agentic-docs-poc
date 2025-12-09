@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Get started with Network Security",
+  "link": {
+    "type": "doc",
+    "id": "network-security/get-started-with-network-security/index"
+  },
+  "collapsed": true
+}

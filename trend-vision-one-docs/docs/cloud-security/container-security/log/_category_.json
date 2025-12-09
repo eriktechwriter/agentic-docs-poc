@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Log",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/log/index"
+  },
+  "collapsed": true
+}

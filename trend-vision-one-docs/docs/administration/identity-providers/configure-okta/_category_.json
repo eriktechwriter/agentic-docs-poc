@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Configure Okta",
+  "link": {
+    "type": "doc",
+    "id": "administration/identity-providers/configure-okta/index"
+  },
+  "collapsed": true
+}

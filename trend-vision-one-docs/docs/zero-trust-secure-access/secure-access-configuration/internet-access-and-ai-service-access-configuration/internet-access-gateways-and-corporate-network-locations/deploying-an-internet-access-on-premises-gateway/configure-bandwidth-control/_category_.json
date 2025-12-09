@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Configure bandwidth control",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-configuration/internet-access-and-ai-service-access-configuration/internet-access-gateways-and-corporate-network-locations/deploying-an-internet-access-on-premises-gateway/configure-bandwidth-control/index"
+  },
+  "collapsed": true
+}

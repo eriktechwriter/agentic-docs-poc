@@ -1,0 +1,21 @@
+---
+slug: trend-vision-one-edit-reverse-dns-validation
+sidebar_position: 3
+title: Editing reverse DNS validation settings
+---
+
+### Procedure {#procedure}
+
+1.  Go to **Inbound Protection → Connection Filtering → Reverse DNS Validation**.
+
+2.  Click the **Settings** tab.
+
+3.  From the list of reverse DNS validation domains, click a sender domain that you want to edit.
+
+4.  Modify the reverse DNS validation settings as required.
+
+    :::note
+    For details about the settings, see [Adding reverse DNS validation settings](./reverse-dns-validate).
+    :::
+
+5.  Click **Save**.

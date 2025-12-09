@@ -1,0 +1,17 @@
+---
+slug: trend-vision-one-editing-email-continuity-record
+sidebar_position: 3
+title: Editing an Email Continuity record
+---
+
+### Procedure {#procedure}
+
+1.  Go to **Administration → Other Settings → Email Continuity**.
+
+2.  Click the domain name of the record that you want to edit.
+
+    The **Edit Email Continuity Record** screen appears.
+
+3.  Change your setting as required.
+
+4.  Click **Save**.

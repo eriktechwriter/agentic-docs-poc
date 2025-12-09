@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Analysis Chains",
+  "link": {
+    "type": "doc",
+    "id": "endpoint-security/standard-endpoint-protection/live-investigations/investigation-results/analysis-chains/index"
+  },
+  "collapsed": true
+}

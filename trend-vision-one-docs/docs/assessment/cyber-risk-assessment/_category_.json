@@ -1,0 +1,9 @@
+{
+  "position": 1,
+  "label": "Cyber Risk Assessment",
+  "link": {
+    "type": "doc",
+    "id": "assessment/cyber-risk-assessment/index"
+  },
+  "collapsed": true
+}

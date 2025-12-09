@@ -1,0 +1,9 @@
+{
+  "position": 4,
+  "label": "Red Hat OpenShift 1.6.0 recommendations",
+  "link": {
+    "type": "doc",
+    "id": "cloud-security/container-security/configuration/compliance/compliance-scanning-report-recommendations/red-hat-openshift-160-recommendations/index"
+  },
+  "collapsed": true
+}

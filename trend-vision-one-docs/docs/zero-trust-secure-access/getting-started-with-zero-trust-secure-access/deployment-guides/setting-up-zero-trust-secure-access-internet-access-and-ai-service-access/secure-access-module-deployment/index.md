@@ -1,0 +1,9 @@
+---
+slug: trend-vision-one-secure-access-module-deploy
+sidebar_position: 1
+title: Secure Access Module deployment
+---
+
+**Related information**
+
+- [Deploying the Secure Access Module to Trend Vision One Endpoint Security agents](./deploy-sam-endpoint-agents-2 "Authenticate user access attempts at the account and device levels using the Secure Access Module.")

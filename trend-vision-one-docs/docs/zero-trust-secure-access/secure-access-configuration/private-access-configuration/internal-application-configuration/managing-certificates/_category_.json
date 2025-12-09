@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Managing certificates",
+  "link": {
+    "type": "doc",
+    "id": "zero-trust-secure-access/secure-access-configuration/private-access-configuration/internal-application-configuration/managing-certificates/index"
+  },
+  "collapsed": true
+}

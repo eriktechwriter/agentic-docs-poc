@@ -1,0 +1,15 @@
+---
+slug: trend-vision-one-configuring-internal-domain-list
+sidebar_position: 3
+title: Configuring the internal domain list
+---
+
+An internal domain is a domain owned or controlled by your organization. According to Advanced Threat Protection policy configurations, Cloud Email and Collaboration Protection uses internal domains as global settings to:
+
+- Identify email traffic transmitting through your internal domains from incoming email messages.
+
+- Exclude them from Web Reputation scanning if they are added to the approved URL list.
+
+- Further check email messages claimed to be sent from these domains, apply fraud checking criteria to identify forged messages, and take actions on the BEC attacks.
+
+For details about how to configure internal domains, see [Internal domains](../advanced-threat-protection/internal-domains).

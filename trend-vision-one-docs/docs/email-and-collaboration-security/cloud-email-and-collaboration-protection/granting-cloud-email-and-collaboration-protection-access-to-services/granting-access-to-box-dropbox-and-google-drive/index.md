@@ -1,0 +1,16 @@
+---
+slug: trend-vision-one-access-dropbox-google-drive
+sidebar_position: 1
+title: Granting access to Box, Dropbox and Google Drive
+---
+
+This section describes how to grant Cloud Email and Collaboration Protection access to cloud storage services such as Box, Dropbox and Google Drive. During the access grant, a service account is created for Cloud Email and Collaboration Protection to access the cloud storage services.
+
+Cloud Email and Collaboration Protection access the cloud storage services using Authorized Accounts through the OAuth 2.0 flow.
+
+**Related information**
+
+- [Before you start](./before-you-start)
+- [Granting access to Box](./granting-access-box)
+- [Granting access to Dropbox](./granting-access-dropbox)
+- [Granting access to Google Drive](./granting-access-google-drive)
