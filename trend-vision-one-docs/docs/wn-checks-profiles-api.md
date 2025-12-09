@@ -1,9 +1,0 @@
----
-category: Cloud Security
-change_date: 2024-09-30T00:00:00Z
-is_what_new: true
-slug: trend-vision-one-wn-checks-profiles-api
-title: New APIs available for Cloud Risk Management
----
-
-September 30, 2024—The “Checks and Profiles” public APIs for Cloud Risk Management is now available on the Trend Vision One Automation Center. For more information, visit the [Automation Center](https://automation.trendmicro.com/xdr/home).

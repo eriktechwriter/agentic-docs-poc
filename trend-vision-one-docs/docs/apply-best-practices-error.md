@@ -1,6 +1,0 @@
----
-slug: trend-vision-one-apply-best-practices-error
-title: Apply Intrusion Prevention best practices
----
-
-The Intrusion Prevention Rule Compilation Failed error can occur due to a lack of resources on the machine, such as space, memory, or CPU. To help resolve this issue, apply the best practices on [Performance tips for intrusion prevention](performance-tips-prev.md).

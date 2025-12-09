@@ -1,9 +1,0 @@
----
-category: Zero Trust Secure Access
-change_date: 2023-10-24T00:00:00Z
-is_what_new: true
-slug: trend-vision-one-aws-italy-region-pop-site
-title: AWS Italy region has new PoP site for Internet Access Cloud Gateway in Zero Trust Secure Access
----
-
-October 24, 2023—Zero Trust Secure Access has launched a new PoP site for Internet Access Cloud Gateway in the AWS Italy region. For details on available PoP sites for Internet Access Cloud Gateway, see [Port and FQDN/IP address requirements](port-fqdn-ip-address-requirements.md).

@@ -1,8 +1,0 @@
----
-slug: trend-vision-one-troubleshoot-companion-faq
-title: Troubleshooting and FAQ
----
-
-**Related information**
-
-- [Frequently asked questions](frequently-asked-questions.md)

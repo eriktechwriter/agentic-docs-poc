@@ -1,8 +1,0 @@
----
-slug: trend-vision-one-data-security-part
-title: Data Security
----
-
-**Related information**
-
-- [Data Security](data-security-overview.md)

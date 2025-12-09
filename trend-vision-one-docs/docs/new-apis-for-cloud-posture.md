@@ -1,9 +1,0 @@
----
-category: Cloud Security
-change_date: 2025-01-31T00:00:00Z
-is_what_new: true
-slug: trend-vision-one-new-apis-for-cloud-posture
-title: New APIs available for Cloud Risk Management
----
-
-January 31, 2025—The Cloud Risk Management “Communication Settings" and "Checks” public APIs are now available on the Trend Vision One Automation Center. For more information, visit the [Trend Vision One Automation Center](https://automation.trendmicro.com/xdr/changelog/).

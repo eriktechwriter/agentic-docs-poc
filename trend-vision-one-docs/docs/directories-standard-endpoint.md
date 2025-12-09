@@ -1,9 +1,0 @@
----
-slug: trend-vision-one-directories-standard-endpoint
-title: Directories
----
-
-**Related information**
-
-- [User/Endpoint Directory](user-endpoint-directory-apex.md)
-- [Product Servers](product-servers.md "Locate and access the service consoles managed by your Standard Endpoint Protection Manager.")

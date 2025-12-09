@@ -1,8 +1,0 @@
----
-slug: trend-vision-one-service-gateway-troubleshooting-faq
-title: Service Gateway troubleshooting and FAQs
----
-
-**Related information**
-
-- [Troubleshoot Service Gateway](troubleshooting-service-gateway.md)

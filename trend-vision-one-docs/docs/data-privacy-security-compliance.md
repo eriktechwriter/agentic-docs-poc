@@ -1,5 +1,6 @@
 ---
 slug: trend-vision-one-data-privacy-security-compliance
+sidebar_position: 3
 title: Trend Vision One data privacy, security, and compliance
 ---
 

@@ -1,6 +1,0 @@
----
-slug: trend-vision-one-most-critical-failures-2
-title: Most critical failures
----
-
-The Most critical failures section displays the top 15 failed [Checks](model-check.md) sorted by risk level against *All account,* *Individual accounts,* or *Groups*, and can be viewed either by *rule* or by *resource.* We recommend that you take [corrective actions](failed-check-resolution.md) on the most critical failures first as these failures potentially expose your organization to high-level security vulnerabilities, cost inefficiencies, performance, reliability, or other issues.

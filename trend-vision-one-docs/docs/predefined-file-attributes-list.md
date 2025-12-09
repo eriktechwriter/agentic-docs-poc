@@ -1,8 +1,0 @@
----
-slug: trend-vision-one-predefined-file-attributes-list
-title: Predefined file attributes list
----
-
-Learn details about the predefined file attributes list used in data loss prevention.
-
-Data loss prevention provides a predefined file attributes list. This list cannot be modified or deleted. The list has its own built-in conditions that determine if the template should trigger a policy violation.

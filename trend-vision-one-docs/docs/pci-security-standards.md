@@ -1,5 +1,6 @@
 ---
 slug: trend-vision-one-pci-security-standards
+sidebar_position: 4
 title: PCI Security Standards
 ---
 
@@ -10,7 +11,7 @@ Trend Vision One offers robust security features, but certain configurations may
 The following table outlines potential PCI DSS compliance risks to consider when using Trend Vision One and the configurations required to eliminate the risks.
 
 :::warning[Important]
-To adhere to PCI compliance standards, ensure that your Trend Vision One has [updated to the Foundation Services release](update-foundation-services-release.md).
+To adhere to PCI compliance standards, ensure that your Trend Vision One has [updated to the Foundation Services release](../../getting-started/getting-started-with-trend-vision-one/update-trend-vision-one-to-the-foundation-services-release).
 :::
 
 <table>

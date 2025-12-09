@@ -1,8 +1,0 @@
----
-slug: trend-vision-one-v1ecs-configuration-operations
-title: Configuration and Operations
----
-
-**Related information**
-
-- [Policy Resources](v1ecs-policy-resources.md "Manage lists and other settings to use with your policies.")

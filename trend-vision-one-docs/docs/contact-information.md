@@ -1,6 +1,0 @@
----
-slug: trend-vision-one-contact-information
-title: Contact Information
----
-
-The **Contact Information** screen displays user details, similar to the entries in Active Directory.

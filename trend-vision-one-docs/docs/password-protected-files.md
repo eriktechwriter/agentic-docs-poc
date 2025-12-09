@@ -1,8 +1,0 @@
----
-slug: trend-vision-one-password-protected-files
-title: Password-protected Files
----
-
-Includes password-protected compressed files or password-protected Microsoft Office files.
-
-Solution: Remove the password protection to allow the Trend Vision One Endpoint Security agent to clean these files.
